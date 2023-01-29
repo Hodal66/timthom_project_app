@@ -1,0 +1,7 @@
+.controlButton {
+    padding: 0.2rem;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+
+}

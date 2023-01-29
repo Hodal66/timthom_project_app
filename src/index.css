@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --primary__blue-color: #171E43;
+  --secondary__blue-color: #2490C2;
+  --third__blue-color: #3A9EFD;
+  --primary__white-color: #fff;
+  --second__white-color: #EBEAEA;
+  --third__white-color: #D9D9D9;
+  --primary__orange-color: #F7A400;
+  --primary__blue-opacity: rgba(0, 98, 143, 0.17);
+  --primary__black-color: #000;
+  --box__shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  /*Apply transition */
+  --first__transition: all 1s;
+  --second__transition: in-out
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.primaryTextBlueColor {
+  color: var(--primary__blue-color);
+}
+
+.secondaryTextBlueColor {
+  color: var(--secondary__blue-color);
+}
+
+.thirdTextBlueColor {
+  color: var(--third__blue-color);
+}
+
+.primaryTextWhiteColor {
+  color: var(--primary__white-color);
+}
+
+.secondaryTextWhiteColor {
+  color: var(--second__white-color);
+}
+
+.thirdTextWhiteColor {
+  color: var(--third__white-color);
+}
+
+.primaryTextOrangeColor {
+  color: var(--primary__orange-color);
+}
+
+.primaryTextBlackColor {
+  color: var(--primary__black-color);
+}
+
+/* All about Background */
+
+.primaryBackGroundBlueColor {
+  background-color: var(--primary__blue-color);
+}
+
+.secondaryBackGroundBlueColor {
+  background-color: var(--secondary__blue-color);
+}
+
+.thirdBackGroundBlueColor {
+  background-color: var(--third__blue-color);
+}
+
+.primaryBackGroundWhiteColor {
+  background-color: var(--primary__white-color);
+}
+
+.secondaryBackGroundWhiteColor {
+  background-color: var(--second__white-color);
+}
+
+.thirdBackGroundWhiteColor {
+  background-color: var(--third__white-color);
+}
+
+.primaryBackGroundOrangeColor {
+  background-color: var(--primary__orange-color);
+}
+
+.primaryBackGroundBlackColor {
+  background-color: var(--primary__black-color);
 }
