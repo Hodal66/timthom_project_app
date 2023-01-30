@@ -1,7 +1,144 @@
 .controlButton {
-    padding: 0.2rem;
-    border-radius: 50%;
-    background-color: red;
+    padding: 1.3rem;
+    border-radius: 10%;
+    font-size: 20px;
+    background-color: var(--primary__blue-color);
     cursor: pointer;
+
+}
+
+.controlButton:hover {
+    background-color: var(--primary__orange-color);
+    border-radius: 50%;
+}
+
+#homeCaptionContainer {
+    padding-bottom: 5rem;
+}
+
+.timTomText {
+    font-size: 64px;
+    font-weight: 900;
+    text-shadow: 5px 5px 2px var(--primary__blue-color);
+
+}
+
+#wrapTexts {
+    background-color: var(--primary__blue-color);
+    text-transform: capitalize;
+}
+
+/* How to write on Images */
+.carousel-item img {
+    position: relative;
+}
+
+.coursesTextOnImage {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.courseSlideTex {
+    font-size: 32px;
+}
+
+.sliderBtn {
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    font-size: x-large;
+}
+
+#spanLearnMoreBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#learnMoreBtn:hover {
+    background-color: var(--primary__blue-color);
+    color: var(--primary__white-color);
+}
+
+#OurCourseBtn {
+    background-color: var(--primary__blue-color);
+    color: var(--primary__white-color);
+}
+
+#OurCourseBtn:hover {
+    background-color: var(--primary__white-color);
+    color: var(--primary__blue-color);
+}
+
+@media screen and (max-width:960px) {
+    #homeCaptionContainer {
+        padding-bottom: 0rem;
+    }
+
+    .courseSlideTex {
+        font-size: 32px;
+    }
+
+    .carousel-item img {
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .timTomText {
+        margin-top: 2rem;
+        font-size: 48px;
+    }
+
+    .sliderBtn {
+        padding: 1rem 2rem;
+        margin: 1rem;
+        font-size: large;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    #homeCaptionContainer {
+        padding-bottom: 5rem;
+    }
+
+    .courseSlideTex {
+        font-size: 24px;
+    }
+
+    .controlButton {
+        padding: 0.8rem;
+    }
+
+    .carousel-item img {
+        width: 100vw;
+        height: 60%;
+    }
+
+    .timTomText {
+
+        font-size: 36px;
+    }
+
+    .sliderBtn {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: x-small;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+
+
+    .carousel-item img {
+        width: 100vw;
+        height: 30%;
+    }
+
+    .controlButton {
+        padding: 0.5rem;
+    }
 
 }

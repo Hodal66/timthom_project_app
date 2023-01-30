@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navigation.css";
 import { links } from "../../data.js";
 import { FaBars } from "react-icons/fa";
@@ -8,9 +8,12 @@ import Logo from "../../assets/images/11780708.png";
 function BodyNavBar() {
   const [isNavShowing, setIsNavShowing] = useState(false);
   return (
-    <div className="primaryBackGroundWhiteColor " id="body__nav">
-      <nav className=" row container_fluid justify-content-evenly">
-        <div className="logoContainer col-6 ">
+    <div className="primaryBackGroundWhiteColor" id="body__nav">
+      <nav className=" row container justify-content-between">
+        <div
+          className="logoContainer col-6 "
+          onClick={() => setIsNavShowing(false)}
+        >
           <img src={Logo} alt="myLogo" id="project_logo" />
         </div>
         <div className="contentContainer col-4 pt-4 container_fluid">
@@ -20,8 +23,10 @@ function BodyNavBar() {
               return (
                 <NavLink
                   to={path}
+                  key={index}
                   className={({ isActive }) => (isActive ? "active-nav" : "")}
                   onClick={() => setIsNavShowing((prev) => !prev)}
+                  id="NavLink_home"
                 >
                   {name}
                 </NavLink>

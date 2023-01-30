@@ -88,3 +88,15 @@ html {
 .primaryBackGroundBlackColor {
   background-color: var(--primary__black-color);
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.loaderSpinner {
+  background-color: #575963;
+}
