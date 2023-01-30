@@ -11,12 +11,12 @@ export const links = [
   },
   {
     name: "About",
-    path: "/about",
+    path: "/about_us",
     id: 2,
   },
 
   {
     name: "Contact",
-    path: "/contact",
+    path: "/contact_us",
   },
 ];

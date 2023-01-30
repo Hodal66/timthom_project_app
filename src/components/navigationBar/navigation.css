@@ -17,6 +17,7 @@ ul>li {
 }
 
 #project_logo {
+    margin-left: 2rem;
     width: 200px;
     height: 80px;
     display: block;
@@ -55,6 +56,20 @@ ul>li {
     align-items: center;
     gap: 1.5em;
     perspective: 400px;
+
+}
+
+
+#NavLink_home:active,
+#NavLink_home::after {
+    border-bottom: 8px solid var(--primary__orange-color);
+}
+
+#NavLink_home:hover {
+    background-color: var(--primary__blue-color);
+    border-radius: 0px 20px 0px 20px;
+    color: var(--primary__white-color);
+    padding: 0.3rem 0.5rem;
 }
 
 .nav_toggle_btn {
@@ -105,6 +120,7 @@ ul>li {
         right: 100px;
         gap: 0;
         gap: 2rem;
+        margin-bottom: 1px solid var(--primary__blue-color);
 
     }
 
@@ -115,6 +131,8 @@ ul>li {
         animation: 600 ease forwards;
         transform: rotateY(0deg);
         transform-origin: top;
+        background-color: var(--primary__blue-color);
+        border-radius: 0px 20px 0px 20px;
     }
 
 
