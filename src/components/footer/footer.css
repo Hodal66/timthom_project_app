@@ -1,0 +1,42 @@
+.latestContent div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.center_content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-block-start: 1em;
+}
+
+
+
+.latestContent {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.footerCourse {
+    color: var(--third__white-color);
+}
+
+.footerCourse:hover {
+    color: var(--primary__orange-color);
+}
+
+
+.goToTOp {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.newsLetter {
+    display: flex;
+}

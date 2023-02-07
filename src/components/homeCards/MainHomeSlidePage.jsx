@@ -9,9 +9,14 @@ import Typical from "react-typical";
 
 function MainHomeSlidePage() {
   return (
-    <div className=" d-md-block mt-5" id="home__slider">
-      <div id="HomeSliderPage" className="carousel slide" data-ride="carousel">
-        <ol className="carousel-indicators">
+    <div className=" d-md-block " id="home__slider">
+      <div
+        id="HomeSliderPage"
+        className="carousel slide"
+        data-ride="carousel"
+        data-interval="3000"
+      >
+        {/* <ol className="carousel-indicators">
           <li
             data-target="#HomeSliderPage"
             data-slide-to="0"
@@ -20,43 +25,39 @@ function MainHomeSlidePage() {
           <li data-target="#HomeSliderPage" data-slide-to="1"></li>
           <li data-target="#HomeSliderPage" data-slide-to="2"></li>
           <li data-target="#HomeSliderPage" data-slide-to="3"></li>
-        </ol>
+        </ol> */}
         <div className="carousel-inner">
           <div className="carousel-item ">
             <img
-              className="d-block img-fluid"
-              style={{ width: "100vw", height: "100vh" }}
+              className="d-block img-fluid slideImage"
               src={HomePageBg2}
               alt="First slide"
             />
           </div>
           <div className="carousel-item active">
             <img
-              className="d-block img-fluid"
-              style={{ width: "100vw", height: "100vh" }}
+              className="d-block img-fluid slideImage"
               src={HomePageBg4}
               alt="Second slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              className="d-block img-fluid"
-              style={{ width: "100vw", height: "100vh" }}
+              className="d-block img-fluid slideImage"
               src={HomePageBg3}
               alt="Third slide"
             />
           </div>
           <div className="carousel-item">
             <img
-              className="d-block img-fluid"
-              style={{ width: "100vw", height: "100vh" }}
+              className="d-block img-fluid slideImage"
               src={HomePageBg}
               alt="Third slide"
             />
           </div>
         </div>
         <a
-          className="carousel-control-prev "
+          className="carousel-control-prev  "
           href="#HomeSliderPage"
           role="button"
           data-slide="prev"

@@ -1,0 +1,15 @@
+.professionalContentContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: var(--primary__blue-color);
+    padding: 4rem;
+
+}
+
+@media screen and (min-width:576px) {
+    .professionalContentContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+}
