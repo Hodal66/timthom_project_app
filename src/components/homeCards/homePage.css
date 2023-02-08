@@ -1,10 +1,17 @@
+#home__slider {
+    padding-top: 36rem;
+}
+
 .controlButton {
     padding: 1.3rem;
     border-radius: 10%;
     font-size: 20px;
     background-color: var(--primary__blue-color);
     cursor: pointer;
+}
 
+#HomeSliderPage {
+    margin-top: 16rem;
 }
 
 .controlButton:hover {
@@ -13,8 +20,9 @@
 }
 
 #homeCaptionContainer {
-    padding-bottom: 5rem;
+    padding-bottom: 0rem;
 }
+
 
 .timTomText {
     font-size: 64px;
@@ -29,7 +37,7 @@
 }
 
 /* How to write on Images */
-.carousel-item img {
+.slideImage {
     position: relative;
 }
 
@@ -47,6 +55,11 @@
     margin: 1rem;
     border: none;
     font-size: x-large;
+}
+
+.slideImage {
+    width: 100vw;
+    height: 100vh;
 }
 
 #spanLearnMoreBtn {
@@ -71,36 +84,44 @@
     color: var(--primary__blue-color);
 }
 
-@media screen and (max-width:960px) {
-    #homeCaptionContainer {
-        padding-bottom: 0rem;
-    }
+@media screen and (max-width:912px) {
 
     .courseSlideTex {
         font-size: 32px;
     }
 
-    .carousel-item img {
-        width: 100vw;
-        height: 80vh;
-    }
-
     .timTomText {
         margin-top: 2rem;
-        font-size: 48px;
+        font-size: 42px;
     }
 
     .sliderBtn {
-        padding: 1rem 2rem;
+        padding: 0.8rem 1.5rem;
         margin: 1rem;
         font-size: large;
     }
 
+    #home__slider {
+        padding-top: 32rem;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    #homeCaptionContainer {
+        padding-bottom: 0rem;
+    }
+
+
+    #home__slider {
+        padding-top: 30rem;
+    }
 }
 
 @media screen and (max-width:576px) {
+
     #homeCaptionContainer {
-        padding-bottom: 5rem;
+        padding-bottom: 0rem;
     }
 
     .courseSlideTex {
@@ -111,9 +132,9 @@
         padding: 0.8rem;
     }
 
-    .carousel-item img {
-        width: 100vw;
-        height: 60%;
+    .slideImage {
+        width: 120%;
+        height: 100vh;
     }
 
     .timTomText {
@@ -127,18 +148,79 @@
         font-size: x-small;
     }
 
+    #home__slider {
+        padding-top: 36rem;
+    }
+
 }
 
-@media screen and (max-width:376px) {
+@media screen and (max-width:414px) {
+    #homeCaptionContainer {
+        padding-bottom: 0rem;
+    }
 
 
-    .carousel-item img {
-        width: 100vw;
-        height: 30%;
+    .courseSlideTex {
+        font-size: 24px;
     }
 
     .controlButton {
-        padding: 0.5rem;
+        padding: 0.8rem;
     }
 
+    .slideImage {
+        width: 150%;
+        height: 100vh;
+    }
+
+    .timTomText {
+
+        font-size: 34px;
+    }
+
+    .sliderBtn {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: x-small;
+    }
+
+    #home__slider {
+        padding-top: 54rem;
+    }
+}
+
+@media screen and (max-width:386px) {
+
+    #homeCaptionContainer {
+        padding-bottom: 0rem;
+    }
+
+
+    .courseSlideTex {
+        font-size: 20px;
+    }
+
+    .controlButton {
+        padding: 0.8rem;
+    }
+
+    .slideImage {
+        width: 150%;
+        height: 100vh;
+    }
+
+    .timTomText {
+
+        font-size: 32px;
+    }
+
+    .sliderBtn {
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+        font-size: x-small;
+    }
+
+    #home__slider {
+        padding-top: 54rem;
+    }
 }

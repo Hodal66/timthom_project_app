@@ -1,0 +1,33 @@
+.iconLesson {
+    font-size: large;
+    margin-right: 0.25rem;
+}
+
+.innerImageContainer {
+    margin-top: -3rem;
+}
+
+.imageContainer,
+.innerImageContainer {
+    background: linear-gradient(360deg, rgba(1, 5, 46, 0.81) 19.6%, rgba(0, 0, 0, 0) 45.8%);
+}
+
+#cardsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+@media screen and (min-width:576px) {
+    #cardsContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    #cardsContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

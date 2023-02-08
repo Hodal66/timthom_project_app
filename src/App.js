@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainHomeSlidePage from "./components/homeCards/MainHomeSlidePage";
 import Headers from "./components/Headers";
-import AboutUs from "./pages/AboutUs";
-import ErrorPage from "./pages/ErrorPage";
-import Services from "./pages/Services";
-import ContactUs from "./pages/ContactUs";
+import HomePage from "./pages/homePages/HomePage";
 import RiseLoader from "react-spinners/RiseLoader";
 import "./index.css";
+import Services from "./pages/servicesPages/Services";
+import AboutUs from "./pages/aboutPages/AboutUs";
+import ContactUs from "./pages/contactPages/ContactUs";
+import ErrorPage from "./pages/errorPages/ErrorPage";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -19,7 +19,7 @@ function App() {
       <div className="App">
         {loading ? (
           <RiseLoader
-            color="#171E43"
+            color="#fff"
             loading={loading}
             size={30}
             aria-label="Loading Spinner"
@@ -30,7 +30,7 @@ function App() {
           <BrowserRouter>
             <Headers />
             <Routes>
-              <Route exact path="/" element={<MainHomeSlidePage />} />
+              <Route exact path="/" element={<HomePage />} />
               <Route path="about_us" element={<AboutUs />} />
               <Route path="services" element={<Services />} />
               <Route path="contact_us" element={<ContactUs />} />

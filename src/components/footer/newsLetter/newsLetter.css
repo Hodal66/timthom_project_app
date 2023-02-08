@@ -1,0 +1,11 @@
+form input {
+    border: 1px solid var(--third__blue-color);
+    background-color: var(--primary__blue-color);
+    border-radius: 10px;
+
+
+}
+
+form {
+    display: flex;
+}

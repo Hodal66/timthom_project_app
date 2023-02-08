@@ -13,7 +13,7 @@ function NavigationBar() {
     >
       <div className="col-md-8 col-md-10">
         <div>
-          <ul className="row d-none d-sm-block d-md-flex">
+          <ul className="row d-none d-dm-block d-md-flex">
             <li className="col-4">
               <span>
                 <MdCall />

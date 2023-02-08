@@ -1,0 +1,30 @@
+ .myIcon {
+     display: flex;
+     gap: 2rem;
+
+ }
+
+
+ .icon {
+
+     border: 1px solid var(--secondary__blue-color);
+     background-color: var(--secondary__blue-color);
+
+     border-radius: 50%;
+     color: var(--primary__white-color);
+
+ }
+
+ @media screen and (min-width:990px) {
+     .OnineEducationContainer {
+         display: flex;
+     }
+
+     .rightContentSide {
+         display: flex;
+         justify-content: center;
+         margin-top: 5rem;
+         align-items: flex-start;
+     }
+
+ }

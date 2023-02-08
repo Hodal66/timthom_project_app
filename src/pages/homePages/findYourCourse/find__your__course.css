@@ -1,0 +1,55 @@
+.findCoursesMainContainer {
+    margin-top: -5rem;
+    opacity: 0.7;
+    margin: -5rem 1rem 1rem 1rem;
+}
+
+.findCoursesMainContainer h1 {
+    font-size: 32px;
+}
+
+#findCourseContainer {
+    padding: 2rem 2rem;
+}
+
+.searchContainer {
+    padding-bottom: 2rem;
+}
+
+@media screen and (max-width:960px) {
+    .mainSearchHeader {
+        font-size: xx-large;
+    }
+
+}
+
+@media screen and (max-width:756px) {
+    .mainSearchHeader {
+        font-size: large;
+    }
+
+    .findCoursesMainContainer h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:567px) {
+
+    .findCoursesMainContainer {
+        margin: -2rem 1rem 1rem 1rem;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:367px) {
+
+    .findCoursesMainContainer {
+        margin: 5rem 1rem 1rem 1rem;
+        font-size: 16px;
+    }
+
+
+    #findCourseContainer {
+        padding: 0rem 0rem;
+    }
+}

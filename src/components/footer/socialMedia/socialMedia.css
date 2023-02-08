@@ -1,0 +1,19 @@
+.socialMediaIconContainer {
+    /* background-color: red; */
+    padding: 0.5rem;
+}
+
+.socialMediaIconContainer .icon {
+    background-color: var(--primary__blue-opacityr);
+    color: var(--second__white-color);
+    padding: 0.5rem;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+
+.socialMediaIconContainer .icon:hover {
+    border-radius: 50%;
+    background-color: var(--secondary__blue-color);
+}
