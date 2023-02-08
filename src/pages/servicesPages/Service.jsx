@@ -1,18 +1,18 @@
 import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
 
-function AboutUs() {
+function Service() {
   return (
     <div>
       <HeaderPageComponent
-        title="About Us"
+        title="Service"
+        prevLink="/services"
+        prevLinkText="Services"
         nextLink=""
-        prevLink="/"
-        prevLinkText="Home"
-        nextLinkText="About-us"
+        nextLinkText="Service_detail"
       />
     </div>
   );
 }
 
-export default AboutUs;
+export default Service;

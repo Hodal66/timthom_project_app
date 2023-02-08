@@ -1,1 +1,65 @@
-.headerImageBackGround {}
+.MainHeaderBg {
+    width: 100vw;
+
+}
+
+.LinkText {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.mainPage {
+    font-weight: 300;
+}
+
+
+.header__container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.header__container-bg {
+    position: absolute;
+    width: 100%;
+
+}
+
+.header__content {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.header__content .headerTitle {
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--primary__blue-color);
+}
+
+@media screen and (min-width:376px) {
+
+    .header__content .headerTitle {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width:576px) {
+    .header__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+}
+
+@media screen and (min-width:786px) {
+
+    .header__content .headerTitle {
+        font-size: 3rem;
+    }
+}
