@@ -26,7 +26,7 @@ function HeaderPageComponent({
 
         <div className="header__content p-5">
           <p className="mx-4 mt-3 display-6 headerTitle">{title}</p>
-          <p className="mx-4 mt-3">
+          <div className="mx-4 mt-3">
             <h5>
               <Link to={`${prevLink}`} className="LinkText">
                 {prevLinkText}{" "}
@@ -36,7 +36,7 @@ function HeaderPageComponent({
                 {nextLinkText}
               </Link>
             </h5>
-          </p>
+          </div>
         </div>
       </div>
     </div>

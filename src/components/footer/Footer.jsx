@@ -8,7 +8,7 @@ import NewsLetter from "./newsLetter/NewsLetter";
 // import ButtonComponent from "../Buttons/ButtonComponent";
 function Footer() {
   return (
-    <div>
+    <div className="py-5 thirdTextWhiteColor">
       <footer className="container w-100 px-5 px-sm-3 px-md-0">
         <div className="topContent  thirdTextWhiteColor  row">
           <div className="left_content logoAndSocialMedia col-12 col-sm-6 col-md-4 py-2">
@@ -88,7 +88,7 @@ function Footer() {
           </div>
         </div>
         <hr className="thirdBackGroundWhiteColor" />
-        <div className="bottomContent text-center">
+        <div className="bottomContent text-center pt-2">
           Lorem ipsum, magnam laborum repellat excepturi, eum nobis? Optio.
         </div>
       </footer>

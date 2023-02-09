@@ -55,7 +55,7 @@ function Services() {
   return (
     <div
       className="primaryBackGroundWhiteColor w-100"
-      style={{ marginTop: "150rem" }}
+      style={{ marginTop: "160rem" }}
     >
       <HeaderPageComponent
         title="Our Services"
@@ -65,7 +65,7 @@ function Services() {
         nextLinkText="Services"
       />
 
-      <div className="  searchContent">
+      <div className="  searchContent py-5">
         <div className="searchContainer ">
           <ul>
             <li>
@@ -129,9 +129,9 @@ function Services() {
                           {title}
                         </h4>
 
-                        {teacher.map(({ position, professionalism }) => {
+                        {teacher.map(({ position, professionalism }, index) => {
                           return (
-                            <p className="">
+                            <p className="" key={{ index }}>
                               Lecture
                               <span className="secondaryTextBlueColor px-2">
                                 {position}

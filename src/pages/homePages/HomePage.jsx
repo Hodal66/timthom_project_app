@@ -14,18 +14,18 @@ function HomePage() {
       <section style={{ marginTop: "60rem" }}>
         <MainHomeSlidePage />
       </section>
-      {/* <section style={{ marginTop: "60rem" }}>
+      <section style={{ marginTop: "160rem" }}>
         <FindYourCourse className="findCourses bg-danger" />
         <WhatWeOffer className="findCourses" />
-      </section> */}
-      <section className="contentSection" style={{ marginTop: "250rem" }}>
+      </section>
+      <section className="contentSection" style={{ marginTop: "6rem" }}>
         <UpcomingCourses />
         <EducationBackBone />
         <ProfessionalExpert />
       </section>
       <section
         className="primaryBackGroundWhiteColor"
-        style={{ marginTop: "60rem" }}
+        style={{ marginTop: "40rem" }}
       >
         <OnlineEducation />
       </section>

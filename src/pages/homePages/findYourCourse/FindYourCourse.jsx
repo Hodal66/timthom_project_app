@@ -3,7 +3,7 @@ import React from "react";
 import "./find__your__course.css";
 function FindYourCourse() {
   return (
-    <div className="container_fluid mx-3 mx-md-5 findCourses bg-danger  py-2 px-5 row findCoursesMainContainer">
+    <div className="container_fluid mx-3 mx-md-5 findCourses py-2 px-5 row findCoursesMainContainer">
       <div
         id="findCourseContainer"
         className=" col-12 primaryBackGroundOrangeColor justify-content-center"

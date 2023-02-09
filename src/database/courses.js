@@ -12,6 +12,22 @@ export const allUpcammingCourses = [
       {
         position: "Admin",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -35,6 +51,14 @@ export const allUpcammingCourses = [
       {
         position: "Admin",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -83,6 +107,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -106,6 +138,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -129,6 +169,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -152,6 +200,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -175,6 +231,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
@@ -198,6 +262,14 @@ export const allUpcammingCourses = [
       {
         position: "Teacher",
         professionalism: "AirPort",
+        socialMedia: [
+          {
+            facebook: "www.facebook.com",
+            twitter: "www.twitter.com",
+            instagram: "www.instagram.com",
+            youtube: "www.youtube.com",
+          },
+        ],
       },
     ],
     lesson: [
