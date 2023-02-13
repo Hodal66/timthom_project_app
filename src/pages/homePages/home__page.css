@@ -1,3 +1,25 @@
 .findCourses {
     margin-top: 300rem;
 }
+
+.mainHomePageContainer {
+    margin-top: 100rem;
+}
+
+.main__header-container {
+    overflow: hidden;
+}
+
+
+@media screen and (min-width:376px) {}
+
+
+@media screen and (min-width:576px) {
+
+    .findCourses {
+        margin-top: 40rem;
+    }
+
+}
+
+@media screen and (min-width:786px) {}

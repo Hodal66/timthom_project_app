@@ -1,0 +1,73 @@
+.cards__-container {
+    background-color: var(--primary__blue-color);
+}
+
+.iconCssController {
+    color: var(--primary__orange-color);
+}
+
+.iconContainer {
+    width: 20px;
+    height: 20px;
+    padding: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0rem;
+}
+
+.awardContentContainer {
+    color: var(--primary__white-color);
+    background-color: var(--third__blue-color);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.awardContentContainer .award-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.awardContentContainer .award-item:first-child {
+    padding-top: 2rem;
+}
+
+.awardContentContainer .award-item:last-child {
+    padding-bottom: 2rem;
+}
+
+.awardContentContainer .award-item .awardIconContainer .awardIcon {
+    font-size: 3rem;
+    color: var(--primary__orange-color);
+}
+
+.awardContentContainer .award-item .bigContent p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width:376px) {}
+
+@media screen and (min-width:576px) {
+    .awardContentContainer {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width:786px) {
+    .awardContentContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+}

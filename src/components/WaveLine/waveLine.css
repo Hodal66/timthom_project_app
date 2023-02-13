@@ -1,0 +1,27 @@
+/* .waveLineContainer {
+    height: 50px;
+    width: 150px;
+    position: relative;
+    overflow: hidden;
+} */
+
+.waveLineContainer .waveLine::before {
+    content: "aaaaaaaaa";
+    text-decoration-line: underline;
+    text-decoration-color: var(--primary__orange-color);
+    text-decoration-style: wavy;
+    font-size: 2rem;
+    color: transparent;
+    animation: animate 2s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-1px);
+    }
+
+    100% {
+        transform: translate(-50px);
+    }
+}

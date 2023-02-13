@@ -9,6 +9,7 @@ import AboutUs from "./pages/aboutPages/AboutUs";
 import ContactUs from "./pages/contactPages/ContactUs";
 import ErrorPage from "./pages/errorPages/ErrorPage";
 import Service from "./pages/servicesPages/Service";
+import Footer from "./components/footer/Footer";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -38,7 +39,6 @@ function App() {
               <Route path="contact_us" element={<ContactUs />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
-            {/* <Footer /> */}
           </BrowserRouter>
         )}
       </div>

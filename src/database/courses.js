@@ -1,7 +1,7 @@
 export const allUpcammingCourses = [
   {
     id: 1,
-    courseImage: require("../assets/images/course1-740x500 (1).jpg"),
+    courseImage: require("../assets/images/certificate/TomPhoto.jpeg"),
     altImage: "Advanced Certificate in AirLine ",
     money: 500,
     likes: 4,
@@ -12,14 +12,6 @@ export const allUpcammingCourses = [
       {
         position: "Admin",
         professionalism: "AirPort",
-        socialMedia: [
-          {
-            facebook: "www.facebook.com",
-            twitter: "www.twitter.com",
-            instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
-          },
-        ],
         socialMedia: [
           {
             facebook: "www.facebook.com",
@@ -40,7 +32,7 @@ export const allUpcammingCourses = [
   },
   {
     id: 2,
-    courseImage: require("../assets/images/course2.jpg"),
+    courseImage: require("../assets/images/certificate/Sdudent.jpeg"),
     altImage: "Advanced Certificate in AirLine ",
     money: 600,
     likes: 4,
@@ -71,7 +63,7 @@ export const allUpcammingCourses = [
   },
   {
     id: 3,
-    courseImage: require("../assets/images/course4.jpg"),
+    courseImage: require("../assets/images/certificate/TomCertificate.jpeg"),
     altImage: "Advanced Certificate in AirLine ",
     money: 700,
     likes: 4,

@@ -5,8 +5,9 @@ import { MdArrowForward } from "react-icons/md";
 import { allUpcammingCourses } from "../../database/courses";
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
 import StartControl from "../homePages/upcomingCourses/StartControl";
-import Footer from "../../components/footer/Footer";
+
 import { Link } from "react-router-dom";
+import Footer from "../../components/footer/Footer";
 function Services() {
   const [allData, setAllData] = useState(allUpcammingCourses);
   const [allContent, setAllContent] = useState(true);
@@ -54,8 +55,8 @@ function Services() {
 
   return (
     <div
-      className="primaryBackGroundWhiteColor w-100"
-      style={{ marginTop: "160rem" }}
+      className="primaryBackGroundWhiteColor main__services_-container"
+      style={{ width: "100vw", height: "100vh" }}
     >
       <HeaderPageComponent
         title="Our Services"
@@ -88,7 +89,7 @@ function Services() {
         </div>
       </div>
 
-      <div className=" row p-5 mx-5" id="courseCardContainer">
+      <div className=" row p-5 " id="courseCardContainer">
         {allData &&
           allData.map(
             (
@@ -160,7 +161,7 @@ function Services() {
             }
           )}
       </div>
-      <footer className="primaryBackGroundBlueColor">
+      <footer>
         <Footer />
       </footer>
     </div>

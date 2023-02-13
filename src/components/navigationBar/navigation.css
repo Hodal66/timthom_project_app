@@ -128,9 +128,6 @@ ul>li {
         height: 4rem;
         width: 100%;
         box-shadow: -2rem 2rem 5rem rgba(0, 0, 0, 0.5);
-        animation: 600 ease forwards;
-        transform: rotateY(0deg);
-        transform-origin: top;
         background-color: var(--primary__blue-color);
         border-radius: 0px 20px 0px 20px;
     }
@@ -145,7 +142,6 @@ ul>li {
         text-decoration: none;
         align-items: center;
         padding: 1rem 5rem 1rem 3rem;
-
     }
 
     .show_nav {

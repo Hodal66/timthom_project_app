@@ -4,8 +4,6 @@ import LogoImage from "../../assets/images/11780708.png";
 import SocialMedia from "./socialMedia/SocialMedia";
 import { Link } from "react-router-dom";
 import NewsLetter from "./newsLetter/NewsLetter";
-// import { MdOutlineArrowUpward } from "react-icons/md";
-// import ButtonComponent from "../Buttons/ButtonComponent";
 function Footer() {
   return (
     <div className="py-5 thirdTextWhiteColor">
@@ -23,7 +21,6 @@ function Footer() {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 py-2">
-            {/* <h5 className="pb-2 ml-0">Latest Courses</h5> */}
             <h5 className="py-2">Latest News</h5>
             <div className="latestContent row px-2">
               <div>
@@ -79,12 +76,6 @@ function Footer() {
           </div>
           <div className="right_content newsLetter col-12 col-sm-6 col-md-4  py-2">
             <NewsLetter />
-            {/* <div className="goToTOp">
-              <ButtonComponent
-                icon={<MdOutlineArrowUpward />}
-                className={` secondaryBackGroundBlueColor`}
-              />
-            </div> */}
           </div>
         </div>
         <hr className="thirdBackGroundWhiteColor" />

@@ -1,3 +1,11 @@
+.main__services_-container {
+    margin-top: 36rem;
+}
+
+#courseCardContainer {
+    margin: 0rem 1rem;
+}
+
 .searchContent {
     display: flex;
     justify-content: center;
@@ -32,6 +40,14 @@
 }
 
 @media screen and (min-width:576px) {
+    .main__services_-container {
+        margin-top: 40rem;
+    }
+
+    #courseCardContainer {
+        margin: 0rem 1.5rem;
+    }
+
     #courseCardContainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -41,9 +57,14 @@
 
 
 @media screen and (min-width:992px) {
+
     #courseCardContainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #courseCardContainer {
+        margin: 0rem 2rem;
     }
 
     .searchContainer ul {

@@ -14,7 +14,10 @@ import Footer from "../../components/footer/Footer";
 
 function Service() {
   return (
-    <div style={{ marginTop: "215rem" }}>
+    <div
+      style={{ width: "100vw", height: "100vh" }}
+      className="service__main-container"
+    >
       <HeaderPageComponent
         title="Service"
         prevLink="/services"
@@ -158,7 +161,9 @@ function Service() {
           <AsideCourse />
         </aside>
       </section>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

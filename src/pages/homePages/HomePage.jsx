@@ -10,11 +10,14 @@ import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
 function HomePage() {
   return (
-    <div className="primaryBackGroundBlueColor my-5">
-      <section style={{ marginTop: "60rem" }}>
+    <div
+      className="primaryBackGroundBlueColor my-5 mainHomePageContainer"
+      style={{ width: "100vw", height: "100vh" }}
+    >
+      <section>
         <MainHomeSlidePage />
       </section>
-      <section style={{ marginTop: "160rem" }}>
+      <section>
         <FindYourCourse className="findCourses bg-danger" />
         <WhatWeOffer className="findCourses" />
       </section>
@@ -29,7 +32,7 @@ function HomePage() {
       >
         <OnlineEducation />
       </section>
-      <footer className="primaryTextWhiteColor" style={{ marginTop: "3rem" }}>
+      <footer>
         <Footer />
       </footer>
     </div>

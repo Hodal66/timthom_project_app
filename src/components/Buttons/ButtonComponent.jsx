@@ -1,10 +1,11 @@
 import React from "react";
-
-function ButtonComponent({ text, icon, className }) {
+import "./buttonComponent.css";
+function ButtonComponent({ text, icon, textSccController, className, id }) {
   return (
     <div>
-      <div className={`btn ${className}`}>
-        {text} <span>{icon}</span>
+      <div className={`btn buttonComponent ${className}`}>
+        <span className={textSccController}> {text} </span>
+        <span id={id}>{icon}</span>
       </div>
     </div>
   );

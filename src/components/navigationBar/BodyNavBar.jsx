@@ -17,7 +17,6 @@ function BodyNavBar() {
           <img src={Logo} alt="myLogo" id="project_logo" />
         </div>
         <div className="contentContainer col-4 pt-4 container_fluid">
-          {/* <ul className="row mt-6 primaryTextBlueColor "> */}
           <ul className={`nav_links ${isNavShowing ? "show_nav" : "hide_nav"}`}>
             {links.map(({ path, name }, index) => {
               return (
