@@ -1,0 +1,101 @@
+.reviewRow {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.reviewRow input,
+textarea {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: var(--primary__white-color);
+    border-radius: 1px;
+    border: 2px solid var(--third__white-color);
+    margin-bottom: 1rem;
+}
+
+.reviewSmallTittle {
+    font-size: 1.5rem;
+
+}
+
+.ReviewTitle {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+@media screen and (min-width:376px) {
+    .reviewSmallTittle {
+        font: 2rem;
+
+
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+    .reviewSmallTittle {
+        font-size: 2rem;
+
+    }
+
+    .ReviewTitle {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width:786px) {
+
+    .lectureInfo {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+
+}
+
+
+
+/* 
+formContentContainer */
+
+.formContentContainer .reviewRow input,
+.submitButton,
+textarea {
+    width: 200px;
+}
+
+.submitButton {
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width:376px) {
+
+    .formContentContainer .reviewRow input,
+    .submitButton,
+    textarea {
+        width: 300px;
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+
+    .formContentContainer .reviewRow input,
+    .submitButton,
+    textarea {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width:786px) {
+
+    .formContentContainer .reviewRow input,
+    .submitButton,
+    textarea {
+        width: 700px;
+    }
+
+}

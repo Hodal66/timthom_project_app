@@ -8,6 +8,8 @@ import Services from "./pages/servicesPages/Services";
 import AboutUs from "./pages/aboutPages/AboutUs";
 import ContactUs from "./pages/contactPages/ContactUs";
 import ErrorPage from "./pages/errorPages/ErrorPage";
+import Service from "./pages/servicesPages/Service";
+import Footer from "./components/footer/Footer";
 function App() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
@@ -31,12 +33,12 @@ function App() {
             <Headers />
             <Routes>
               <Route exact path="/" element={<HomePage />} />
-              <Route path="about_us" element={<AboutUs />} />
-              <Route path="services" element={<Services />} />
+              <Route path="/about_us" element={<AboutUs />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/service_details/:serviceId" element={<Service />} />
               <Route path="contact_us" element={<ContactUs />} />
               <Route path="*" element={<ErrorPage />} />
             </Routes>
-            {/* <Footer /> */}
           </BrowserRouter>
         )}
       </div>

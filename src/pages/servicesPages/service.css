@@ -1,0 +1,263 @@
+.service__main-container {
+    margin-top: 36rem;
+}
+
+.serviceContent h1 {
+    font-size: 1.5rem;
+
+}
+
+/* ++++++++++++++++++++++allContentContainer+++++++++++++++++++++ */
+
+.allContentContainer {
+    padding: 2rem;
+    overflow: hidden;
+
+}
+
+.rightSide {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width:376px) {
+
+    .allContentContainer {
+        padding: 4rem;
+    }
+}
+
+
+@media screen and (min-width:576px) {
+    .service__main-container {
+        margin-top: 40rem;
+    }
+
+    .allContentContainer {
+        padding: 5rem;
+
+    }
+
+
+}
+
+@media screen and (min-width:786px) {
+    .rightSide {
+        display: block;
+    }
+
+    .header__content .headerTitle {
+        font-size: 3rem;
+        display: grid;
+
+    }
+
+    .allContentContainer {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 2rem;
+
+    }
+
+}
+
+/* ++++++++++++++++++++++takeThisCoursContainer+++++++++++++++++++++ */
+.takeThisCoursContainer {
+    padding: 1rem 0rem;
+    border-bottom: 1px solid var(--third__white-color);
+    border-top: 1px solid var(--third__white-color);
+}
+
+.takeThisCoursContainer .lecture .LectureIconContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.iconLectureContainer {
+    display: flex;
+}
+
+.TextContainer {
+    padding-left: 0.5rem;
+    border-left: 1px solid var(--third__white-color);
+}
+
+.lectureText {
+    color: var(--third__white-color);
+}
+
+.takeThisCourseButton,
+.contextOfLessonText {
+    font-weight: 900;
+}
+
+#buttonLessonContent {
+    display: flex;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+
+
+@media screen and (min-width:376px) {
+
+    .takeThisCoursContainer .lecture .LectureIconContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+    .takeThisCoursContainer .lecture .LectureIconContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+
+}
+
+@media screen and (min-width:786px) {
+
+    .takeThisCoursContainer .lecture .LectureIconContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .takeThisCoursContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #buttonLessonContent {
+
+        padding-top: 0rem;
+    }
+
+}
+
+/* ++++++++++++++++++++++courseDescription+++++++++++++++++++++ */
+
+.courseTitle {
+    font-size: 1.5rem;
+    padding: 2rem 0rem 1rem 0rem;
+    color: var(--primary__blue-color);
+}
+
+.list-group-item {
+    font-weight: 500;
+}
+
+.dateCourseContent {
+    font-weight: 700;
+    color: var(--primary__blue-color);
+}
+
+
+.aside__list-group ul li {
+    background-color: var(--second__white-color);
+}
+
+.aside__list-group ul {
+    background-color: var(--second__white-color);
+    padding: 0rem 1rem;
+    border: 5px inset var(--second__white-color);
+
+}
+
+
+.lectureInfo {
+    background-color: var(--primary__blue-color);
+    color: var(--primary__white-color);
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lectureDescription h4 {
+    padding: 1rem 0rem;
+}
+
+.socialMediaContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:376px) {
+
+    /* .allContentContainer {
+        padding-left: 4rem;
+    } */
+}
+
+
+@media screen and (min-width:576px) {
+    /* .allContentContainer {
+        padding-left: 5rem;
+    } */
+
+
+}
+
+@media screen and (min-width:786px) {
+
+    .lectureInfo {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+
+}
+
+/* ++++++++++++++++++++++courseDescription+++++++++++++++++++++ */
+.reviewSection .reviewContainer {
+    border: 5px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.bigText {
+    font-size: 8rem;
+}
+
+.ratingContentContainer {
+    /* background-color: blueviolet; */
+    padding: 1rem;
+
+
+}
+
+.levelOfRating {
+    display: flex;
+}
+
+.progressContainer {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+.imageLectureContainer {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LectureImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}

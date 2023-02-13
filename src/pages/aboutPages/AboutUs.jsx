@@ -1,43 +1,105 @@
 import React from "react";
+import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
+import AboutUsImage from "../../assets/images/course8.jpg";
+import { MdArrowForward, MdVerified } from "react-icons/md";
+import ButtonComponent from "../../components/Buttons/ButtonComponent";
+import AboutUsCards from "./aboutUsCards/AboutUsCards";
+import Advisor from "./advisor/Advisor";
+import OurLatestVideo from "./ourLatestVideo/OurLatestVideo";
+import ParentOfStudents from "./parentOfStudents/ParentOfStudents";
+import "./about__us.css";
+import WaveLine from "../../components/WaveLine/WaveLine";
+import Footer from "../../components/footer/Footer";
 
 function AboutUs() {
   return (
-    <div>
-      <h1>About Us Page</h1>
-      <p className="bg-primary">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt veniam
-        amet labore earum officia incidunt consequuntur saepe, deserunt aliquam
-        soluta itaque nostrum atque voluptates voluptatum fuga commodi nesciunt
-        et optio? Minus ea ab cumque minima, sapiente dolores nesciunt hic? Vel,
-        rem deserunt? Ut deleniti optio dolores. Aperiam, cum quidem eius saepe
-        ducimus beatae veniam similique magni? Quibusdam quas vel itaque! Saepe
-        natus facere nesciunt. Possimus inventore praesentium harum minus
-        consectetur accusamus a sapiente sunt enim, quod nesciunt esse nihil
-        dignissimos earum iusto quisquam natus ipsa libero non rem corporis
-        veritatis! Repudiandae dignissimos ipsum et enim, rem, aut voluptate
-        quisquam totam unde, perferendis labore recusandae blanditiis illum ea
-        nemo soluta in itaque delectus praesentium veniam. Molestias ut
-        assumenda dolore quas reiciendis. At aspernatur amet cumque rem libero
-        iste consectetur, unde excepturi iure eveniet magnam cupiditate possimus
-        quos voluptatum. Accusantium repellendus dolor ex eos? Unde adipisci
-        exercitationem atque cumque quos neque impedit! Atque dicta suscipit
-        vero ad recusandae animi asperiores voluptatum pariatur, illum
-        laudantium minima quos tempora vitae esse, accusantium perspiciatis eius
-        officia, sed ut. Voluptate eum odit quis eius ullam architecto. Totam
-        dicta, laborum adipisci odio nam modi omnis eligendi molestias autem,
-        explicabo quia sunt optio suscipit necessitatibus eius, ipsa illum
-        porro! Eveniet totam facere nisi quia libero magnam reprehenderit minus.
-        Odit enim dignissimos eveniet, cumque dolor corrupti velit,
-        exercitationem illo dolorem nesciunt earum quam ex in voluptatum eaque?
-        Quis, atque! Sapiente aliquam totam quos illum, nemo cum provident minus
-        laboriosam. Rerum illum, eum quaerat mollitia repellendus voluptates
-        perspiciatis fugit velit! Iure commodi voluptatum temporibus quisquam
-        animi quos quasi debitis illum ratione alias harum distinctio ipsa
-        adipisci neque, sit expedita autem. Provident, in? Ratione modi earum
-        dolor nemo ad blanditiis porro quos sit quisquam quibusdam, adipisci
-        libero, odio soluta quia unde. Eveniet officia earum odio et quos
-        debitis sed harum neque.
-      </p>
+    <div
+      style={{
+        width: "100vw",
+        height: "100vh",
+      }}
+      id=""
+      className="  overflow-hidden About__Us_main-container"
+    >
+      <div className="primaryBackGroundWhiteColor">
+        <HeaderPageComponent
+          title="About Us"
+          nextLink=""
+          prevLink="/"
+          prevLinkText="Home"
+          nextLinkText="About-us"
+        />
+
+        <div className="about__us_content-container about__us-container">
+          <section className="about__us_content">
+            <div className="imageAboutUsContainer" style={{ width: "100%" }}>
+              <div className="backgroundImageBehindImage">
+                <img
+                  src={AboutUsImage}
+                  alt="AboutUsImage"
+                  style={{ width: "100%" }}
+                />
+              </div>
+            </div>
+            <aside>
+              <div className="About__us_content-container">
+                <WaveLine className="primaryBackGroundWhiteColor py-2 text-center" />
+                <h1 className="headerAboutUsTitle">Why You Learn Education</h1>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accustium doloremque laudantium, totam rem aperiam, eaque ipsa
+                  quae ab illintore veritatis et quasi architecto beatae vitae
+                  dicta sunt explicabo.
+                </p>
+                <div>
+                  <p>
+                    <span>
+                      <MdVerified className="aboutUsIcon" />
+                    </span>
+                    <span>Used The Web For A Day On Internet Explorer</span>
+                  </p>
+                  <p>
+                    <span>
+                      <MdVerified className="aboutUsIcon" />
+                    </span>
+                    <span>
+                      A Detailed Comparison Between WordPress And October
+                    </span>
+                  </p>
+                  <p>
+                    <span>
+                      <MdVerified className="aboutUsIcon" />
+                    </span>
+                    <span>
+                      Block Slack’s Contribution To Building A Better Collae
+                    </span>
+                  </p>
+                </div>
+                <ButtonComponent
+                  text="OUR COURSES"
+                  className="primaryBackGroundOrangeColor primaryTextWhiteColor my-4"
+                  icon={<MdArrowForward />}
+                />
+              </div>
+            </aside>
+          </section>
+          <section>
+            <AboutUsCards />
+          </section>
+          <section className="my-5 overflow-hidden">
+            <Advisor />
+          </section>
+          <section className="my-5">
+            <OurLatestVideo />
+          </section>
+          <section className="my-5 overflow-hidden">
+            <ParentOfStudents />
+          </section>
+        </div>
+      </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

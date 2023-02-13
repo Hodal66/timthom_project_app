@@ -1,0 +1,42 @@
+.ratingContentContainer {
+    padding: 2rem 0rem;
+}
+
+
+@media screen and (min-width:376px) {
+    #rectangle {
+        width: 300px;
+    }
+
+
+}
+
+
+@media screen and (min-width:576px) {
+    .reviewSection {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 2rem;
+    }
+
+    #rectangle {
+        width: 200px;
+    }
+
+
+    .ratingContentContainer {
+        padding: 4rem 0rem;
+    }
+
+}
+
+@media screen and (min-width:786px) {
+
+    .lectureInfo {
+
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+
+}

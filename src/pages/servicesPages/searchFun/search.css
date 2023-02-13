@@ -1,0 +1,14 @@
+.searchContentContainer {
+    padding: 1.5rem;
+    border-radius: .7rem;
+    color: var(--primary__white-color);
+}
+
+.searchContentContainer .searchInputContainer input {
+    background-color: var(--third__blue-color);
+    border: none;
+}
+
+.searchContentContainer .searchInputContainer input:active {
+    border: none;
+}

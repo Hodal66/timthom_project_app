@@ -1,0 +1,49 @@
+.parent___of__students-container {
+    background-image: url("../../../assets/images/background/secondQuestion.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+.whatOurStaffSaysContainer .staffDetails .leftSideContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+    margin: 1rem 0rem;
+}
+
+.whatOurStaffSaysContainer .staffDetails .leftSideContent .imageStaffContainer img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+
+}
+
+.namesOfStaff {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--primary__blue-color);
+}
+
+.Specialization {
+    color: var(--third__white-color);
+}
+
+.rightSideContent {
+    display: flex;
+}
+
+.staffCollectionImages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.imageCollectionContainer img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

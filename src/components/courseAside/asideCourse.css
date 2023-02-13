@@ -1,0 +1,26 @@
+.asideImageContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+}
+
+.RecentContentContainer p {
+    font-weight: 600;
+    color: var(--primary__blue-color);
+}
+
+.RecentContentContainer .dateContainer {
+    font-weight: 300;
+}
+
+.card-header,
+.cardHeader {
+    font-family: 300;
+}
+
+.tagsContentLesson {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1.5rem;
+    gap: 0.5rem;
+}

@@ -9,12 +9,12 @@ function EducationBackBone() {
       <img
         src={backGroundImage}
         alt="backgroundImage"
-        style={{ width: "100%", height: "100%", opacity: "0.4" }}
-        className="position-relative text-center"
+        style={{ width: "100%", height: "10%", opacity: "0.4" }}
+        className="position-absolute text-center"
       />
       <div
         className="contentContainer  text-center justify-content-center mt-5 accordion-collapse position-relative "
-        style={{ paddingTop: "10rem" }}
+        style={{ marginTop: "-100rem" }}
       >
         <p className="display-6 primaryTextBlueColor">
           BEST EDUCATION COMMUNITY

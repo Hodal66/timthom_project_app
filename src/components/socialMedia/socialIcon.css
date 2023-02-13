@@ -1,0 +1,9 @@
+.myIconContainer {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.myIconContainer a {
+    text-decoration: none;
+}

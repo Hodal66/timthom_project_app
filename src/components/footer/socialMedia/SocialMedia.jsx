@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { SocialMediaData } from "../../../data";
 import "./socialMedia.css";
 function SocialMedia() {

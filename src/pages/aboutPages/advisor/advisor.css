@@ -1,0 +1,65 @@
+.controlButton {
+    border: 1px solid var(--primary__orange-color);
+    padding: 1rem;
+    background-color: var(--primary__white-color);
+}
+
+.socialMediaLink ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.socialMediaLink ul li a {
+    font-size: 1.5rem;
+}
+
+.socialMediaLink ul li a:hover {
+    color: var(--primary__orange-color);
+}
+
+.advisorContentContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+}
+
+
+@media screen and (min-width:376px) {
+    .advisorContentContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+    .advisorContentContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width:786px) {
+    .advisorContentContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+
+    }
+}
+
+@media screen and (min-width:960px) {
+    .advisorContentContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+
+    }
+}
