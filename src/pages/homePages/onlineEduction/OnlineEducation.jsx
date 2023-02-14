@@ -4,10 +4,12 @@ import { TbBrandTripadvisor } from "react-icons/tb";
 import "./onlineEducation.css";
 import VideoContent from "../../../assets/videos/redeptionVideo.mp4";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
+import WaveLine from "../../../components/WaveLine/WaveLine";
 function OnlineEducation() {
   return (
     <div className="container-fluid OnineEducationContainer">
       <div className="leftContentSide mx-5">
+        <WaveLine className="mt-2" />
         <h1 className="py-5">Let’s See Online Education</h1>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -18,10 +20,9 @@ function OnlineEducation() {
         <div className="iconsContainer">
           <div className="experAdvisor py-2">
             <div className="myIcon">
-              <TbBrandTripadvisor
-                style={{ fontSize: "4rem" }}
-                className="icon"
-              />
+              <div className="icon">
+                <TbBrandTripadvisor />
+              </div>
               <div>
                 <h5>Expert Advisors</h5>
                 <p>Sedut perspiciatis unde omn iste natus error sites</p>
@@ -30,7 +31,9 @@ function OnlineEducation() {
           </div>
           <div className="getCertificate py-2">
             <div className="myIcon">
-              <FaCertificate style={{ fontSize: "4rem" }} className="icon" />
+              <div className="icon">
+                <FaCertificate />
+              </div>
               <div>
                 <h5>Get Certifications</h5>
                 <p>Sedut perspiciatis unde omn iste natus error sites</p>
@@ -38,14 +41,14 @@ function OnlineEducation() {
             </div>
           </div>
         </div>
-        <div className="btn py-4">
+        <div className="py-4">
           <ButtonComponent
             text="REGISTRATION NOW"
             className={`primaryBackGroundOrangeColor primaryTextWhiteColor`}
           />
         </div>
       </div>
-      <div className="rightContentSide mx-5">
+      <div className="rightContentSide mx-5 ">
         <video autoPlay muted type="video/mp4" style={{ width: "100%" }}>
           <source src={VideoContent} />
         </video>

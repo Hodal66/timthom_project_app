@@ -3,6 +3,7 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from "react-icons/md";
+import WaveLine from "../../../components/WaveLine/WaveLine";
 import { upcammingCourses } from "../../../data";
 import LessonTips from "./LessonTips";
 import StartControl from "./StartControl";
@@ -10,18 +11,10 @@ import "./upcoming.css";
 
 function UpcomingCourses() {
   return (
-    <div
-      className="primaryBackGroundWhiteColor container-fluid p-5"
-      style={{ width: "100vw" }}
-    >
-      <div className="mx-0 mx-sm-2 mx-md-5">
-        <h1
-          className="display-3 w-100 primaryTextBlueColor py-5  py-0"
-          style={{ fontWeight: "900" }}
-        >
-          {" "}
-          Upcoming Courses
-        </h1>
+    <div className="primaryBackGroundWhiteColor upcomingCourseContainer container-fluid">
+      <div className="mx-0 mx-sm-2 mx-md-5 px-4">
+        <WaveLine className="mb-5" />
+        <h1>Upcoming Courses</h1>
         <div className="headerContainer row">
           <div className="emptyColl col"></div>
           <div className="btn-group col justify-content-end">
@@ -46,7 +39,7 @@ function UpcomingCourses() {
                     <img
                       src={courseImage}
                       alt={altImage}
-                      className="card-img-top mt-2 "
+                      className="card-img-top"
                       style={{ width: "100%" }}
                     />
                     <div className="innerImageContainer pl-2 pb-2 d-flex">

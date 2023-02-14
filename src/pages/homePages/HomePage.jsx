@@ -1,17 +1,18 @@
 import React from "react";
 import EducationBackBone from "./educationBackBone/EducationBackBone";
 import UpcomingCourses from "./upcomingCourses/UpcomingCourses";
-import "./home__page.css";
 import ProfessionalExpert from "./professional/ProfessionalExpert";
 import MainHomeSlidePage from "../../components/homeCards/MainHomeSlidePage";
 import WhatWeOffer from "./whatWeOffer/WhatWeOffer";
 import FindYourCourse from "./findYourCourse/FindYourCourse";
 import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
+import "./home__page.css";
 function HomePage() {
   return (
     <div
-      className="primaryBackGroundBlueColor my-5 mainHomePageContainer"
+      className="primaryBackGroundBlueColor"
+      id="mainHomePageContainer"
       style={{ width: "100vw", height: "100vh" }}
     >
       <section>
@@ -19,21 +20,18 @@ function HomePage() {
       </section>
       <section>
         <FindYourCourse className="findCourses bg-danger" />
-        <WhatWeOffer className="findCourses" />
+        <WhatWeOffer className="findCourses " />
       </section>
-      <section className="contentSection" style={{ marginTop: "6rem" }}>
+      <section>
         <UpcomingCourses />
         <EducationBackBone />
         <ProfessionalExpert />
       </section>
-      <section
-        className="primaryBackGroundWhiteColor"
-        style={{ marginTop: "40rem" }}
-      >
+      <section className="primaryBackGroundWhiteColor">
         <OnlineEducation />
       </section>
       <footer>
-        <Footer />
+        <Footer className="primaryBackGroundBlueColor" />
       </footer>
     </div>
   );

@@ -1,47 +1,64 @@
-#findCourseContainer {
-    margin: -2rem 0rem 0rem 0rem;
-    background-image: url("../../../assets/images/consultancy.jpeg");
+.searchContainer {
+    margin: 0rem 1rem;
 }
 
-.ovaerLayHomeSearch {
+#findCoursesMainContainer {
+    margin: -3rem 1rem 0rem 1rem;
+}
+
+.searchContainer input,
+.searchButton {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+#ovaerLayHomeSearch {
     background-color: var(--primary__orange-color);
     opacity: 0.9;
-}
 
-.findCoursesMainContainer h1 {
-    font-size: 32px;
 }
-
 
 
 .searchContainer {
     padding-bottom: 2rem;
 }
 
-.findCoursesMainContainer {
-    margin: -4rem 1rem 1rem 1rem;
-    font-size: 16px;
-}
-
 
 @media screen and (min-width:376px) {
 
-    .findCoursesMainContainer {
-        margin: -4rem 1rem 1rem 1rem;
-        font-size: 16px;
-    }
 
     #findCourseContainer {
-        margin: -2rem 0rem 0rem 0rem;
+        margin: -5rem 0rem 0rem 0rem;
     }
 }
 
 
 @media screen and (min-width:576px) {
-    .findCoursesMainContainer {
-        margin: -2rem 1rem 1rem 1rem;
-        font-size: 20px;
+    .findCoursesMainContainer h1 {
+        font-size: 36px;
+        padding: 4rem;
     }
+
+    .searchContainer input,
+    .searchButton {
+        padding: 1rem;
+
+    }
+
+    .searchContainer {
+        margin: 0rem 2rem;
+    }
+
+    #findCoursesMainContainer {
+        margin: -6rem 4rem 0rem 4rem;
+    }
+
+    #findCoursesMainContainer h1 {
+        font-size: 32px;
+        padding-top: 1rem;
+
+    }
+
 
 }
 
@@ -50,14 +67,20 @@
         font-size: large;
     }
 
-    .findCoursesMainContainer h1 {
-        font-size: 32px;
+    #findCoursesMainContainer h1 {
+        font-size: 48px;
+        padding: 2rem;
     }
+
+    #findCoursesMainContainer {
+        margin: 1.5rem 6rem 0rem 6rem;
+    }
+
+
 }
 
 @media screen and (max-width:960px) {
     .mainSearchHeader {
         font-size: xx-large;
     }
-
 }

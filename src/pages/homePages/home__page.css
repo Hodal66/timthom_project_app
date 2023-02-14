@@ -1,9 +1,9 @@
-.findCourses {
-    margin-top: 300rem;
-}
-
-.mainHomePageContainer {
-    margin-top: 100rem;
+#mainHomePageContainer {
+    margin-top: 14rem;
+    width: 100vw;
+    height: 100vh;
+    /* overflow-x: hidden;
+    overflow-y: visible; */
 }
 
 .main__header-container {
@@ -11,15 +11,14 @@
 }
 
 
+
 @media screen and (min-width:376px) {}
 
 
 @media screen and (min-width:576px) {
-
-    .findCourses {
-        margin-top: 40rem;
+    #mainHomePageContainer {
+        margin-top: 16rem;
     }
-
 }
 
 @media screen and (min-width:786px) {}
