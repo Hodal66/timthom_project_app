@@ -2,7 +2,7 @@
     margin-top: 36rem;
 }
 
-#courseCardContainer {
+.courseCardContainer {
     margin: 0rem 1rem;
 }
 
@@ -33,7 +33,7 @@
 }
 
 
-#courseCardContainer {
+.courseCardContainer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -44,11 +44,11 @@
         margin-top: 40rem;
     }
 
-    #courseCardContainer {
+    .courseCardContainer {
         margin: 0rem 1.5rem;
     }
 
-    #courseCardContainer {
+    .courseCardContainer {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -58,12 +58,12 @@
 
 @media screen and (min-width:992px) {
 
-    #courseCardContainer {
+    .courseCardContainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #courseCardContainer {
+    .courseCardContainer {
         margin: 0rem 2rem;
     }
 

@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 
 function MainHomeSlidePage() {
   return (
-    <div className=" d-md-block " id="home__slider mt-5">
+    <div className=" w-100 h-100" id="home__slider">
       <div className="overlayHomeBackground">
         <div
           id="HomeSliderPage"
@@ -71,7 +71,10 @@ function MainHomeSlidePage() {
             ></span>
           </a>
         </div>
-        <div className="carousel-caption d-block" id="homeCaptionContainer">
+        <div
+          className="carousel-caption d-none d-md-block"
+          id="homeCaptionContainer"
+        >
           <h1 className="timTomText py-2">TIMTOM AVIATION</h1>
           <h1 className="courseSlideTex py-2" id="wrapTexts">
             <Typical

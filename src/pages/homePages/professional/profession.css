@@ -1,13 +1,18 @@
 .professionalContentContainer {
+    padding: 8rem 0rem;
+}
+
+.profetionContent {
     display: grid;
     grid-template-columns: 1fr;
     background-color: var(--primary__blue-color);
-    padding: 4rem;
+
+    margin: 0rem 4rem;
 
 }
 
-@media screen and (min-width:576px) {
-    .professionalContentContainer {
+@media screen and (min-width:786px) {
+    .profetionContent {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
     }

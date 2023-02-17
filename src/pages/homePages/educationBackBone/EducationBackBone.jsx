@@ -1,45 +1,37 @@
 import React from "react";
 import "./education.css";
-import backGroundImage from "../../../assets/images/consultancy.jpeg";
 import { MdOutlineArrowRightAlt } from "react-icons/md";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 function EducationBackBone() {
   return (
-    <div className="education___container primaryTextWhiteColor">
-      <img
-        src={backGroundImage}
-        alt="backgroundImage"
-        style={{ width: "100%", height: "10%", opacity: "0.4" }}
-        className="position-absolute text-center"
-      />
-      <div
-        className="contentContainer  text-center justify-content-center mt-5 accordion-collapse position-relative "
-        style={{ marginTop: "-100rem" }}
-      >
-        <p className="display-6 primaryTextBlueColor">
+    <div className="education___container primaryTextWhiteColor text-center">
+      <div className="contentContainer justify-content-center ">
+        <p className="display-6 primaryTextWhiteColor">
           BEST EDUCATION COMMUNITY
         </p>
-        <h1 className="display-6 display-md-4 display-lg-2 px-2">
+        <h1 className="display-6 display-md-4 py-4 display-lg-2 px-2">
           Education Is The Backbone Of a Nation Expansion Of Idea
         </h1>
       </div>
-      <div className="bnn-group text-center my-4 ">
-        <div className="btn">
+      <div className="my-4 EducationButtonContainer">
+        <div className="emptRwo"></div>
+        <div>
           <ButtonComponent
             text={"JOIN WITH US"}
-            className={"primaryBackGroundOrangeColor p-2 px-4"}
+            className={"primaryBackGroundOrangeColor py-2 px-4"}
             icon={<MdOutlineArrowRightAlt />}
           />{" "}
         </div>
-        <div className="btn">
+        <div>
           <ButtonComponent
             text={"READ MORE"}
             className={
-              "primaryBackGroundWhiteColor primaryTextBlueColor p-2 px-4"
+              "primaryBackGroundWhiteColor primaryTextBlueColor py-2 px-4"
             }
             icon={<MdOutlineArrowRightAlt />}
           />
         </div>
+        <div className="emptRwo"></div>
       </div>
     </div>
   );

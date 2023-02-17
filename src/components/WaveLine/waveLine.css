@@ -1,9 +1,6 @@
-/* .waveLineContainer {
-    height: 50px;
-    width: 150px;
-    position: relative;
-    overflow: hidden;
-} */
+.waveLineContainer .waveLine {
+    padding: 1rem 0rem;
+}
 
 .waveLineContainer .waveLine::before {
     content: "aaaaaaaaa";

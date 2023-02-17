@@ -31,36 +31,31 @@ export const links = [
   },
 ];
 
-const headerIcon1 = <MdGroups />;
-const headerIcon2 = <MdAnalytics />;
-const headerIcon3 = <FaCampground />;
-const headerIcon4 = <FaRegObjectGroup />;
-
 export const whatWeOffer = [
   {
     id: 1,
-    icon: headerIcon1,
+    icon: <MdGroups />,
     title: "Provide Knowledge",
     decription:
       "We provide the best knowledge and practical work experience to our students",
   },
   {
     id: 2,
-    icon: headerIcon2,
+    icon: <MdAnalytics />,
     title: "consultancy service",
     decription:
       "We provide the best consultancy service in aviation tourism and hospitality s",
   },
   {
     id: 3,
-    icon: headerIcon3,
+    icon: <FaCampground />,
     title: "Empower Human",
     decription:
       " We empower , develop and train human resources from aviation and related companies ",
   },
   {
     id: 4,
-    icon: headerIcon4,
+    icon: <FaRegObjectGroup />,
     title: " Assist students",
     decription:
       "we Assist students from other schools to complete their internship programs",

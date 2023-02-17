@@ -1,3 +1,25 @@
-/* .ducation___container {
-    background-image: url("../../../assets/images/whiteboard-training.jpg");
-} */
+.education___container {
+    background-image: url("../../../assets/images/certificate/TimCertificateEditedGPG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12rem 2rem;
+}
+
+.EducationButtonContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:376px) {}
+
+
+@media screen and (min-width:576px) {
+    .EducationButtonContainer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:786px) {}
