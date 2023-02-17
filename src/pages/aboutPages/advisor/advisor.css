@@ -19,15 +19,15 @@
     color: var(--primary__orange-color);
 }
 
-.advisorContentContainer {
+/* .advisorContentContainer {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 
-}
+} */
 
 
-@media screen and (min-width:376px) {
+/* @media screen and (min-width:376px) {
     .advisorContentContainer {
         display: grid;
         grid-template-columns: 1fr;
@@ -62,4 +62,4 @@
         gap: 2rem;
 
     }
-}
+} */

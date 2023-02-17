@@ -200,9 +200,14 @@
 
 
 @media screen and (min-width:576px) {
+
     /* .allContentContainer {
         padding-left: 5rem;
     } */
+    .courseTitle {
+        font-size: 2rem;
+
+    }
 
 
 }
@@ -215,6 +220,12 @@
         grid-template-columns: 1fr 3fr;
 
     }
+
+    .courseTitle {
+        font-size: 2.5rem;
+
+    }
+
 
 }
 

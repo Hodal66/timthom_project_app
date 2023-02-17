@@ -51,10 +51,12 @@
 
 .about__us-container {
     padding: 2rem;
-
-
 }
 
+
+.ParentOfStudents {
+    padding: 0.2rem;
+}
 
 @media screen and (min-width:376px) {
 
@@ -79,7 +81,15 @@
         gap: 2rem;
     }
 
+    .ParentOfStudents {
+        padding: 2rem;
+    }
+
 
 }
 
-@media screen and (min-width:786px) {}
+@media screen and (min-width:786px) {
+    .ParentOfStudents {
+        padding: 4rem;
+    }
+}

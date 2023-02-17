@@ -4,7 +4,13 @@ import {
   MdOutlineGroup,
   MdOutlinePlayLesson,
 } from "react-icons/md";
-function LessonTips({ studentAvailable, courseTime, numberOfLessons }) {
+import { Link } from "react-router-dom";
+function LessonTips({
+  studentAvailable,
+  courseTime,
+  numberOfLessons,
+  courseLessonId,
+}) {
   return (
     <div className=" row">
       <div className="student__attend lesson___container col-12 col-md-2 d-flex text-start">
@@ -19,13 +25,15 @@ function LessonTips({ studentAvailable, courseTime, numberOfLessons }) {
         </div>
         <span>{courseTime}</span>
       </div>
-      <div className="number__of-lessons lesson___container col-12 col-md-5 d-flex text-end">
-        <div>
-          {" "}
-          <MdOutlinePlayLesson className=" iconLesson primaryTextOrangeColor" />
+      <Link to={`/service_details/${courseLessonId}`}>
+        <div className="number__of-lessons lesson___container col-12 col-md-5 d-flex text-end">
+          <div>
+            {" "}
+            <MdOutlinePlayLesson className=" iconLesson primaryTextOrangeColor" />
+          </div>
+          <span>{numberOfLessons}</span> Lessons
         </div>
-        <span>{numberOfLessons}</span> Lessons
-      </div>
+      </Link>
     </div>
   );
 }

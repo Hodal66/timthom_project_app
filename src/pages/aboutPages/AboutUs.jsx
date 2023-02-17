@@ -10,6 +10,7 @@ import ParentOfStudents from "./parentOfStudents/ParentOfStudents";
 import "./about__us.css";
 import WaveLine from "../../components/WaveLine/WaveLine";
 import Footer from "../../components/footer/Footer";
+import Advisors from "./advisor/Advisors";
 
 function AboutUs() {
   return (
@@ -43,14 +44,20 @@ function AboutUs() {
             </div>
             <aside>
               <div className="About__us_content-container">
-                <WaveLine className="primaryBackGroundWhiteColor py-2 text-center" />
+                <WaveLine className="primaryBackGroundWhiteColor text-center" />
                 <h1 className="headerAboutUsTitle">Why You Learn Education</h1>
                 <p>
-                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                  accustium doloremque laudantium, totam rem aperiam, eaque ipsa
-                  quae ab illintore veritatis et quasi architecto beatae vitae
-                  dicta sunt explicabo.
+                  Timtom aviation is a private company which offers consultancy
+                  services in the field of management and also offers training
+                  in the field of aviation management, hospitality, tourism and
+                  ICT, after training we awards international professional
+                  certificate and diplomas like ICAO and IATA. We have
+                  partnership with internationally recognized Aviation
+                  management institutes from CANADA and INDIA, We also offer
+                  other services related to hospitality and tourism, these
+                  include; Air ticketing, Hotel reservation and Visa application
                 </p>
+                <p></p>
                 <div>
                   <p>
                     <span>
@@ -87,12 +94,12 @@ function AboutUs() {
             <AboutUsCards />
           </section>
           <section className="my-5 overflow-hidden">
-            <Advisor />
+            <Advisors />
           </section>
           <section className="my-5">
             <OurLatestVideo />
           </section>
-          <section className="my-5 overflow-hidden">
+          <section className="ParentOfStudents overflow-hidden">
             <ParentOfStudents />
           </section>
         </div>

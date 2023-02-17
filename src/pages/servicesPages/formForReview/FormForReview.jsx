@@ -2,14 +2,12 @@ import React from "react";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 import StartControl from "../../homePages/upcomingCourses/StartControl";
 import "./formReview.css";
-function FormForReview() {
+function FormForReview({ titleOfLesson }) {
   return (
     <div>
       <section>
         <p className="reviewSmallTittle">Leave a Review</p>
-        <p className="ReviewTitle">
-          Be the first to review “English For Today”
-        </p>
+        <p className="ReviewTitle">Be the first to review “{titleOfLesson}”</p>
         <div className="yourLating">
           <p>Your Rating</p>
           <StartControl />

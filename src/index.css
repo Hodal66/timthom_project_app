@@ -22,6 +22,7 @@ html {
   list-style-type: none;
   text-decoration: none;
   background-color: var(--primary__blue-color);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 

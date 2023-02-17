@@ -1,10 +1,10 @@
 import React from "react";
 import "./rating.css";
-function Rating() {
+function Rating({ titleOfLesson }) {
   return (
     <section className="reviewSection primaryTextBlueColor w-100">
       <div id="rectangle">
-        <h4>Reviews</h4>
+        <h4 className="courseTitle">Reviews</h4>
         <div className="reviewContainer mt-5">
           <div className="ratinContainer">
             <p className="bigText">0</p>

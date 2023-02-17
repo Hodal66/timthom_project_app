@@ -5,7 +5,7 @@ import VideoContent from "../../../assets/videos/redeptionVideo.mp4";
 import "./latestVideo.css";
 function OurLatestVideo() {
   return (
-    <div className="video___container thirdBackGroundBlueColor py-3 px-2 secondaryTextWhiteColor">
+    <div className="video___container thirdBackGroundBlueColor py-3 px-2 secondaryTextWhiteColor text-center">
       <div className="overImageTextContainer py-4">
         <p className="videoTitle">WATCH OUR LASTEST VIDEO</p>
         <p className="py-2">Let’s Take a Small Tour From Our Campus</p>

@@ -12,12 +12,11 @@
     grid-template-columns: 1fr;
     gap: 1rem;
 
-    margin: 1rem 0rem;
 }
 
 .whatOurStaffSaysContainer .staffDetails .leftSideContent .imageStaffContainer img {
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
 
 }
@@ -38,12 +37,46 @@
 
 .staffCollectionImages {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1rem;
 }
+
+
 
 .imageCollectionContainer img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+.quotation {
+    font-size: xx-large;
+    color: var(--primary__blue-color);
+}
+
+@media screen and (min-width:376px) {
+    .staffCollectionImages {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+}
+
+
+@media screen and (min-width:576px) {
+    .staffCollectionImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width:786px) {
+
+    .staffCollectionImages {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 1rem;
+    }
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import HomePageBg from "../../assets/images/HomePageBg2.png";
-import HomePageBg2 from "../../assets/images/certificate/TomCertificate.jpeg";
-import HomePageBg3 from "../../assets/images/certificate/Certificate.jpeg";
+import HomePageBg2 from "../../assets/images/images/TomCertificate.jpeg";
+import HomePageBg3 from "../../assets/images/images/Student.jpeg";
 import HomePageBg4 from "../../assets/images/Hotel2.jpg";
 import "./homePage.css";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -29,14 +29,14 @@ function MainHomeSlidePage() {
             <div className="carousel-item active">
               <img
                 className="d-block img-fluid slideImage"
-                src={HomePageBg4}
+                src={HomePageBg3}
                 alt="Second slide"
               />
             </div>
             <div className="carousel-item">
               <img
                 className="d-block img-fluid slideImage"
-                src={HomePageBg3}
+                src={HomePageBg4}
                 alt="Third slide"
               />
             </div>
@@ -72,11 +72,13 @@ function MainHomeSlidePage() {
           </a>
         </div>
         <div
-          className="carousel-caption d-none d-md-block"
+          className="carousel-caption d-none d-md-block "
           id="homeCaptionContainer"
         >
-          <h1 className="timTomText py-2">TIMTOM AVIATION</h1>
-          <h1 className="courseSlideTex py-2" id="wrapTexts">
+          <h1 className="timTomText py-1">TIMTOM </h1>
+          <h1 className="timTomText py-2">AVIATION </h1>
+
+          <h1 className="courseSlideTex bg-transparent py-2" id="wrapTexts">
             <Typical
               loop={Infinity}
               steps={[
