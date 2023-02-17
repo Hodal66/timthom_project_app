@@ -4,6 +4,10 @@
 
 }
 
+.carousel-item img {
+    height: 50%;
+}
+
 .carousel-control-next-icon:hover,
 .carousel-control-next:hover {
     color: var(--primary__orange-color);
@@ -117,7 +121,7 @@
 @media screen and (max-width:576px) {
 
     #homeCaptionContainer {
-        padding-bottom: 3rem;
+        padding-bottom: 10rem;
     }
 
     .courseSlideTex {

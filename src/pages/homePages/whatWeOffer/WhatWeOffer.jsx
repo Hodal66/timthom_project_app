@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+import WaveLine from "../../../components/WaveLine/WaveLine";
 import { whatWeOffer } from "../../../data";
 import "./whatWeOffer.css";
 
@@ -7,8 +8,9 @@ function WhatWeOffer() {
   return (
     <div className="container_fluid primaryBackGroundBlueColor primaryTextWhiteColor mb-5 w-100 h-100">
       <div className="contentContainer container">
+        <WaveLine className="mt-5" />
         <h1 className="MainTittle">What We Offer For Growth Your Study</h1>
-        <p className="container_fluid">
+        <p className="container_fluid text-lg-center">
           We provide the best knowledge and practical work experience to our
           students so that they are competent enough on the job market.We
           empower, develop and train human resources from aviation and related
@@ -26,12 +28,17 @@ function WhatWeOffer() {
                 className="col-12 card__content-container  col-sm-6 col-md-3"
               >
                 <div className="card__content secondaryBackGroundBlueColor rounded rounded-5 p-3 mt-3">
-                  <div className="iconContainer my-2">{icon}</div>
+                  <div
+                    className="my-4 primaryTextOrangeColor"
+                    style={{ fontSize: "3rem" }}
+                  >
+                    {icon}
+                  </div>
                   <div className="title my-2">{title}</div>
                   <div className="descrition">{decription}</div>
-                  <Link to={`what_we_offer/${index}`}>
+                  <NavLink to="/about_us">
                     <button className="btn my-4 ">ReadMore</button>
-                  </Link>
+                  </NavLink>
                 </div>
               </div>
             );
