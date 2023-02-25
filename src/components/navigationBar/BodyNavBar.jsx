@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navigation.css";
 import { links } from "../../data.js";
 import { FaBars } from "react-icons/fa";
@@ -18,19 +18,41 @@ function BodyNavBar() {
         </div>
         <div className="contentContainer col-4 pt-4 container_fluid">
           <ul className={`nav_links ${isNavShowing ? "show_nav" : "hide_nav"}`}>
-            {links.map(({ path, name }, index) => {
-              return (
-                <NavLink
-                  to={path}
-                  key={index}
-                  className={({ isActive }) => (isActive ? "active-nav" : "")}
-                  onClick={() => setIsNavShowing((prev) => !prev)}
-                  id="NavLink_home"
-                >
-                  {name}
-                </NavLink>
-              );
-            })}
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li className="list-menu">
+              <span>Services</span>
+              <ul className="list-submenu">
+                <li>
+                  <Link to="/training">Training</Link>
+                </li>
+                <li>
+                  <Link to="/air-ticheting" className="list-span-sub-menu">
+                    <span>Air</span> <span>Ticheting</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/consultancy">Consultancy</Link>
+                </li>
+                <li>
+                  <Link to="/visa-application" className="list-span-sub-menu">
+                    <span>Visa</span> <span>Application</span>
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/hotel-reservation" className="list-span-sub-menu">
+                    <span>Hotel</span> <span>Reservation</span>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link to="/about_us">About</Link>
+            </li>
+            <li>
+              <Link to="/contact_us">Contact</Link>
+            </li>
           </ul>
           <button
             className="nav_toggle_btn"

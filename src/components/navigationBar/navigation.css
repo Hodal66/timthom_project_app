@@ -92,6 +92,31 @@ ul>li {
     display: flex;
 }
 
+/* services navigation */
+.list-submenu {
+    display: none;
+}
+
+.list-menu:hover .list-submenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: red;
+    transform: translateY(100px);
+    margin-top: 0;
+
+}
+
+.list-span-sub-menu {
+    display: flex;
+    gap: 0.25rem;
+}
+
+#serviceId {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
 
 
 

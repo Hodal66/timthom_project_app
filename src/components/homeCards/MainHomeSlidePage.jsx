@@ -1,5 +1,6 @@
 import React from "react";
 import HomePageBg from "../../assets/images/HomePageBg2.png";
+import MainPage from "../../assets/images/images/RWANDAIR PIC.jpg";
 import HomePageBg2 from "../../assets/images/images/TomCertificate.jpeg";
 import HomePageBg3 from "../../assets/images/images/Student.jpeg";
 import HomePageBg4 from "../../assets/images/Hotel2.jpg";
@@ -10,7 +11,7 @@ import { NavLink } from "react-router-dom";
 
 function MainHomeSlidePage() {
   return (
-    <div className=" w-100 h-100" id="home__slider">
+    <div className=" w-100 h-75" id="home__slider">
       <div className="overlayHomeBackground">
         <div
           id="HomeSliderPage"
@@ -22,14 +23,14 @@ function MainHomeSlidePage() {
             <div className="carousel-item ">
               <img
                 className="d-block img-fluid slideImage"
-                src={HomePageBg2}
+                src={MainPage}
                 alt="First slide"
               />
             </div>
             <div className="carousel-item active">
               <img
                 className="d-block img-fluid slideImage"
-                src={HomePageBg3}
+                src={HomePageBg2}
                 alt="Second slide"
               />
             </div>

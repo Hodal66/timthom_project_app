@@ -30,15 +30,17 @@ function Advisors() {
   };
 
   const advisorContent = AdvisorData.map((advisorDetails) => (
-    <Advisor
-      advisorName={advisorDetails.name}
-      advisorImage={advisorDetails.image}
-      facebookLink={advisorDetails.facebook}
-      whatsapLink={advisorDetails.whatsup}
-      instagramLink={advisorDetails.instagram}
-      youTibeLink={advisorDetails.youtub}
-      twitterLink={advisorDetails.twitter}
-    />
+    <div key={advisorDetails.id}>
+      <Advisor
+        advisorName={advisorDetails.name}
+        advisorImage={advisorDetails.image}
+        facebookLink={advisorDetails.facebook}
+        whatsapLink={advisorDetails.whatsup}
+        instagramLink={advisorDetails.instagram}
+        youTibeLink={advisorDetails.youtub}
+        twitterLink={advisorDetails.twitter}
+      />
+    </div>
   ));
 
   return (

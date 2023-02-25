@@ -1,11 +1,5 @@
 import React, { useEffect, useState } from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
-import { MdArrowForward } from "react-icons/md";
-// import { allUpcammingCourses } from "../../database/courses";
-import ButtonComponent from "../../components/Buttons/ButtonComponent";
-import StartControl from "../homePages/upcomingCourses/StartControl";
-import { HotelCourses } from "../../database/courses";
-import { Link } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import "./services__page.css";
 import Hotel from "./Lessons/Hotel";
@@ -13,8 +7,10 @@ import Aviation from "./Lessons/Aviation";
 import Ict from "./Lessons/Ict";
 import VisaAssistance from "./Lessons/VisaAssistance";
 import axios from "axios";
+import AllLessons from "./Lessons/AllLessons";
 
 function Services() {
+  const [state, setstate] = useState([]);
   const [allData, setAllData] = useState([]);
   const [allContent, setAllContent] = useState(true);
   const [hotelContent, setHotelContent] = useState(false);
@@ -32,7 +28,7 @@ function Services() {
   };
   useEffect(() => {
     getAllServices();
-  }, [allData]);
+  }, [state]);
 
   const AllCoursesMngt = () => {
     setAllContent(true);
@@ -50,11 +46,29 @@ function Services() {
   };
 
   const HotelsLinkMng = () => {
-    setAllContent(false);
-    setAviation(false);
-    setIctCourses(false);
-    setHotelContent(true);
-    setVisAssistance(false);
+    let neededContent;
+    let preDefinedHotelRelatedContents = [
+      "AIRLINE AND AIRPORT",
+      "TRAVEL AND TOURISM MANAGEMENT",
+    ];
+    console.log("Nijyewe Mukanzeho:: ");
+    let obtainedContent = [];
+    // const newDataContent = allData.map((item) => {
+    //   neededContent = item.titleInShortName;
+    //   for (let i = 0; i <= preDefinedHotelRelatedContents.length; i++) {
+    //     if (neededContent.includes(preDefinedHotelRelatedContents[i])) {
+    //       setAllContent(false);
+    //       setAviation(false);
+    //       setIctCourses(false);
+    //       setHotelContent(true);
+    //       setVisAssistance(false);
+    //       obtainedContent.push(preDefinedHotelRelatedContents[i]);
+    //     } else {
+    //       console.log("There is empty searching");
+    //     }
+    //   }
+    // });
+    console.log(obtainedContent);
   };
 
   const AllIctCourses = () => {
@@ -108,73 +122,11 @@ function Services() {
         </div>
       </div>
 
-      {allContent && (
-        <div className=" row p-5 courseCardContainer">
-          {allData &&
-            allData.map((items, id) => {
-              return (
-                <div key={id} className="">
-                  <div className="card secondaryBackGroundWhiteColor">
-                    <img
-                      src={items.courseImage}
-                      alt={items.altImage}
-                      className="img-fluid card-img-top"
-                      style={{ width: "100%", height: "30vh" }}
-                    />
-                    <div className="priceAndAproval p-4 row ">
-                      {items.lessonDetails.map((lessonDetail, index) => {
-                        return (
-                          <div className="col" key={index}>
-                            <ButtonComponent
-                              text={`$${lessonDetail.money}`}
-                              className="secondaryBackGroundBlueColor secondaryTextWhiteColor btn-sm px-2"
-                            />
-                          </div>
-                        );
-                      })}
-
-                      <div className="col">
-                        <StartControl />
-                      </div>
-                      <div className="px-4">
-                        <h4 className="text-body  py-2 text-capitalize">
-                          {items.titleInShortName}
-                        </h4>
-                        {items.teacher.map((teacherDetail, teacherId) => {
-                          return (
-                            <p className="" key={teacherId}>
-                              Lecture
-                              <span className="secondaryTextBlueColor px-2">
-                                {teacherDetail.position}
-                              </span>{" "}
-                              in{" "}
-                              <span className="primaryTextOrangeColor px-2">
-                                {teacherDetail.professionalism}
-                              </span>
-                            </p>
-                          );
-                        })}
-
-                        <p className="">{items.Context}</p>
-                      </div>
-                      <Link to={`/service_details/${items.id}`}>
-                        <ButtonComponent
-                          text="LEARN MORE"
-                          className="primaryBackGroundBlueColor primaryTextWhiteColor m-4"
-                          icon={<MdArrowForward />}
-                        />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              );
-            })}
-        </div>
-      )}
-      {/* {hotelContent && <Hotel />}
-      {aviation && <Aviation />}
-      {ictCourses && <Ict />}
-      {visAssistance && <VisaAssistance />} */}
+      {allContent && <AllLessons allData={allData} />}
+      {hotelContent && <Hotel allData={allData} />}
+      {aviation && <Aviation allData={allData} />}
+      {ictCourses && <Ict allData={allData} />}
+      {visAssistance && <VisaAssistance allData={allData} />}
 
       <footer>
         <Footer />

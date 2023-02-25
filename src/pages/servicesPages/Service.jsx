@@ -91,11 +91,19 @@ function Service() {
                     </div>
 
                     <div id="buttonLessonContent">
-                      <div className="contextOfLesson">
-                        <h1 className="secondaryTextBlueColor contextOfLessonText ">
-                          FREE
-                        </h1>
-                      </div>
+                      {item.lessonDetails &&
+                        item.lessonDetails.map((lessonDetail) => {
+                          return (
+                            <div
+                              className="contextOfLesson"
+                              key={lessonDetail.id}
+                            >
+                              <h1 className="secondaryTextBlueColor contextOfLessonText ">
+                                $ {lessonDetail.money}
+                              </h1>
+                            </div>
+                          );
+                        })}
                       <div className="btnContainer">
                         <ButtonComponent
                           text="TAKE THIS COURSE"

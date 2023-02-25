@@ -1,12 +1,13 @@
 import React from "react";
-import BodyNavBar from "./navigationBar/BodyNavBar";
+import NavBar from "./navbar/NavBar";
+
 import NavigationBar from "./navigationBar/NavigationBar";
 
 function Headers() {
   return (
     <div className="fixed-top">
       <NavigationBar />
-      <BodyNavBar />
+      <NavBar />
     </div>
   );
 }

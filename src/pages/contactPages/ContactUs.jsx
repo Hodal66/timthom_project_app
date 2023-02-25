@@ -22,6 +22,35 @@ function ContactUs() {
           <p className="contuct__us__Header pt-5">Get In Touch</p>
         </header>
 
+        <section className="locationContainer">
+          <div className="imageBackgroundContainer text-center">
+            <div className="overBlueColor">
+              <div className="address__container p-2">
+                <div className="addres">
+                  <div className="icon__adress-container">
+                    <MdLocationOn />
+                  </div>
+                  <p>Remera –Giporoso </p>
+                  <p>Kigali – Rwanda.</p>
+                </div>
+                <div className="addres">
+                  <div className="icon__adress-container">
+                    <MdOutlineLocationCity />
+                  </div>
+                  <p>Union plaza, 2nd floor</p>
+                  <p>towards kabeza road, KK 18 AV</p>
+                </div>
+                <div className="addres">
+                  <div className="icon__adress-container">
+                    <MdEmail />
+                  </div>
+                  <p>timtomaviation@gmail.com</p>
+                  <p>+250788519634 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         <div className="form__container">
           <div className="form-row">
             <div className="col-md-3"></div>
@@ -40,14 +69,14 @@ function ContactUs() {
             </div>
             <div className="inputContainer col-md-3">
               <label htmlFor="inputEmailAdress" className="">
-                <span> Enter Your Name</span>{" "}
+                <span> Enter Your Email</span>{" "}
                 <span className="text-danger">*</span>
               </label>
               <input
                 type="text"
                 name="Name"
                 id="Name"
-                placeholder="Your Name"
+                placeholder="Your Email"
                 className="form-control py-2 px-4"
               />
             </div>
@@ -87,36 +116,6 @@ function ContactUs() {
             </div>
           </div>
         </div>
-
-        <section className="locationContainer">
-          <div className="imageBackgroundContainer text-center">
-            <div className="overBlueColor">
-              <div className="address__container p-2">
-                <div className="addres">
-                  <div className="icon__adress-container">
-                    <MdLocationOn />
-                  </div>
-                  <p>Remera –Giporoso </p>
-                  <p>Kigali – Rwanda.</p>
-                </div>
-                <div className="addres">
-                  <div className="icon__adress-container">
-                    <MdOutlineLocationCity />
-                  </div>
-                  <p>Union plaza, 2nd floor</p>
-                  <p>towards kabeza road, KK 18 AV</p>
-                </div>
-                <div className="addres">
-                  <div className="icon__adress-container">
-                    <MdEmail />
-                  </div>
-                  <p>timtomaviation@gmail.com</p>
-                  <p>+250788519634 </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
       </section>
       <footer>
         <Footer />

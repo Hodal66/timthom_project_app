@@ -17,6 +17,33 @@ export const links = [
     name: "Services",
     path: "/services",
     id: 2,
+    servicesLink: [
+      {
+        id: 1,
+        name: "Training",
+        path: "/training",
+      },
+      {
+        id: 2,
+        name: "Air Ticheting",
+        path: "/air-ticheting",
+      },
+      {
+        id: 3,
+        name: "Consultancy",
+        path: "/consultancy",
+      },
+      {
+        id: 4,
+        name: "Visa Application",
+        path: "/visa-application",
+      },
+      {
+        id: 5,
+        name: "Hotel Reservation",
+        path: "/hotel-reservation",
+      },
+    ],
   },
   {
     name: "About",

@@ -1,8 +1,9 @@
 import React from "react";
 import { MdArrowForward, MdOutlinePlayLesson } from "react-icons/md";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
-import VideoContent from "../../../assets/videos/redeptionVideo.mp4";
+
 import "./latestVideo.css";
+import VideoComponent from "./Video";
 function OurLatestVideo() {
   return (
     <div className="video___container thirdBackGroundBlueColor py-3 px-2 secondaryTextWhiteColor text-center">
@@ -16,9 +17,7 @@ function OurLatestVideo() {
         />
       </div>
       <div className="Main__Video-container">
-        <video autoPlay muted type="video/mp4" style={{ width: "100%" }}>
-          <source src={VideoContent} />
-        </video>
+       <VideoComponent/>
       </div>
 
       <div className="rightButtonController d-none">
