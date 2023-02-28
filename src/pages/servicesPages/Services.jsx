@@ -1,17 +1,18 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
 import Footer from "../../components/footer/Footer";
+import { allUpcammingCourses } from "../../database/CoursesTest";
 import "./services__page.css";
 import Hotel from "./Lessons/Hotel";
 import Aviation from "./Lessons/Aviation";
 import Ict from "./Lessons/Ict";
 import VisaAssistance from "./Lessons/VisaAssistance";
-import axios from "axios";
+// import axios from "axios";
 import AllLessons from "./Lessons/AllLessons";
 
 function Services() {
-  const [state, setstate] = useState([]);
-  const [allData, setAllData] = useState([]);
+  // const [state, setstate] = useState([]);
+  const [allData, setAllData] = useState(allUpcammingCourses);
   const [allContent, setAllContent] = useState(true);
   const [hotelContent, setHotelContent] = useState(false);
   const [aviation, setAviation] = useState(false);
@@ -20,15 +21,15 @@ function Services() {
 
   // Getting Data from database
 
-  const getAllServices = async () => {
-    const { data } = await axios.get(
-      "http://localhost:3004/allUpcammingCourses"
-    );
-    setAllData(data);
-  };
-  useEffect(() => {
-    getAllServices();
-  }, [state]);
+  // const getAllServices = async () => {
+  //   const { data } = await axios.get(
+  //     "http://localhost:3004/allUpcammingCourses"
+  //   );
+  //   setAllData(data);
+  // };
+  // useEffect(() => {
+  //   getAllServices();
+  // }, [state]);
 
   const AllCoursesMngt = () => {
     setAllContent(true);

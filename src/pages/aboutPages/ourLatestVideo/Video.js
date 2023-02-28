@@ -7,7 +7,7 @@ function VideoComponent() {
     "http://e.huawei.com/-/mediae/EBG/Images/case-study/airport/airport-banner-wap2.jpg";
   return (
     <div>
-      <Video autoPlay loop poster={posterLink}>
+      <Video autoPlay loop poster={posterLink} muted>
         <source src={myVideo} type="video/mp4" />
       </Video>
     </div>

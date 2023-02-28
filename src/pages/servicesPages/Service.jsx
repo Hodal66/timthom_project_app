@@ -1,36 +1,31 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
-// import ImageServicesContainer from "../../assets/images/cheering-african-amerlcan-female-university-student-group-american-students-outdoor-summer-155695388.jpg";
-// import LectureImage from "../../assets/images/instructor1.jpg";
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
 import { MdGrading } from "react-icons/md";
 import StartControl from "../homePages/upcomingCourses/StartControl";
 import SocialMediaIcons from "../../components/socialMedia/SocialMediaIcons";
 import "./service.css";
 import Rating from "./Rating/Rating";
+import { allUpcammingCourses } from "../../database/CoursesTest";
 import FormForReview from "./formForReview/FormForReview";
 import AsideCourse from "../../components/courseAside/AsideCourse";
 import Footer from "../../components/footer/Footer";
-import { useParams } from "react-router-dom";
-import axios from "axios";
 
 function Service() {
-  const [itemService, setItemService] = useState([]);
-  let params = useParams();
+  const [itemService, setItemService] = useState(allUpcammingCourses);
+  // let params = useParams();
 
-  const getMeData = async () => {
-    const { data } = await axios.get(
-      `http://localhost:3004/allUpcammingCourses?id=${params.serviceId}`
-    );
-    setItemService(data);
-    // console.log("Basic data kbsa:: ");
+  // const getMeData = async () => {
+  //   const { data } = await axios.get(
+  //     `http://localhost:3004/allUpcammingCourses?id=${params.serviceId}`
+  //   );
+  //   setItemService(data);
 
-    // return data;
-  };
-  useEffect(() => {
-    getMeData();
-  }, []);
-  console.log("Now the remaining data", itemService);
+  // };
+  // useEffect(() => {
+  //   getMeData();
+  // }, []);
+  // console.log("Now the remaining data", itemService);
 
   return (
     <div

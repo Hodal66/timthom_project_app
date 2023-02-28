@@ -9,7 +9,7 @@ function TestServices() {
   const hundleSearchValue = async () => {
     alert("Ypu Cliked Me!! ");
     const { data } = await axios
-      .get(`http://localhost:3004/allUpcammingCourses`)
+      .get(`/allUpcammingCourses`)
       .then((response) => {
         console.log(
           "All Data are::::: ",

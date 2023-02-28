@@ -3,21 +3,23 @@ import "./footer.css";
 import LogoImage from "../../assets/images/11780708.png";
 import SocialMedia from "./socialMedia/SocialMedia";
 import { Link } from "react-router-dom";
+import { allUpcammingCourses } from "../../database/CoursesTest";
 import NewsLetter from "./newsLetter/NewsLetter";
 import axios from "axios";
 function Footer() {
   const [state, setstate] = useState([]);
-  const [allDataContent, setAllDataContent] = useState([]);
-  const hundleDataCourses = async () => {
-    const { data } = await axios.get(
-      "http://localhost:3004/allUpcammingCourses"
-    );
-    setAllDataContent(data);
-  };
+  const [allDataContent, setAllDataContent] = useState(allUpcammingCourses);
+  // const hundleDataCourses = async () => {
 
-  useEffect(() => {
-    hundleDataCourses();
-  }, [state]);
+  //   const { data } = await axios.get(
+  //     "http://localhost:3004/allUpcammingCourses"
+  //   );
+  //   setAllDataContent(data);
+  // };
+
+  // useEffect(() => {
+  //   hundleDataCourses();
+  // }, [state]);
   return (
     <div className="py-5 thirdTextWhiteColor footerContainer">
       <footer className="container w-100 px-5 px-sm-3 px-md-0">

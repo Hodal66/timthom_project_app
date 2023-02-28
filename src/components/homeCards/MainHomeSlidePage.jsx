@@ -19,7 +19,7 @@ function MainHomeSlidePage() {
           data-ride="carousel"
           data-interval="5000"
         >
-          <div className="carousel-inner">
+          <div className="carousel-inner HomeImageContainer">
             <div className="carousel-item ">
               <img
                 className="d-block img-fluid slideImage"

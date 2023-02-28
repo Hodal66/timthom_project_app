@@ -1,8 +1,8 @@
 .education___container {
     background-image: url("../../../assets/images/certificate/TimCertificateEditedGPG.jpg");
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding: 12rem 2rem;
 }
 

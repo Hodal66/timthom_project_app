@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import WaveLine from "../../../components/WaveLine/WaveLine";
 import { whatWeOffer } from "../../../data";
 import "./whatWeOffer.css";

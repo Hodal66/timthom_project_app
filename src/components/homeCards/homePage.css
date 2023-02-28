@@ -4,6 +4,10 @@
 
 }
 
+.HomeImageContainer {
+    height: 80lvb;
+}
+
 .carousel-item img {
     height: 50%;
 }
@@ -85,6 +89,7 @@
 
 @media screen and (max-width:912px) {
 
+
     .courseSlideTex {
         font-size: 32px;
     }
@@ -112,12 +117,20 @@
     }
 
 
+
+
     /* #home__slider {
         padding-top: 30rem;
     } */
 }
 
 @media screen and (max-width:576px) {
+
+
+    .HomeImageContainer {
+        height: 90lvi;
+    }
+
 
     #homeCaptionContainer {
         padding-bottom: 10rem;
@@ -158,6 +171,9 @@
         padding-bottom: 3rem;
     }
 
+    .HomeImageContainer {
+        height: 80lvi;
+    }
 
     .courseSlideTex {
         font-size: 24px;
@@ -189,6 +205,7 @@
 }
 
 @media screen and (max-width:386px) {
+
 
     #homeCaptionContainer {
         padding-bottom: 3rem;

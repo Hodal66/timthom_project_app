@@ -47,8 +47,8 @@ function NavBar() {
           </li>
           <li
             className="nav-item"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            // onMouseEnter={onMouseEnter}
+            // onMouseLeave={onMouseLeave}
             onClick={() => setDropDown(!dropDown)}
           >
             <Link

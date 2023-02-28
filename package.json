@@ -1,5 +1,6 @@
 {
   "name": "thim_project",
+  "homepage":"http://www.timtomaviation.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
