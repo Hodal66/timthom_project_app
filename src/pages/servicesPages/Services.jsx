@@ -9,6 +9,7 @@ import Ict from "./Lessons/Ict";
 import VisaAssistance from "./Lessons/VisaAssistance";
 // import axios from "axios";
 import AllLessons from "./Lessons/AllLessons";
+import { motion } from "framer-motion";
 
 function Services() {
   // const [state, setstate] = useState([]);
@@ -88,9 +89,17 @@ function Services() {
   };
 
   return (
-    <div
+    <motion.div
       className="primaryBackGroundWhiteColor main__services_-container"
       style={{ width: "100vw", height: "100vh" }}
+      initial={{ width: "0vw" }}
+      animate={{ width: "100vw" }}
+      exit={{
+        x: window.innerWidth,
+        transition: {
+          duration: 0.2,
+        },
+      }}
     >
       <HeaderPageComponent
         title="Our Services"
@@ -132,7 +141,7 @@ function Services() {
       <footer>
         <Footer />
       </footer>
-    </div>
+    </motion.div>
   );
 }
 

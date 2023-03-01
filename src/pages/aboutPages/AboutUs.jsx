@@ -11,16 +11,24 @@ import "./about__us.css";
 import WaveLine from "../../components/WaveLine/WaveLine";
 import Footer from "../../components/footer/Footer";
 import Advisors from "./advisor/Advisors";
-
+import { motion } from "framer-motion";
 function AboutUs() {
   return (
-    <div
+    <motion.div
       style={{
         width: "100vw",
         height: "100vh",
       }}
       id=""
       className="  overflow-hidden About__Us_main-container"
+      initial={{ width: "0vw" }}
+      animate={{ width: "100vw" }}
+      exit={{
+        x: window.innerWidth,
+        transition: {
+          duration: 0.2,
+        },
+      }}
     >
       <div className="primaryBackGroundWhiteColor">
         <HeaderPageComponent
@@ -107,7 +115,7 @@ function AboutUs() {
       <footer>
         <Footer />
       </footer>
-    </div>
+    </motion.div>
   );
 }
 

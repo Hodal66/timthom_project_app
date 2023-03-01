@@ -8,12 +8,21 @@ import FindYourCourse from "./findYourCourse/FindYourCourse";
 import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
 import "./home__page.css";
+import { motion } from "framer-motion";
 function HomePage() {
   return (
-    <div
+    <motion.div
       className="primaryBackGroundBlueColor"
       id="mainHomePageContainer"
-      style={{ width: "100vw", height: "100vh" }}
+      // style={{ width: "100vw", height: "100vh" }}
+      initial={{ width: "0vw" }}
+      animate={{ width: "100vw" }}
+      exit={{
+        x: window.innerWidth,
+        transition: {
+          duration: 0.2,
+        },
+      }}
     >
       <section>
         <MainHomeSlidePage />
@@ -33,7 +42,7 @@ function HomePage() {
       <footer>
         <Footer className="primaryBackGroundBlueColor" />
       </footer>
-    </div>
+    </motion.div>
   );
 }
 
