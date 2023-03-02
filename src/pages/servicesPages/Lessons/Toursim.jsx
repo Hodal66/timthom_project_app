@@ -2,14 +2,14 @@ import React from "react";
 import { MdArrowForward } from "react-icons/md";
 import { Link } from "react-router-dom";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
-import { AviationCourses } from "../../../database/courses";
+import { TourismCourses } from "../../../database/courses";
 import StartControl from "../../homePages/upcomingCourses/StartControl";
-function Aviation() {
+function Tourism() {
   return (
     <div>
       <div className=" row p-5 courseCardContainer">
-        {AviationCourses &&
-          AviationCourses.map(
+        {TourismCourses &&
+          TourismCourses.map(
             (
               {
                 courseImage,
@@ -83,4 +83,4 @@ function Aviation() {
   );
 }
 
-export default Aviation;
+export default Tourism;

@@ -1,0 +1,17 @@
+.main________-content {
+    padding: 1rem;
+}
+
+@media screen and (min-width:576px) {
+    .main________-content {
+        padding: 2rem;
+    }
+}
+
+
+
+@media screen and (min-width:992px) {
+    .main________-content {
+        padding: 0rem 5rem 2rem 5rem;
+    }
+}

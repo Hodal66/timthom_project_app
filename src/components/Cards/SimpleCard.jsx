@@ -1,5 +1,4 @@
 import React from "react";
-import "./cards.css";
 function SimpleCard({
   icon,
   iconCssController,

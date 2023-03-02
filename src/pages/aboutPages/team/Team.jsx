@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import { FaTwitter, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
-
-import "./advisor.css";
-function Advisor({
-  advisorName,
-  advisorImage,
+function Team({
+  teamTomName,
+  teamTomImage,
   facebookLink,
   whatsapLink,
   youTibeLink,
@@ -17,50 +15,42 @@ function Advisor({
       <div className="thirdBackGroundWhiteColor">
         <div className="imageAdvisorContainer">
           <img
-            src={advisorImage}
-            alt={advisorImage}
+            src={teamTomImage}
+            alt={teamTomImage}
             style={{ width: "100%", height: "40vh" }}
           />
         </div>
-        <div className="text-center">
-          <h3
-            className="pt-4 pb-2 primaryTextBlueColor"
-            style={{ fontSize: "1.5rem" }}
-          >
-            {advisorName}
-          </h3>
-          <h4 style={{ fontSize: "1.2rem" }}>{position}</h4>
-        </div>
+        <h3 className="text-center p-4">{teamTomName}</h3>
 
         <div>
           <ul
-            className="socialMedialTeam"
-            style={{
-              fontSize: "1.5rem",
-              background: "primaryTextBlueColor",
-            }}
+            className="row"
+            style={{ fontSize: "1.5rem", paddingBottom: "1rem" }}
           >
-            <li>
+            <li className="col-1"></li>
+
+            <li className="col-2">
               <a href={`${whatsapLink}`}>
                 <FaWhatsapp />
               </a>
             </li>
-            <li>
+            <li className="col-2">
               <a href={`${facebookLink}`}>
                 <FaFacebookF />
               </a>
             </li>
 
-            <li>
+            <li className="col-2">
               <a href={`${youTibeLink}`}>
                 <FaYoutube />
               </a>
             </li>
-            <li>
+            <li className="col-2">
               <a href={`${twitterLink}`}>
                 <FaTwitter />
               </a>
             </li>
+            <li className="col-3"></li>
           </ul>
         </div>
       </div>
@@ -68,4 +58,4 @@ function Advisor({
   );
 }
 
-export default Advisor;
+export default Team;

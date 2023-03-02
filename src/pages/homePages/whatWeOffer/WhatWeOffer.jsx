@@ -9,7 +9,7 @@ function WhatWeOffer() {
     <div className="container_fluid primaryBackGroundBlueColor primaryTextWhiteColor mb-5 w-100 h-100">
       <div className="contentContainer container">
         <WaveLine className="mt-5" />
-        <h1 className="MainTittle">What We Offer For Growth Your Study</h1>
+        <h1 className="primaryTitle-white">Our Services</h1>
         <p className="container_fluid text-lg-center">
           We provide the best knowledge and practical work experience to our
           students so that they are competent enough on the job market.We
@@ -34,9 +34,11 @@ function WhatWeOffer() {
                   >
                     {icon}
                   </div>
-                  <div className="title my-2">{title}</div>
+                  <div className="title my-2" style={{ fontWeight: 700 }}>
+                    {title}
+                  </div>
                   <div className="descrition">{decription}</div>
-                  <NavLink to="/about_us">
+                  <NavLink to="/training">
                     <button className="btn my-4 ">ReadMore</button>
                   </NavLink>
                 </div>

@@ -11,14 +11,13 @@ import StartControl from "./StartControl";
 import "./upcoming.css";
 
 function UpcomingCourses() {
-  const [state, setstate] = useState([]);
-  const [allDataContent, setAllDataContent] = useState(allUpcammingCourses);
+  const [allDataContent] = useState(allUpcammingCourses);
 
   return (
     <div className="primaryBackGroundWhiteColor upcomingCourseContainer container-fluid">
       <div className="mx-0 mx-sm-2 mx-md-5 px-4">
         <WaveLine className="mb-5" />
-        <h1>Upcoming Courses</h1>
+        <h1 className="primaryTitle">Upcoming Courses</h1>
         <div className="headerContainer row">
           <div className="emptyColl col"></div>
           <div className="btn-group col justify-content-end">

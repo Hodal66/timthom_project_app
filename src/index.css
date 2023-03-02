@@ -25,7 +25,19 @@ html {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.primaryTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary__blue-color);
+  padding: 2rem 0rem;
+}
 
+.primaryTitle-white {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary__white-color);
+  padding: 2rem 0rem;
+}
 
 .primaryTextBlueColor {
   color: var(--primary__blue-color);
@@ -103,4 +115,30 @@ html {
 
 .loaderSpinner {
   background-color: #171E43;
+}
+
+@media screen and (min-width:576px) {
+  .primaryTitle {
+    font-size: 2.5rem;
+
+  }
+
+  .primaryTitle-white {
+    font-size: 2.5rem;
+
+  }
+}
+
+
+
+@media screen and (min-width:992px) {
+  .primaryTitle {
+    font-size: 3rem;
+
+  }
+
+  .primaryTitle-white {
+    font-size: 3rem;
+
+  }
 }

@@ -19,7 +19,7 @@ function ContactUs() {
       />
       <section className="primaryBackGroundWhiteColor contuct__Us_content-container">
         <header className="text-center">
-          <p className="contuct__us__Header pt-5">Get In Touch</p>
+          <h1 className="primaryTitle">Get In Touch</h1>
         </header>
 
         <section className="locationContainer">

@@ -6,14 +6,10 @@
     color: var(--primary__orange-color);
 }
 
-.iconContainer {
-    width: 20px;
-    height: 20px;
-    padding: 1.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 0rem;
+.cards__content-container-item {
+    background-color: rgb(20, 20, 55);
+    /* box-shadow: rgba(51, 57, 72, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(249, 249, 250, 0.25) 0px 50px 100px -20px, rgba(254, 254, 254, 0.3) 0px 30px 60px -30px;
 }
 
 .awardContentContainer {
@@ -51,6 +47,16 @@
     font-weight: 700;
 }
 
+.all____cards__content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.cards__content-container {
+    margin-top: 1rem;
+}
+
 /* MEDIA QUERIES */
 
 
@@ -65,6 +71,12 @@
 }
 
 @media screen and (min-width:786px) {
+    .all____cards__content-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
     .awardContentContainer {
         gap: 1.5rem;
 

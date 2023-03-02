@@ -1,10 +1,9 @@
 import React from "react";
-import Advisor from "./Advisor";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import "./advisor.css";
-import { AdvisorData } from "../../../database/AdvisorData";
-function Advisors() {
+import { timtomTeam } from "../../../database/Team";
+import Team from "./Team";
+function Teams() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -29,17 +28,17 @@ function Advisors() {
     },
   };
 
-  const advisorContent = AdvisorData.map((advisorDetails) => (
-    <div key={advisorDetails.id}>
-      <Advisor
-        advisorName={advisorDetails.name}
-        advisorImage={advisorDetails.image}
-        position={advisorDetails.position}
-        facebookLink={advisorDetails.facebook}
-        whatsapLink={advisorDetails.whatsup}
-        instagramLink={advisorDetails.instagram}
-        youTibeLink={advisorDetails.youtub}
-        twitterLink={advisorDetails.twitter}
+  const teamTomContent = timtomTeam.map((teamTomDetails) => (
+    <div key={teamTomDetails.id}>
+      <Team
+        teamTomName={teamTomDetails.name}
+        teamTomImage={teamTomDetails.image}
+        position={teamTomDetails.positon}
+        facebookLink={teamTomDetails.facebook}
+        whatsapLink={teamTomDetails.whatsup}
+        instagramLink={teamTomDetails.instagram}
+        youTibeLink={teamTomDetails.youtub}
+        twitterLink={teamTomDetails.twitter}
       />
     </div>
   ));
@@ -47,10 +46,10 @@ function Advisors() {
   return (
     <div className="overflow-hidden" style={{ width: "100%" }}>
       <header>
-        <Carousel responsive={responsive}>{advisorContent}</Carousel>;
+        <Carousel responsive={responsive}>{teamTomContent}</Carousel>;
       </header>
     </div>
   );
 }
 
-export default Advisors;
+export default Teams;

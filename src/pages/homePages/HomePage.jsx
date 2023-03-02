@@ -33,12 +33,12 @@ function HomePage() {
         <FindYourCourse className="findCourses bg-danger" />
         <WhatWeOffer className="findCourses " />
       </section>
-      <section>
+      <section className="mb-5">
         <UpcomingCourses />
         <EducationBackBone />
         <ProfessionalExpert />
       </section>
-      <section className="primaryBackGroundWhiteColor">
+      <section className="primaryBackGroundWhiteColor mt-5">
         <OnlineEducation />
       </section>
       <footer>

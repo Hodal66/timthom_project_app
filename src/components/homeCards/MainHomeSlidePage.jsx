@@ -2,12 +2,11 @@ import React from "react";
 import HomePageBg from "../../assets/images/HomePageBg2.png";
 import MainPage from "../../assets/images/images/RWANDAIR PIC.jpg";
 import HomePageBg2 from "../../assets/images/images/TomCertificate.jpeg";
-import HomePageBg3 from "../../assets/images/images/Student.jpeg";
 import HomePageBg4 from "../../assets/images/Hotel2.jpg";
 import "./homePage.css";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import Typical from "react-typical";
-import { NavLink } from "react-router-dom";
+// import { AiOutlineArrowRight } from "react-icons/ai";
+// import Typical from "react-typical";
+// import { NavLink } from "react-router-dom";
 
 function MainHomeSlidePage() {
   return (
@@ -76,10 +75,9 @@ function MainHomeSlidePage() {
           className="carousel-caption d-none d-md-block "
           id="homeCaptionContainer"
         >
-          <h1 className="timTomText py-1">TIMTOM </h1>
-          <h1 className="timTomText py-2">AVIATION </h1>
+          <h1 className="timTomText py-1">TIMTOM AVIATION </h1>
 
-          <h1 className="courseSlideTex bg-transparent py-2" id="wrapTexts">
+          {/* <h1 className="courseSlideTex bg-transparent py-2" id="wrapTexts">
             <Typical
               loop={Infinity}
               steps={[
@@ -97,8 +95,8 @@ function MainHomeSlidePage() {
                 5000,
               ]}
             />
-          </h1>
-          <p>In Partnership with SACCA Institute of Freight And Tourism</p>
+          </h1> */}
+          {/* <p>In Partnership with SACCA Institute of Freight And Tourism</p>
           <div className="buttonContainer">
             <NavLink to="/services">
               <button
@@ -120,7 +118,7 @@ function MainHomeSlidePage() {
                 </span>
               </button>
             </NavLink>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

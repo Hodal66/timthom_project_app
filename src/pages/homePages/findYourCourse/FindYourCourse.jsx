@@ -12,7 +12,7 @@ function FindYourCourse() {
         className=" col-12 primaryBackGroundOrangeColor justify-content-center backGroundImageFindCourese"
       >
         <section id="ovaerLayHomeSearch ">
-          <h1 className="primaryTextWhiteColor py-2 container mainSearchHeader ">
+          <h1 className=" container mainSearchHeader primaryTitle-white ">
             Find Your Course. Apply Hurry Up!
           </h1>
           <div className="searchContainer py-4  row gap-2">

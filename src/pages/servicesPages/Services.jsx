@@ -7,15 +7,15 @@ import AllLessons from "./Lessons/AllLessons";
 import { motion } from "framer-motion";
 
 function Services() {
-  const [allData, setAllData] = useState(allUpcammingCourses);
+  const [allData] = useState(allUpcammingCourses);
 
   const [data, setData] = useState(allUpcammingCourses);
 
   const handleCategoriesSelection = (category) => {
     const content =
-      category == "all"
+      category === "all"
         ? allData
-        : allData.filter((course) => course.category == category);
+        : allData.filter((course) => course.category === category);
     setData(content);
   };
 
@@ -40,7 +40,7 @@ function Services() {
         nextLinkText="Services"
       />
 
-      <div className="  searchContent py-5">
+      <div className=" searchContent py-5">
         <div className="searchContainer ">
           <ul>
             <li>

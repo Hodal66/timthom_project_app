@@ -1,10 +1,11 @@
 import {
   FaCampground,
-  FaInstagram,
   FaRegObjectGroup,
   FaTwitter,
+  FaWhatsapp,
   FaYoutube,
 } from "react-icons/fa";
+import { IoMdUmbrella } from "react-icons/io";
 import { MdAnalytics, MdFacebook, MdGroups } from "react-icons/md";
 
 export const links = [
@@ -62,30 +63,30 @@ export const whatWeOffer = [
   {
     id: 1,
     icon: <MdGroups />,
-    title: "Provide Knowledge",
+    title: "Air Ticketing",
     decription:
-      "We provide the best knowledge and practical work experience to our students",
+      "We offer a range of short and professional courses in air ticketing to help individuals develop their skills and advance their careers in the aviation industry.",
   },
   {
     id: 2,
     icon: <MdAnalytics />,
-    title: "consultancy service",
+    title: "Admission And Visa Assistance",
     decription:
-      "We provide the best consultancy service in aviation tourism and hospitality s",
+      "We have extensive knowledge and experience with the admission and visa processes of various countries and can provide personalized support to students",
   },
   {
     id: 3,
     icon: <FaCampground />,
-    title: "Empower Human",
+    title: "Hotel Booking",
     decription:
-      " We empower , develop and train human resources from aviation and related companies ",
+      " Our short and professional courses in hotel booking provide individuals with the skills and knowledge needed to excel in the hospitality industry.",
   },
   {
     id: 4,
     icon: <FaRegObjectGroup />,
-    title: " Assist students",
+    title: " Training",
     decription:
-      "we Assist students from other schools to complete their internship programs",
+      "We offer professional courses in short and long period and we award internationally   recognized certificates, advanced certificates, diplomas and advanced diplomas.",
   },
 ];
 
@@ -223,7 +224,7 @@ export const upcammingCourses = [
 export const SocialMediaData = [
   {
     id: 1,
-    linkConnection: "www.faceebook.com",
+    linkConnection: "mailto:imtomaviation@gmail.com",
     icon: <MdFacebook />,
   },
   {
@@ -233,8 +234,8 @@ export const SocialMediaData = [
   },
   {
     id: 3,
-    linkConnection: "www.faceebook.com",
-    icon: <FaInstagram />,
+    linkConnection: "http://wa.me/+250788519634",
+    icon: <FaWhatsapp />,
   },
   {
     id: 4,

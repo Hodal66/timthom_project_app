@@ -13,9 +13,9 @@ import Footer from "../../components/footer/Footer";
 import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 function Service() {
-  const [itemService, setItemService] = useState(allUpcammingCourses);
+  const [itemService] = useState(allUpcammingCourses);
   let params = useParams();
-  let neededId = params.serviceId;
+  let neededId = parseInt(params.serviceId);
   console.log("I got the id ::: ", params.serviceId);
 
   // const getMeData= async () => {
@@ -53,7 +53,7 @@ function Service() {
       <section className="allContentContainer serviceContentContainer primaryBackGroundWhiteColor ">
         {itemService &&
           itemService
-            .filter((service) => service.id == neededId)
+            .filter((service) => service.id === neededId)
             .map((item, id) => {
               return (
                 <aside className="leftSide p-0 w-100 " key={id}>
@@ -188,9 +188,7 @@ function Service() {
                             })}
                         </div>
                         <div className="aside__list-group">
-                          <h1 className="courseTitle pt-4 pb-2">
-                            Sub Courses, Just We Have the Following Lessons
-                          </h1>
+                          <h1 className="courseTitle pt-4 pb-2">Lessons</h1>
                           {item.lessonDetails &&
                             item.lessonDetails.map((lessonDetail, id) => {
                               return (

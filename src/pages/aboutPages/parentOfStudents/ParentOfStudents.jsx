@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
+import WaveLine from "../../../components/WaveLine/WaveLine";
 import { ourStaffSays } from "../../../database/OurStaffSays";
 import "./parentOfStds.css";
 
@@ -27,10 +28,9 @@ function ParentOfStudents() {
       style={{ width: "100%", paddingTop: "5rem" }}
     >
       <div className="centeredItems">
-        <div className="whatParentSaysAboutStudent">
-          <h1 className="text-center aboutStudentHeader py-4">
-            What Our Student Said About Us!!!
-          </h1>
+        <div className="whatParentSaysAboutStudent mt-0">
+          <WaveLine className="primaryBackGroundWhiteColor text-center" />
+          <h1 className="primaryTitle">What Our Student Said About Us!!!</h1>
           <div className="whatOurStaffSaysContainer">
             <div key={id}>
               <p>

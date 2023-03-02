@@ -15,6 +15,13 @@
     font-size: 1.5rem;
 }
 
+.socialMedialTeam {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0rem;
+    padding: 1rem;
+}
+
 .socialMediaLink ul li a:hover {
     color: var(--primary__orange-color);
 }
