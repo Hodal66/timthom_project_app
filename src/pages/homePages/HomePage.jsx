@@ -9,12 +9,14 @@ import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
 import "./home__page.css";
 import { motion } from "framer-motion";
+
 function HomePage() {
   return (
     <motion.div
       className="primaryBackGroundBlueColor"
       id="mainHomePageContainer"
       // style={{ width: "100vw", height: "100vh" }}
+
       initial={{ width: "0vw" }}
       animate={{ width: "100vw" }}
       exit={{

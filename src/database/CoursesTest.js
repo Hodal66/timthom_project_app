@@ -6,6 +6,7 @@ export const allUpcammingCourses = [
     Context:
       "The airline industry is complex and involves many different aspects, including fleet management, scheduling, pricing, revenue management, and customer service. It is important to understand the key components of the airline industry and how they work together.",
     titleInShortName: "AIRLINE AND AIRPORT  ",
+    category: "airport",
     CourseContent: [
       {
         id: 1,
@@ -70,6 +71,7 @@ export const allUpcammingCourses = [
     Context:
       "content on Air cargo handling and We teach all about Dangerous Goods with Logistics Airlines and airports work together closely, and it is important to understand the partnerships ",
     titleInShortName: "AIR CARGO MANAGEMENT   ",
+    category: "visa",
     CourseContent: [
       {
         id: 2,
@@ -132,6 +134,7 @@ export const allUpcammingCourses = [
     Context:
       "We'll learn about the different types of tourism from leisure to business travel,",
     titleInShortName: "TRAVEL AND TOURISM MANAGEMENT",
+    category: "airport",
     CourseContent: [
       {
         id: 3,
@@ -197,6 +200,7 @@ export const allUpcammingCourses = [
     Context:
       "content marketing to your skill set is such a smart career move. In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t. Then learn how develop a smart content marketing strategy. Find out how to correctlyidntify an.",
     titleInShortName: "AVIATION MANAGEMENT",
+    category: "hotel",
     CourseContent: [
       {
         id: 1,
@@ -264,6 +268,7 @@ export const allUpcammingCourses = [
     Context:
       "Air cabin crew, also known as flight attendants, are responsible for the safety and comfort of passengers on board commercial flights. They are trained to handle emergency situations, proid first id and ensure that passengers comply with safety regulations.",
     titleInShortName: "AIR CABIN CREW",
+    category: "aviation",
     CourseContent: [
       {
         id: 5,
@@ -327,6 +332,7 @@ export const allUpcammingCourses = [
     Context:
       "In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t.",
     titleInShortName: "CIVIL AVIATION MANAGEMENT ",
+    category: "aviation",
     CourseContent: [
       {
         id: 6,
@@ -392,6 +398,7 @@ export const allUpcammingCourses = [
     Context:
       "content marketing to your skill set is such a smart career move. In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t. Then learn how develop a smart content marketing strategy. Find out how to correctlyidntify an.",
     titleInShortName: "AIRLINE AND AIRPORT MANAGEMENT",
+    category: "ict",
     CourseContent: [
       {
         id: 7,
@@ -413,6 +420,7 @@ export const allUpcammingCourses = [
           "Good morning/afternoon, class! Today we're going to be talking about airlines and airports. We'll learn about the different types of airlines, how they operate, and the various services they proid to passengers. We'll also discuss the different parts of an airport and how they function together to make air travel possible. By the end of this lesson, you'll have a better understanding of the air transportation industry and how it impacts our daily lives. So, let's get started!",
         position: "Admin",
         professionalism: "AirPort",
+
         socialMedia: [
           {
             id: 7,
