@@ -3,9 +3,9 @@ import React from "react";
 function TableAirline() {
   return (
     <div>
-      <table className="table primaryBackGroundWhiteColor table-responsive-lg">
+      <table className="table primaryBackGroundWhiteColor table-responsive-lg table-striped table-bordered">
         <caption>List of AirLine Trainings</caption>
-        <thead>
+        <thead className="thead-light">
           <tr>
             <th scope="col" style={{ fontSize: "1.2rem" }}>
               No

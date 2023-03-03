@@ -17,7 +17,7 @@ function UpcomingCourses() {
     <div className="primaryBackGroundWhiteColor upcomingCourseContainer container-fluid">
       <div className="mx-0 mx-sm-2 mx-md-5 px-4">
         <WaveLine className="mb-5" />
-        <h1 className="primaryTitle">Upcoming Courses</h1>
+        <h1 className="primaryTitle">Our Courses</h1>
         <div className="headerContainer row">
           <div className="emptyColl col"></div>
           <div className="btn-group col justify-content-end">
@@ -50,7 +50,7 @@ function UpcomingCourses() {
                             key={courseLessonId}
                           >
                             <div className="btn btn-sm py-0 mr-2 secondaryBackGroundBlueColor primaryTextWhiteColor">
-                              ${courseLessonDetail.money}
+                              {courseLessonDetail.money} Frw
                             </div>
                             <StartControl />
                           </div>

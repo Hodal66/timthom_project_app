@@ -39,6 +39,20 @@ html {
   padding: 2rem 0rem;
 }
 
+.primaryTitle2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary__blue-color);
+  padding: 2rem 0rem;
+}
+
+.primaryTitle2-white {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary__white-color);
+  padding: 2rem 0rem;
+}
+
 .primaryTextBlueColor {
   color: var(--primary__blue-color);
 }
@@ -117,28 +131,64 @@ html {
   background-color: #171E43;
 }
 
-@media screen and (min-width:576px) {
-  .primaryTitle {
-    font-size: 2.5rem;
+ol li {
+  padding-bottom: 1rem;
+}
 
+.main________-content {
+  padding: 1rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .main________-content {
+    padding: 2rem;
   }
 
+  .primaryTitle,
   .primaryTitle-white {
     font-size: 2.5rem;
+  }
 
+  .primaryTitle2,
+  .primaryTitle2-white {
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .main________-content {
+    padding: 2rem 3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .main________-content {
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  .primaryTitle,
+  .primaryTitle-white {
+    font-size: 3rem;
+  }
+
+  .primaryTitle2,
+  .primaryTitle2-white {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .main________-content {
+    padding: 2rem 5rem 3rem 5rem;
   }
 }
 
 
 
-@media screen and (min-width:992px) {
-  .primaryTitle {
-    font-size: 3rem;
-
-  }
-
-  .primaryTitle-white {
-    font-size: 3rem;
-
-  }
-}
+@media screen and (min-width:992px) {}

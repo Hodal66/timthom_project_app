@@ -41,7 +41,7 @@ function AboutUs() {
           nextLinkText="About-us"
         />
 
-        <div className="about__us_content-container about__us-container">
+        <div className="about__us_content-container about__us-container main________-content">
           <section className="about__us_content">
             <div className="imageAboutUsContainer" style={{ width: "100%" }}>
               <div className="backgroundImageBehindImage">

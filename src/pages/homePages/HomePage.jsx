@@ -13,7 +13,7 @@ import { motion } from "framer-motion";
 function HomePage() {
   return (
     <motion.div
-      className="primaryBackGroundBlueColor"
+      className="primaryBackGroundBlueColor "
       id="mainHomePageContainer"
       // style={{ width: "100vw", height: "100vh" }}
 
@@ -38,9 +38,11 @@ function HomePage() {
         <EducationBackBone />
         <ProfessionalExpert />
       </section>
+
       <section className="primaryBackGroundWhiteColor mt-5">
         <OnlineEducation />
       </section>
+
       <footer>
         <Footer className="primaryBackGroundBlueColor" />
       </footer>

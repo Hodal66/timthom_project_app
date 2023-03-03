@@ -18,18 +18,6 @@ function Service() {
   let neededId = parseInt(params.serviceId);
   console.log("I got the id ::: ", params.serviceId);
 
-  // const getMeData= async () => {
-  //   const { data } = await axios.get(
-  //     `http://localhost:3004/allUpcammingCourses?id=${params.serviceId}`
-  //   );
-  //   setItemService(data);
-
-  // };
-  // useEffect(() => {
-  //   getMeData();
-  // }, []);
-  // console.log("Now the remaining data", itemService);
-
   return (
     <motion.div
       style={{ width: "100vw", height: "100vh" }}
@@ -50,7 +38,7 @@ function Service() {
         nextLink=""
         nextLinkText="Service_detail"
       />
-      <section className="allContentContainer serviceContentContainer primaryBackGroundWhiteColor ">
+      <section className="allContentContainer  primaryBackGroundWhiteColor ">
         {itemService &&
           itemService
             .filter((service) => service.id === neededId)

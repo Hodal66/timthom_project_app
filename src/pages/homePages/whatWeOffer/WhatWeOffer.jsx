@@ -20,13 +20,10 @@ function WhatWeOffer() {
           schools to complete their internship programs thoroughly and
           productively.
         </p>
-        <div className="cardContainer row">
+        <div className="cardContainer_____main">
           {whatWeOffer.map(({ title, icon, decription }, index) => {
             return (
-              <div
-                key={index}
-                className="col-12 card__content-container  col-sm-6 col-md-3"
-              >
+              <div key={index} className=" card__content-container">
                 <div className="card__content secondaryBackGroundBlueColor rounded rounded-5 p-3 mt-3">
                   <div
                     className="my-4 primaryTextOrangeColor"

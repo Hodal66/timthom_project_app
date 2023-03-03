@@ -6,6 +6,7 @@ import TableContent from "./TableContent";
 import TableAirline from "./TableAirline";
 import "./training.css";
 import WaveLine from "../../components/WaveLine/WaveLine";
+import InternationalCourses from "./InternationalCourses";
 
 function Training() {
   return (
@@ -50,7 +51,7 @@ function Training() {
         <section className="py-2">
           <WaveLine className="primaryBackGroundWhiteColor text-center" />
           <h1 className="primaryTitle text-center">
-            Airline and Airport Management
+            Civil Aviation Management Courses
           </h1>
 
           <TableContent />
@@ -61,6 +62,14 @@ function Training() {
             Airline and Airport Management
           </h1>
           <TableAirline />
+        </section>
+
+        <section className="py-2">
+          <WaveLine className="primaryBackGroundBlueColor text-center" />
+          <h1 className="primaryTitle-white text-center">
+            INTERNATIONAL COURSES
+          </h1>
+          <InternationalCourses />
         </section>
       </section>
 

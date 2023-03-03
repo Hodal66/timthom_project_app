@@ -4,6 +4,34 @@
 
 }
 
+.imageHomeContentContainer1 {
+    background-image: url("../../assets/images/HomePageBg2.png");
+}
+
+.imageHomeContentContainer2 {
+    background-image: url("../../assets/images/images/RWANDAIR PIC.jpg");
+}
+
+.imageHomeContentContainer3 {
+    background-image: url("../../assets/images/images/TomCertificate.jpeg");
+}
+
+.imageHomeContentContainer4 {
+    background-image: url("../../assets/images/Hotel2.jpg");
+}
+
+.imageHomeContentContainer1,
+.imageHomeContentContainer2,
+.imageHomeContentContainer3,
+.imageHomeContentContainer4 {
+    width: 100vw;
+    height: 100lvb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
 .HomeImageContainer {
     height: 80lvb;
 }
@@ -240,3 +268,30 @@
         padding-top: 54rem;
     } */
 }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .imageHomeContentContainer1,
+    .imageHomeContentContainer2,
+    .imageHomeContentContainer3,
+    .imageHomeContentContainer4 {
+        width: 100vw;
+        height: 150lvb;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

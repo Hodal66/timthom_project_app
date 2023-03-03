@@ -1,12 +1,5 @@
 import React from "react";
-import HomePageBg from "../../assets/images/HomePageBg2.png";
-import MainPage from "../../assets/images/images/RWANDAIR PIC.jpg";
-import HomePageBg2 from "../../assets/images/images/TomCertificate.jpeg";
-import HomePageBg4 from "../../assets/images/Hotel2.jpg";
 import "./homePage.css";
-// import { AiOutlineArrowRight } from "react-icons/ai";
-// import Typical from "react-typical";
-// import { NavLink } from "react-router-dom";
 
 function MainHomeSlidePage() {
   return (
@@ -19,33 +12,33 @@ function MainHomeSlidePage() {
           data-interval="5000"
         >
           <div className="carousel-inner HomeImageContainer">
-            <div className="carousel-item ">
-              <img
+            <div className="carousel-item imageHomeContentContainer1">
+              {/* <img
                 className="d-block img-fluid slideImage"
                 src={MainPage}
                 alt="First slide"
-              />
+              /> */}
             </div>
-            <div className="carousel-item active">
-              <img
+            <div className="carousel-item active imageHomeContentContainer2">
+              {/* <img
                 className="d-block img-fluid slideImage"
                 src={HomePageBg2}
                 alt="Second slide"
-              />
+              /> */}
             </div>
-            <div className="carousel-item">
-              <img
+            <div className="carousel-item imageHomeContentContainer3">
+              {/* <img
                 className="d-block img-fluid slideImage"
                 src={HomePageBg4}
                 alt="Third slide"
-              />
+              /> */}
             </div>
-            <div className="carousel-item">
-              <img
+            <div className="carousel-item imageHomeContentContainer4">
+              {/* <img
                 className="d-block img-fluid slideImage"
                 src={HomePageBg}
                 alt="Third slide"
-              />
+              /> */}
             </div>
           </div>
           <a
@@ -76,49 +69,6 @@ function MainHomeSlidePage() {
           id="homeCaptionContainer"
         >
           <h1 className="timTomText py-1">TIMTOM AVIATION </h1>
-
-          {/* <h1 className="courseSlideTex bg-transparent py-2" id="wrapTexts">
-            <Typical
-              loop={Infinity}
-              steps={[
-                "Hey!🌝Wellcome to Our site!!🥰",
-                5000,
-                "Learn Civil Aviation Mgt 👏",
-                5000,
-                "Learn  AirPort Managment",
-                5000,
-                "Learn AirLine Managment",
-                5000,
-                "You're the Best  🎲",
-                5000,
-                "Stay With Us ☂︎",
-                5000,
-              ]}
-            />
-          </h1> */}
-          {/* <p>In Partnership with SACCA Institute of Freight And Tourism</p>
-          <div className="buttonContainer">
-            <NavLink to="/services">
-              <button
-                className="btn btn-primary primaryTextWhiteColor sliderBtn"
-                id="OurCourseBtn"
-              >
-                <span> Our Courses</span>
-              </button>
-            </NavLink>
-            <NavLink to="/about_us">
-              <button
-                className="btn primaryBackGroundWhiteColor primaryTextBlueColor sliderBtn"
-                id="learnMoreBtn"
-              >
-                <span id="spanLearnMoreBtn">
-                  <span> Learn More</span>
-
-                  <AiOutlineArrowRight id="arrow" />
-                </span>
-              </button>
-            </NavLink>
-          </div> */}
         </div>
       </div>
     </div>

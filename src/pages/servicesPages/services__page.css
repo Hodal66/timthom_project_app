@@ -2,10 +2,16 @@
     margin-top: 36rem;
 }
 
-.mainCard {
+/* .mainCard {
     border: none;
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
 }
+
+.mainCard:hover {
+    border: 1px solid gray;
+    background-color: red;
+    padding: 1rem;
+} */
 
 .courseCardContainer {
     margin: 0rem 1rem;
@@ -50,9 +56,7 @@
         margin-top: 40rem;
     }
 
-    .courseCardContainer {
-        margin: 0rem 1.5rem;
-    }
+
 
     .courseCardContainer {
         display: grid;

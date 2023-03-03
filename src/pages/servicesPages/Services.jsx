@@ -39,40 +39,41 @@ function Services() {
         prevLinkText="Home"
         nextLinkText="Services"
       />
-
-      <div className=" searchContent py-5">
-        <div className="searchContainer ">
-          <ul>
-            <li>
-              <button onClick={() => handleCategoriesSelection("all")}>
-                All
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleCategoriesSelection("visa")}>
-                Visa
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleCategoriesSelection("aviation")}>
-                Aviation
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleCategoriesSelection("hotel")}>
-                Hotels
-              </button>
-            </li>
-            <li>
-              <button onClick={() => handleCategoriesSelection("ict")}>
-                ICT
-              </button>
-            </li>
-            <li></li>
-          </ul>
+      <section className="main________-content">
+        <div className=" searchContent py-5">
+          <div className="searchContainer ">
+            <ul>
+              <li>
+                <button onClick={() => handleCategoriesSelection("all")}>
+                  All
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleCategoriesSelection("visa")}>
+                  Visa
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleCategoriesSelection("aviation")}>
+                  Aviation
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleCategoriesSelection("hotel")}>
+                  Hotels
+                </button>
+              </li>
+              <li>
+                <button onClick={() => handleCategoriesSelection("ict")}>
+                  ICT
+                </button>
+              </li>
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <AllLessons allData={data} />
+        <AllLessons allData={data} />
+      </section>
       <footer>
         <Footer />
       </footer>

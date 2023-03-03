@@ -1,23 +1,25 @@
 import React from "react";
 import { MdArrowForward } from "react-icons/md";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 import StartControl from "../../homePages/upcomingCourses/StartControl";
 
 function AllLessons({ allData }) {
   return (
-    <div className=" row p-5 courseCardContainer">
+    <div className=" row p-1 courseCardContainer">
       {allData &&
         allData.map((items, id) => {
           return (
-            <div key={id} className="mainCard">
+            <div key={id} className="">
               <div className="card secondaryBackGroundWhiteColor">
-                <img
-                  src={items.courseImage}
-                  alt={items.altImage}
-                  className="img-fluid card-img-top"
-                  style={{ width: "100%", height: "30vh" }}
-                />
+                <NavLink to={`/service_details/${id}`}>
+                  <img
+                    src={items.courseImage}
+                    alt={items.altImage}
+                    className="img-fluid card-img-top"
+                    style={{ width: "100%", height: "30vh" }}
+                  />
+                </NavLink>
                 <div className="priceAndAproval p-4 row ">
                   {items.lessonDetails.map((lessonDetail, index) => {
                     return (

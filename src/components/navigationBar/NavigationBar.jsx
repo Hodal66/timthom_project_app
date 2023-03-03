@@ -18,7 +18,7 @@ function NavigationBar() {
               <span>
                 <MdCall />
               </span>
-              <span>(+250)0788519634</span>
+              <span>(+250)788519634</span>
             </li>
             <li className="col-4">
               <span>
@@ -27,10 +27,15 @@ function NavigationBar() {
               <span>timtomaviation@gmail.com</span>
             </li>
             <li className="col-4 px-md-4">
-              <span>
-                <GoLocation />
-              </span>
-              <span>kabeza_road,_KK_18_AV</span>
+              <div className="row">
+                <span className="">
+                  <GoLocation />
+                </span>
+                <span className="" id="navLocation">
+                  <span>kabeza</span> <span>road</span>, <span>KK</span>{" "}
+                  <span>18</span> AV
+                </span>
+              </div>
             </li>
           </ul>
         </div>

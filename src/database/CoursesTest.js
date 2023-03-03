@@ -44,7 +44,7 @@ export const allUpcammingCourses = [
         id: 1,
         TitleInFullName:
           "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT",
-        money: 500,
+        money: "500,000",
         likes: 4,
         studentAvailable: 50,
         courseTime: "1_month",
@@ -108,7 +108,7 @@ export const allUpcammingCourses = [
       {
         id: 2,
         TitleInFullName: "ADVANCED CERTIFICATE IN AIR CARGO MANAGEMENT ",
-        money: 600,
+        money: "500,000",
         likes: 3,
         studentAvailable: 23,
         courseTime: "1_month",
@@ -172,7 +172,7 @@ export const allUpcammingCourses = [
         id: 3,
         TitleInFullName:
           "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT",
-        money: 700,
+        money: "500,000",
         likes: 4,
         studentAvailable: 47,
         courseTime: "1_month",
@@ -332,7 +332,7 @@ export const allUpcammingCourses = [
     Context:
       "In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t.",
     titleInShortName: "CIVIL AVIATION MANAGEMENT ",
-    category: "aviation",
+    category: "ict",
     CourseContent: [
       {
         id: 6,
@@ -368,7 +368,7 @@ export const allUpcammingCourses = [
     lessonDetails: [
       {
         id: 6,
-        TitleInFullName: "CIVIL AVIATION MANAGEMENT ",
+        TitleInFullName: "ADVANCED CERTICATE IN AVIATION MANAGEMENT ",
         money: 300,
         likes: 4,
         studentAvailable: 50,
@@ -386,72 +386,6 @@ export const allUpcammingCourses = [
             subCourse4: " LESSON 4: Safety management system ",
             subCourse5: " LESSON 5: USOAP CMA AUDIT",
             subCourse6: " LESSON 6: Aviation management",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 7,
-    courseImage: "/timimages/images/book.jpg",
-    altImage: "AIRLINE AND AIRPORT MANAGEMENT",
-    Context:
-      "content marketing to your skill set is such a smart career move. In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t. Then learn how develop a smart content marketing strategy. Find out how to correctlyidntify an.",
-    titleInShortName: "AIRLINE AND AIRPORT MANAGEMENT",
-    category: "ict",
-    CourseContent: [
-      {
-        id: 7,
-        fistParagrap:
-          "The airline industry: The airline industry is complex and involves many different aspects, including fleet management, scheduling, pricing, revenue management, and customer service. It is important to understand the key components of the airline industry and how they work together.",
-        SecondParagrapth:
-          "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
-        thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
-      },
-    ],
-    teacher: [
-      {
-        id: 7,
-        TeacheImage: "/timimages/images/Student.jpeg",
-        AltTeacherImage: "Teacher Keza",
-        TeacherName: "Michel",
-        TecherContent:
-          "Good morning/afternoon, class! Today we're going to be talking about airlines and airports. We'll learn about the different types of airlines, how they operate, and the various services they proid to passengers. We'll also discuss the different parts of an airport and how they function together to make air travel possible. By the end of this lesson, you'll have a better understanding of the air transportation industry and how it impacts our daily lives. So, let's get started!",
-        position: "Admin",
-        professionalism: "AirPort",
-
-        socialMedia: [
-          {
-            id: 7,
-            facebook: "www.facebook.com",
-            twitter: "www.twitter.com",
-            instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
-          },
-        ],
-      },
-    ],
-    lessonDetails: [
-      {
-        id: 7,
-        TitleInFullName: "AIRLINE AND AIRPORT MANAGEMENT",
-        money: 200,
-        likes: 4,
-        studentAvailable: 20,
-        courseTime: "2_month",
-        numberOfLessons: 5,
-        DateOfLesson: "04/02/2023",
-        TimeScheduled: "126h 20m",
-        Requesties: "Yes",
-        subDetails: [
-          {
-            id: 7,
-            subCourse1: " LESSON 1: Airport operations",
-            subCourse2: " LESSON 2: Airport Ground Handling",
-            subCourse3: " LESSON 3: Airline marketing ",
-            subCourse4: " LESSON 4: Air cabin crew",
-            subCourse5: " LESSON 5: Dangerous goods",
           },
         ],
       },

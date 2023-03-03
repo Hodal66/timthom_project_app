@@ -11,28 +11,25 @@ function NavBar() {
   const closeMobileMenu = () => {
     setClick(!click);
   };
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropDown(false);
-    } else {
-      setDropDown(true);
-    }
-  };
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropDown(false);
-    } else {
-      setDropDown(false);
-    }
-  };
+  // const onMouseEnter = () => {
+  //   if (window.innerWidth < 960) {
+  //     setDropDown(false);
+  //   } else {
+  //     setDropDown(true);
+  //   }
+  // };
+  // const onMouseLeave = () => {
+  //   if (window.innerWidth < 960) {
+  //     setDropDown(false);
+  //   } else {
+  //     setDropDown(false);
+  //   }
+  // };
   return (
     <div>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          <div
-            className="logoContainer col-6 "
-            onClick={() => setDropDown(false)}
-          >
+          <div className="logoContainer " onClick={() => setDropDown(false)}>
             <img src={Logo} alt="myLogo" id="project_logo" />
           </div>
         </Link>
