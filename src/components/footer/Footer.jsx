@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./footer.css";
-import LogoImage from "../../assets/images/11780708.png";
+import LogoImage from "../../assets/images/logo.png";
 import SocialMedia from "./socialMedia/SocialMedia";
 import { Link } from "react-router-dom";
 import { allUpcammingCourses } from "../../database/CoursesTest";

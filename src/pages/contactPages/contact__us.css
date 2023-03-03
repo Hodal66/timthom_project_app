@@ -27,7 +27,7 @@
 }
 
 .imageBackgroundContainer {
-    background-image: url("../../assets/images/background/airplane.webp");
+    background-image: url("../../assets/images/airplane.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

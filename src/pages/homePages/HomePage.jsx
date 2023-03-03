@@ -1,5 +1,5 @@
 import React from "react";
-import EducationBackBone from "./educationBackBone/EducationBackBone";
+// import EducationBackBone from "./educationBackBone/EducationBackBone";
 import UpcomingCourses from "./upcomingCourses/UpcomingCourses";
 import ProfessionalExpert from "./professional/ProfessionalExpert";
 import MainHomeSlidePage from "../../components/homeCards/MainHomeSlidePage";
@@ -35,7 +35,7 @@ function HomePage() {
       </section>
       <section className="mb-5">
         <UpcomingCourses />
-        <EducationBackBone />
+        {/* <EducationBackBone /> */}
         <ProfessionalExpert />
       </section>
 

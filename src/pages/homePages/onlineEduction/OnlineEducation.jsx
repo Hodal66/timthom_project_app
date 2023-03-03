@@ -10,7 +10,9 @@ function OnlineEducation() {
     <div className="container-fluid OnineEducationContainer mt-5">
       <div className="leftContentSide mx-5">
         <WaveLine className="mt-2" />
-        <h1 className="primaryTitle ">Let’s See Online Education</h1>
+        <h1 className="primaryTitle ">
+          We have an experts and we provide certicates
+        </h1>
         <p>
           Online aviation courses provide a convenient and flexible way for
           individuals to learn about various aspects of aviation, including

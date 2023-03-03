@@ -9,15 +9,6 @@
 }
 
 
-/* .center_content {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-block-start: 1em;
-} */
-
-
-
-
 .left_content img {
     margin-left: 10rem;
 }
@@ -34,7 +25,7 @@
 
 .goToTOp {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 2rem;
 

@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
-import AboutUsImage from "../../assets/images/course8.jpg";
+import AboutUsImage from "../../assets/images/mainCourse.jpg";
 import { MdArrowForward, MdVerified } from "react-icons/md";
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
 import AboutUsCards from "./aboutUsCards/AboutUsCards";

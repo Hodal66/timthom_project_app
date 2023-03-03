@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import SearchFunction from "../../pages/servicesPages/searchFun/SearchFunction";
 import ButtonComponent from "../Buttons/ButtonComponent";
 import RegistrationImageBackground from "../../assets/images/section-img3.jpg";
-import RecentPostImage from "../../assets/images/instructor3.jpg";
+import RecentPostImage from "../../assets/images/blanckImage.jpg";
 import "./asideCourse.css";
 import { NavLink } from "react-router-dom";
 import axios from "axios";
 function AsideCourse() {
-  const [state, setstate] = useState([]);
+  const [state] = useState([]);
   const [allcourses, setAllCourses] = useState([]);
   const handleAllCourses = async () => {
     const { data } = await axios.get(

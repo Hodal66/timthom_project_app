@@ -1,7 +1,7 @@
 export const allUpcammingCourses = [
   {
     id: 1,
-    courseImage: "/timimages/images/Sdudent.jpeg",
+    courseImage: "/timimages/images/Student.jpeg",
     altImage: "AIRLINE AND AIRPORT  ",
     Context:
       "The airline industry is complex and involves many different aspects, including fleet management, scheduling, pricing, revenue management, and customer service. It is important to understand the key components of the airline industry and how they work together.",
@@ -263,7 +263,7 @@ export const allUpcammingCourses = [
   },
   {
     id: 5,
-    courseImage: "/timimages/images/course8.jpg",
+    courseImage: "/timimages/images/Sdudent3.jpeg",
     altImage: "AIR CABIN CREW ",
     Context:
       "Air cabin crew, also known as flight attendants, are responsible for the safety and comfort of passengers on board commercial flights. They are trained to handle emergency situations, proid first id and ensure that passengers comply with safety regulations.",
@@ -283,7 +283,7 @@ export const allUpcammingCourses = [
     teacher: [
       {
         id: 5,
-        TeacheImage: "/timimages/images/Student.jpeg",
+        TeacheImage: "/timimages/images/mainCourse.jpg",
         AltTeacherImage: "Teacher Keza",
         TeacherName: "Jisele Mukamana",
         TecherContent:

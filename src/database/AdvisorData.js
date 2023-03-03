@@ -2,7 +2,7 @@ export const AdvisorData = [
   {
     id: 1,
     name: "NTAGANZWA Patience",
-    image: require("../assets/images/expert.jpg"),
+    image: require("../assets/images/blanckImage.jpg"),
     position: "Sales And Ticketing Officer",
     facebook: "www.facebook.com",
     twitter: "www.twitter.com",
@@ -13,7 +13,7 @@ export const AdvisorData = [
   {
     id: 2,
     name: "MUGABO Cassien",
-    image: require("../assets/images/expert.jpg"),
+    image: require("../assets/images/blanckImage.jpg"),
     position: "Consultant",
     facebook: "www.facebook.com",
     twitter: "www.twitter.com",
@@ -24,7 +24,7 @@ export const AdvisorData = [
   {
     id: 3,
     name: "HAGUMA Timothee",
-    image: require("../assets/images/expert.jpg"),
+    image: require("../assets/images/blanckImage.jpg"),
     position: "Instructor",
     facebook: "www.facebook.com",
     twitter: "www.twitter.com",
@@ -35,7 +35,7 @@ export const AdvisorData = [
   {
     id: 4,
     name: "UWAMWEZI Alice",
-    image: require("../assets/images/expert.jpg"),
+    image: require("../assets/images/blanckImage.jpg"),
     position: "Instructor",
     facebook: "www.facebook.com",
     twitter: "www.twitter.com",
@@ -46,7 +46,7 @@ export const AdvisorData = [
   {
     id: 5,
     name: "UWAMWEZI Alice",
-    image: require("../assets/images/expert.jpg"),
+    image: require("../assets/images/blanckImage.jpg"),
     position: "Instructor",
     facebook: "www.facebook.com",
     twitter: "www.twitter.com",

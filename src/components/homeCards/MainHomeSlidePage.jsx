@@ -40,6 +40,21 @@ function MainHomeSlidePage() {
                 alt="Third slide"
               /> */}
             </div>
+
+            <div className="carousel-item imageHomeContentContainer6">
+              {/* <img
+                className="d-block img-fluid slideImage"
+                src={HomePageBg}
+                alt="Third slide"
+              /> */}
+            </div>
+            <div className="carousel-item imageHomeContentContainer7">
+              {/* <img
+                className="d-block img-fluid slideImage"
+                src={HomePageBg}
+                alt="Third slide"
+              /> */}
+            </div>
           </div>
           <a
             className="carousel-control-prev  "

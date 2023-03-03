@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/11780708.png";
+import Logo from "../../assets/images/logo.png";
 import DropDown from "./DropDown";
 import "./navbar.css";
 function NavBar() {

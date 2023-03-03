@@ -10,16 +10,7 @@ function WhatWeOffer() {
       <div className="contentContainer container">
         <WaveLine className="mt-5" />
         <h1 className="primaryTitle-white">Our Services</h1>
-        <p className="container_fluid text-lg-center">
-          We provide the best knowledge and practical work experience to our
-          students so that they are competent enough on the job market.We
-          empower, develop and train human resources from aviation and related
-          companies and be able to perform better on their jobs. We also provide
-          the best consultancy service in aviation tourism and hospitality for
-          Rwandese and Africa at large. finaly we Assist students from other
-          schools to complete their internship programs thoroughly and
-          productively.
-        </p>
+
         <div className="cardContainer_____main">
           {whatWeOffer.map(({ title, icon, decription }, index) => {
             return (

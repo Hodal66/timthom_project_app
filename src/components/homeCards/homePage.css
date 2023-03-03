@@ -5,25 +5,39 @@
 }
 
 .imageHomeContentContainer1 {
-    background-image: url("../../assets/images/HomePageBg2.png");
+    background-image: url("../../assets/images/TomPhoto.jpeg");
 }
 
 .imageHomeContentContainer2 {
-    background-image: url("../../assets/images/images/RWANDAIR PIC.jpg");
+    background-image: url("../../assets/images/StdentCertificate.jpeg");
 }
 
 .imageHomeContentContainer3 {
-    background-image: url("../../assets/images/images/TomCertificate.jpeg");
+    background-image: url("../../assets/images/book.jpg");
 }
 
 .imageHomeContentContainer4 {
     background-image: url("../../assets/images/Hotel2.jpg");
 }
 
+
+
+.imageHomeContentContainer6 {
+    background-image: url("../../assets/images/Sdudent3.jpeg");
+}
+
+.imageHomeContentContainer7 {
+    background-image: url("../../assets/images/Student1.jpeg");
+}
+
+
 .imageHomeContentContainer1,
 .imageHomeContentContainer2,
 .imageHomeContentContainer3,
-.imageHomeContentContainer4 {
+.imageHomeContentContainer4,
+.imageHomeContentContainer5,
+.imageHomeContentContainer6,
+.imageHomeContentContainer7 {
     width: 100vw;
     height: 100lvb;
     background-size: cover;
@@ -283,7 +297,10 @@
     .imageHomeContentContainer1,
     .imageHomeContentContainer2,
     .imageHomeContentContainer3,
-    .imageHomeContentContainer4 {
+    .imageHomeContentContainer4,
+    .imageHomeContentContainer5,
+    .imageHomeContentContainer6,
+    .imageHomeContentContainer7 {
         width: 100vw;
         height: 150lvb;
         background-size: cover;
