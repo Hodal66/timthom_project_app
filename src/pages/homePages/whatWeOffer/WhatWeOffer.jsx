@@ -15,7 +15,7 @@ function WhatWeOffer() {
           {whatWeOffer.map(({ title, icon, decription }, index) => {
             return (
               <div key={index} className=" card__content-container">
-                <div className="card__content secondaryBackGroundBlueColor rounded rounded-5 p-3 mt-3">
+                <div className="card__content secondaryBackGroundBlueColor rounded rounded-5 p-3 mt-3 card">
                   <div
                     className="my-4 primaryTextOrangeColor"
                     style={{ fontSize: "3rem" }}

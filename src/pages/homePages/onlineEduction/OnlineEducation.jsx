@@ -2,9 +2,10 @@ import React from "react";
 import { FaCertificate } from "react-icons/fa";
 import { TbBrandTripadvisor } from "react-icons/tb";
 import "./onlineEducation.css";
-import VideoContent from "../../../assets/videos/yt5s.com-Parts of an Aircraft in 2 minutes _ Airbus A320 NEO _ Aviation Notes.mp4";
+import VideoContent from "../../../assets/videos/videoo1.mp4";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 import WaveLine from "../../../components/WaveLine/WaveLine";
+import VideoComponent from "../../aboutPages/ourLatestVideo/Video";
 function OnlineEducation() {
   return (
     <div className="container-fluid OnineEducationContainer mt-5">
@@ -58,9 +59,7 @@ function OnlineEducation() {
         </div>
       </div>
       <div className="rightContentSide mx-5 ">
-        <video autoPlay muted type="video/mp4" style={{ width: "100%" }}>
-          <source src={VideoContent} />
-        </video>
+        <VideoComponent VideoContent={VideoContent} />
       </div>
     </div>
   );

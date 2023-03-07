@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import "./team.css";
-import { FaTwitter, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import { FaTwitter, FaWhatsappSquare, FaFacebookSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 function Team({
   teamTomName,
   teamTomImage,
@@ -17,25 +18,25 @@ function Team({
       <div className="card-body">
         <h5 className="card-title">{teamTomName}</h5>
         <p className="card-text">
-          <span className="teamPosition">position:</span> {position}
+          <span className="teamPosition">Position:</span> {position}
         </p>
         <ul>
           <li>
+            <a href={`${youTibeLink}`}>
+              <MdEmail />
+            </a>
+          </li>
+          <li>
             <a href={`${whatsapLink}`}>
-              <FaWhatsapp />
+              <FaWhatsappSquare />
             </a>
           </li>
           <li>
             <a href={`${facebookLink}`}>
-              <FaFacebookF />
+              <FaFacebookSquare />
             </a>
           </li>
 
-          <li>
-            <a href={`${youTibeLink}`}>
-              <FaYoutube />
-            </a>
-          </li>
           <li>
             <a href={`${twitterLink}`}>
               <FaTwitter />

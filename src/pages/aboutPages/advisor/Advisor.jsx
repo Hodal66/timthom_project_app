@@ -1,11 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-import {
-  FaTwitter,
-  FaFacebookF,
-  FaVoicemail,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaTwitter, FaWhatsappSquare, FaFacebookSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 import "./advisor.css";
 function Advisor({
@@ -27,19 +23,18 @@ function Advisor({
         </p>
         <ul>
           <li>
+            <a href={`${youTibeLink}`}>
+              <MdEmail />
+            </a>
+          </li>
+          <li>
             <a href={`${whatsapLink}`}>
-              <FaWhatsapp />
+              <FaWhatsappSquare />
             </a>
           </li>
           <li>
             <a href={`${facebookLink}`}>
-              <FaFacebookF />
-            </a>
-          </li>
-
-          <li>
-            <a href={`${youTibeLink}`}>
-              <FaVoicemail />
+              <FaFacebookSquare />
             </a>
           </li>
           <li>

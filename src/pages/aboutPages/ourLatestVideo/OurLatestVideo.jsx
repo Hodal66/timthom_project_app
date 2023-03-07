@@ -1,6 +1,7 @@
 import React from "react";
 import { MdArrowForward } from "react-icons/md";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
+import myVideo from "../../../assets/videos/NewVideo.mp4";
 
 import "./latestVideo.css";
 import VideoComponent from "./Video";
@@ -17,7 +18,7 @@ function OurLatestVideo() {
         />
       </div>
       <div className="Main__Video-container">
-        <VideoComponent />
+        <VideoComponent VideoContent={myVideo} />
       </div>
     </div>
   );

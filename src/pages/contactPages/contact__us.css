@@ -69,6 +69,7 @@
     border: 1px dashed white;
     border-radius: 2rem;
     transition: 0.3s ease-in-out;
+    color: var(--primary__orange-color);
 }
 
 .addres p {

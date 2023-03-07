@@ -10,6 +10,11 @@ ul>li {
     color: var(--primary__white-color);
 }
 
+.selection::selection {
+    background-color: var(--primary__orange-color);
+}
+
+
 #social__media {
     display: flex;
     gap: 1rem;
@@ -28,7 +33,11 @@ ul>li {
 }
 
 
-
+.icons:hover {
+    color: var(--primary__orange-color);
+    font-size: 1.5rem;
+    transition: 0.5s ease-in-out;
+}
 
 .body__nav {
     height: 5rem;

@@ -6,7 +6,7 @@ function Welcome() {
       <h1 className="primaryTitle2-white primaryTextOrangeColor">
         Please Apply.
       </h1>
-      <p className="primaryTextWhiteColor mx-4 mx-md-2">
+      <p className="primaryTextWhiteColor mx-4 mx-md-2 selection">
         TIMTOM AVIATION is calling for the public whether from Rwanda or
         international students to apply for courses offered in Civil Aviation
         Management, Airline, Airport Management, and Travel & Tourism

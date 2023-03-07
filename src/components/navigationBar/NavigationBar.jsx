@@ -19,13 +19,13 @@ function NavigationBar() {
               <span>
                 <MdCall />
               </span>
-              <span>(+250)788519634</span>
+              <span className="selection">(+250)788519634</span>
             </li>
             <li className="col-4">
               <span>
                 <AiOutlineMail />
               </span>
-              <span>info@timtomaviation.com</span>
+              <span className="selection">info@timtomaviation.com</span>
             </li>
             <li className="col-4 px-md-4">
               <div className="row">
@@ -33,8 +33,11 @@ function NavigationBar() {
                   <GoLocation />
                 </span>
                 <span className="" id="navLocation">
-                  <span>kabeza</span> <span>road</span>, <span>KK</span>{" "}
-                  <span>18</span> AV
+                  <span className="selection">kabeza</span>{" "}
+                  <span className="selection">road</span>,{" "}
+                  <span className="selection">KK</span>{" "}
+                  <span className="selection">18</span>{" "}
+                  <span className="selection"> AV</span>
                 </span>
               </div>
             </li>
@@ -44,23 +47,46 @@ function NavigationBar() {
       <div className="col-md-4 col-lg-2">
         <ul id="social__media">
           <li>
-            <a href="mailTo:info@timtomaviation.com" aria-label="Email">
-              <MdOutlineEmail className="primaryTextWhiteColor" />
+            <a
+              href="mailTo:info@timtomaviation.com"
+              aria-label="Email"
+              title="Mail us to info@timtomaviation.com"
+            >
+              <MdOutlineEmail className="primaryTextWhiteColor icons" />
             </a>
           </li>
           <li>
-            <a href="#" aria-label="Facebook">
-              <FiFacebook className="primaryTextWhiteColor" />
+            <a
+              href="http://wa.me/+250788519634"
+              aria-label="Instagram"
+              title="Use what'sup!! to contact us!!"
+              target="_blank"
+              nonce="true"
+              rel="noreferrer"
+            >
+              <BsWhatsapp className="primaryTextWhiteColor icons" />
             </a>
           </li>
           <li>
-            <a href="#" aria-label="twitter">
-              <FiTwitter className="primaryTextWhiteColor" />
+            <a
+              href="#"
+              aria-label="Facebook"
+              target="_blank"
+              nonce="true"
+              rel="noreferrer"
+            >
+              <FiFacebook className="primaryTextWhiteColor icons" />
             </a>
           </li>
           <li>
-            <a href="http://wa.me/+250788519634" aria-label="Instagram">
-              <BsWhatsapp className="primaryTextWhiteColor" />
+            <a
+              href="#"
+              aria-label="twitter"
+              target="_blank"
+              nonce="true"
+              rel="noreferrer"
+            >
+              <FiTwitter className="primaryTextWhiteColor icons" />
             </a>
           </li>
         </ul>
