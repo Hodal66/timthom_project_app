@@ -11,8 +11,24 @@
     overflow: hidden;
 }
 
+.content__HomePage {
+    margin-top: 4rem;
+    background-color: var(--secondary__blue-color);
+    opacity: 0.8;
+    font-size: 1.2rem;
+}
 
 
+.apply {
+    background-color: var(--primary__orange-color);
+    color: var(--priamry__white-color);
+}
+
+.apply:hover {
+    background-color: white;
+    color: var(--primary__orange-color);
+    width: 50%;
+}
 
 
 

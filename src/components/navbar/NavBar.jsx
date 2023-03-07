@@ -11,20 +11,7 @@ function NavBar() {
   const closeMobileMenu = () => {
     setClick(!click);
   };
-  // const onMouseEnter = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropDown(false);
-  //   } else {
-  //     setDropDown(true);
-  //   }
-  // };
-  // const onMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropDown(false);
-  //   } else {
-  //     setDropDown(false);
-  //   }
-  // };
+
   return (
     <div>
       <nav className="navbar">

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@300;400&display=swap');
+
+
 :root {
-  --primary__blue-color: #171E43;
+  --primary__blue-color: #dddddd;
   --secondary__blue-color: #2490C2;
   --third__blue-color: #3A9EFD;
   --primary__white-color: #fff;
@@ -7,12 +10,12 @@
   --third__white-color: #D9D9D9;
   --primary__orange-color: #F7A400;
   --primary__blue-opacity: rgba(0, 98, 143, 0.17);
-  --primary__black-color: #000;
+  --primary__black-color: #1e1b1b;
   --box__shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
   /*Apply transition */
   --first__transition: all 1s;
-  --second__transition: in-out
+  --second__transition: in-out;
 }
 
 html {
@@ -22,20 +25,20 @@ html {
   list-style-type: none;
   text-decoration: none;
   background-color: var(--primary__blue-color);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Merriweather', 'Nunito', sans-serif;
 }
 
 .primaryTitle {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--primary__blue-color);
+  color: var(--primary__orange-color);
   padding: 2rem 0rem;
 }
 
 .primaryTitle-white {
   font-size: 2rem;
   font-weight: 700;
-  color: var(--primary__white-color);
+  color: var(--primary__black-color);
   padding: 2rem 0rem;
 }
 
@@ -139,6 +142,29 @@ ol li {
   padding: 1rem;
 }
 
+.btnBlue {
+  background-color: var(--secondary__blue-color);
+  color: var(--primary__blue-color);
+  border: none;
+  font-weight: 700;
+}
+
+.btnBlue:hover {
+  background-color: var(--primary__orange-color);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  border: 1px solid var(--primary__white-color)
+}
+
+.btnOrange {
+  background-color: var(--primary__orange-color);
+  color: var(--primary__blue-color);
+  font-weight: 700;
+}
+
+.btnOrange:hover {
+  background-color: var(--secondary__blue-color);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) {

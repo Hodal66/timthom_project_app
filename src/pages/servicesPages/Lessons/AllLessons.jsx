@@ -59,7 +59,7 @@ function AllLessons({ allData }) {
                   <Link to={`/service_details/${items.id}`}>
                     <ButtonComponent
                       text="LEARN MORE"
-                      className="primaryBackGroundBlueColor primaryTextWhiteColor m-4"
+                      className=" btnBlue m-4"
                       icon={<MdArrowForward />}
                     />
                   </Link>

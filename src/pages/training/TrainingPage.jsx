@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+/* eslint-disable jsx-a11y/anchor-has-content */
+import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
 import Footer from "../../components/footer/Footer";
 import { motion } from "framer-motion";
@@ -35,7 +36,10 @@ function Training() {
           <h1 className="primaryTextWhiteColor">All About Training</h1>
         </header>
         <section className="primaryBackGroundWhiteColor py-2 text-center">
-          <h1 className="primaryTitle"> COURSES OFFERED</h1>
+          <h1 className="primaryTitle secondaryTextBlueColor">
+            {" "}
+            COURSES OFFERED
+          </h1>
           <p>
             TIMTOM AVIATION offers professional courses in short and long period
             and we award internationally recognized certificates, advanced
@@ -66,7 +70,7 @@ function Training() {
 
         <section className="py-2">
           <WaveLine className="primaryBackGroundBlueColor text-center" />
-          <h1 className="primaryTitle-white text-center">
+          <h1 className="primaryTitle-white  text-center">
             INTERNATIONAL COURSES
           </h1>
           <InternationalCourses />

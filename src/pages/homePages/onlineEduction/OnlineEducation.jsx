@@ -54,10 +54,7 @@ function OnlineEducation() {
           </div>
         </div>
         <div className="py-4">
-          <ButtonComponent
-            text="REGISTRATION NOW"
-            className={`primaryBackGroundOrangeColor primaryTextWhiteColor`}
-          />
+          <ButtonComponent text="REGISTRATION NOW" className="btnBlue" />
         </div>
       </div>
       <div className="rightContentSide mx-5 ">

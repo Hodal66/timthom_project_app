@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.ReadMore:hover {
+    border: 1px solid var(--primary__white-color);
+
+}
+
 .container_fluid {
     line-height: 25px;
 }

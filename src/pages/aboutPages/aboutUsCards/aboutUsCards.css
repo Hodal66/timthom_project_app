@@ -7,7 +7,7 @@
 }
 
 .cards__content-container-item {
-    background-color: rgb(20, 20, 55);
+    background-color: var(--secondary__blue-color);
     /* box-shadow: rgba(51, 57, 72, 0.24) 0px 3px 8px; */
     box-shadow: rgba(249, 249, 250, 0.25) 0px 50px 100px -20px, rgba(254, 254, 254, 0.3) 0px 30px 60px -30px;
 }

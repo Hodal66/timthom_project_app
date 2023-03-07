@@ -1,0 +1,16 @@
+.teamPosition {
+    font-weight: 700;
+}
+
+
+
+.card-body ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    margin-left: -1rem;
+}
+
+.card-body ul li a:hover {
+    color: orange;
+}

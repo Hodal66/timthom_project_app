@@ -9,6 +9,7 @@ import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
 import "./home__page.css";
 import { motion } from "framer-motion";
+import Welcome from "./wellComeMessage/Welcome";
 
 function HomePage() {
   return (
@@ -31,6 +32,10 @@ function HomePage() {
       </section>
       <section>
         <FindYourCourse className="findCourses bg-danger" />
+        <section className="main________-content primaryTextWhiteColor text-center content__HomePage">
+          <Welcome />
+        </section>
+
         <WhatWeOffer className="findCourses " />
       </section>
       <section className="mb-5">

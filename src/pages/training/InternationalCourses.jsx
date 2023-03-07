@@ -3,7 +3,9 @@ import React from "react";
 function InternationalCourses() {
   return (
     <div>
-      <h1 className="primaryTitle2-white text-center">IATA Trainings</h1>
+      <h1 className="primaryTitle2-white secondaryTextBlueColor text-center">
+        IATA Trainings
+      </h1>
       <table className="table primaryBackGroundWhiteColor table-responsive-lg table-striped table-bordered">
         <caption>List of IATA Trainings</caption>
         <thead className="thead-light">
@@ -56,7 +58,9 @@ function InternationalCourses() {
         </tbody>
       </table>
 
-      <h1 className="primaryTitle2-white text-center">ICAO Trainings</h1>
+      <h1 className="primaryTitle2-white  secondaryTextBlueColor text-center">
+        ICAO Trainings
+      </h1>
 
       <table className="table primaryBackGroundWhiteColor table-responsive-lg table-striped table-bordered">
         <caption>List of ICAO Trainings</caption>
@@ -122,7 +126,7 @@ function InternationalCourses() {
                 </li>
               </ol>
             </td>
-            <td>USD 670</td>
+            <td>USD 400</td>
             <td>400,000 RWF</td>
           </tr>
         </tbody>

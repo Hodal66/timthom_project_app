@@ -1,5 +1,5 @@
 import React from "react";
-import { MdArrowForward, MdOutlinePlayLesson } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 
 import "./latestVideo.css";
@@ -13,19 +13,11 @@ function OurLatestVideo() {
         <ButtonComponent
           text="REGISTRATION"
           icon={<MdArrowForward />}
-          className="registrationButton"
+          className="btnOrange ReadMore"
         />
       </div>
       <div className="Main__Video-container">
-       <VideoComponent/>
-      </div>
-
-      <div className="rightButtonController d-none">
-        <ButtonComponent
-          icon={<MdOutlinePlayLesson />}
-          className="VideoButtonController"
-          id="IncreaseFontSize"
-        />
+        <VideoComponent />
       </div>
     </div>
   );

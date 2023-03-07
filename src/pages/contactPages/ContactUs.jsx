@@ -30,7 +30,7 @@ function ContactUs() {
                   <div className="icon__adress-container">
                     <MdLocationOn />
                   </div>
-                  <p>Remera –Giporoso </p>
+                  <p>Remera – Giporoso </p>
                   <p>Kigali – Rwanda.</p>
                 </div>
                 <div className="addres">
@@ -41,11 +41,13 @@ function ContactUs() {
                   <p>towards kabeza road, KK 18 AV</p>
                 </div>
                 <div className="addres">
-                  <div className="icon__adress-container">
-                    <MdEmail />
-                  </div>
-                  <p>timtomaviation@gmail.com</p>
-                  <p>+250788519634 </p>
+                  <a href="mailTo:info@timtomaviation.com" aria-label="Email">
+                    <div className="icon__adress-container">
+                      <MdEmail />
+                    </div>
+                    <p>info@timtomaviation.com</p>
+                    <p>+250788519634 </p>
+                  </a>
                 </div>
               </div>
             </div>

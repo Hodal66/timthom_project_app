@@ -73,6 +73,7 @@
     font-size: 64px;
     font-weight: 900;
     text-shadow: 5px 5px 2px var(--primary__blue-color);
+    color: var(--secondary__blue-color);
 
 }
 

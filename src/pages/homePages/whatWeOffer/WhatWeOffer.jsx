@@ -27,7 +27,9 @@ function WhatWeOffer() {
                   </div>
                   <div className="descrition">{decription}</div>
                   <NavLink to="/training">
-                    <button className="btn my-4 ">ReadMore</button>
+                    <button className="btn btnOrange ReadMore my-4 ">
+                      ReadMore....
+                    </button>
                   </NavLink>
                 </div>
               </div>

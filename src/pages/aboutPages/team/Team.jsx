@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
+import "./team.css";
 import { FaTwitter, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
 function Team({
   teamTomName,
@@ -11,48 +12,36 @@ function Team({
   position,
 }) {
   return (
-    <div className="advisorContentContainer mx-2 ">
-      <div className="thirdBackGroundWhiteColor">
-        <div className="imageAdvisorContainer">
-          <img
-            src={teamTomImage}
-            alt={teamTomImage}
-            style={{ width: "100%", height: "40vh" }}
-          />
-        </div>
-        <h3 className="text-center p-4">{teamTomName}</h3>
+    <div className="card" style={{ width: "18rem" }}>
+      <img className="card-img-top" src={teamTomImage} alt={teamTomImage} />
+      <div className="card-body">
+        <h5 className="card-title">{teamTomName}</h5>
+        <p className="card-text">
+          <span className="teamPosition">position:</span> {position}
+        </p>
+        <ul>
+          <li>
+            <a href={`${whatsapLink}`}>
+              <FaWhatsapp />
+            </a>
+          </li>
+          <li>
+            <a href={`${facebookLink}`}>
+              <FaFacebookF />
+            </a>
+          </li>
 
-        <div>
-          <ul
-            className="row"
-            style={{ fontSize: "1.5rem", paddingBottom: "1rem" }}
-          >
-            <li className="col-1"></li>
-
-            <li className="col-2">
-              <a href={`${whatsapLink}`}>
-                <FaWhatsapp />
-              </a>
-            </li>
-            <li className="col-2">
-              <a href={`${facebookLink}`}>
-                <FaFacebookF />
-              </a>
-            </li>
-
-            <li className="col-2">
-              <a href={`${youTibeLink}`}>
-                <FaYoutube />
-              </a>
-            </li>
-            <li className="col-2">
-              <a href={`${twitterLink}`}>
-                <FaTwitter />
-              </a>
-            </li>
-            <li className="col-3"></li>
-          </ul>
-        </div>
+          <li>
+            <a href={`${youTibeLink}`}>
+              <FaYoutube />
+            </a>
+          </li>
+          <li>
+            <a href={`${twitterLink}`}>
+              <FaTwitter />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

@@ -46,16 +46,18 @@ function Service() {
               return (
                 <aside className="leftSide p-0 w-100 " key={id}>
                   <section>
-                    <div className="imageServiceContainer">
+                    <div className="imageServiceContainer--content">
                       <img
                         src={item.courseImage}
                         alt={item.altImage}
-                        style={{ width: "100%", height: "80vh" }}
-                        className="p-0"
+                        className="p-0 imageServiceContainer"
                       />
                     </div>
                     <div className="serviceContent">
-                      <h1 className="py-4 primaryTextBlueColor">
+                      <h1
+                        className="py-4 secondaryTextBlueColor"
+                        style={{ fontWeight: 800 }}
+                      >
                         {" "}
                         {item.titleInShortName} For Today
                       </h1>
@@ -96,7 +98,7 @@ function Service() {
                                   key={lessonDetail.id}
                                 >
                                   <h1 className="secondaryTextBlueColor contextOfLessonText ">
-                                    $ {lessonDetail.money}
+                                    {lessonDetail.money} Frw
                                   </h1>
                                 </div>
                               );
@@ -104,7 +106,7 @@ function Service() {
                           <div className="btnContainer">
                             <ButtonComponent
                               text="TAKE THIS COURSE"
-                              className="secondaryBackGroundBlueColor primaryTextWhiteColor takeThisCourseButton"
+                              className=" btnBlue takeThisCourseButton"
                             />
                           </div>
                         </div>
@@ -119,7 +121,10 @@ function Service() {
                                 className="courseDescription"
                                 key={courseContentId}
                               >
-                                <h3 className="courseTitle">
+                                <h3
+                                  className="courseTitle "
+                                  style={{ color: "primaryTextOrangeColor" }}
+                                >
                                   Course Description
                                 </h3>
                                 <p>{courseContent.fistParagrap}</p>
@@ -144,7 +149,7 @@ function Service() {
                                   <li className="list-group-item">
                                     {" "}
                                     STUDENTS:{" "}
-                                    <span className="dateCourseContent">
+                                    <span className="dateCourseContent ">
                                       {lessonDetail.studentAvailable}
                                     </span>
                                   </li>
@@ -176,7 +181,9 @@ function Service() {
                             })}
                         </div>
                         <div className="aside__list-group">
-                          <h1 className="courseTitle pt-4 pb-2">Lessons</h1>
+                          <h1 className="courseTitle pt-4 pb-2 primaryTextOrangeColor">
+                            Lessons
+                          </h1>
                           {item.lessonDetails &&
                             item.lessonDetails.map((lessonDetail, id) => {
                               return (
@@ -225,9 +232,11 @@ function Service() {
                                   className="img-fluid LectureImage"
                                 />
                               </div>
-                              <div className="lectureDescription px-md-4">
+                              <div className="lectureDescription ">
                                 <h4>Teacher : {teacherDetails.TeacherName}</h4>
-                                <p>{teacherDetails.TecherContent}</p>
+                                <p className="px-4">
+                                  {teacherDetails.TecherContent}
+                                </p>
                                 {teacherDetails.socialMedia &&
                                   teacherDetails.socialMedia.map(
                                     (socialMedialDetails, socialMediaId) => {

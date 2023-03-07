@@ -1,9 +1,5 @@
 // import axios from "axios";
 import React, { useState } from "react";
-import {
-  MdOutlineKeyboardArrowLeft,
-  MdOutlineKeyboardArrowRight,
-} from "react-icons/md";
 import WaveLine from "../../../components/WaveLine/WaveLine";
 import { allUpcammingCourses } from "../../../database/CoursesTest";
 import LessonTips from "./LessonTips";
@@ -18,23 +14,12 @@ function UpcomingCourses() {
       <div className="mx-0 mx-sm-2 mx-md-5 px-4">
         <WaveLine className="mb-5" />
         <h1 className="primaryTitle">Our Courses</h1>
-        <div className="headerContainer row">
-          <div className="emptyColl col"></div>
-          <div className="btn-group col justify-content-end">
-            <div className="btn border border-2 border-primaryBackGroundOrangeColor">
-              <MdOutlineKeyboardArrowLeft />
-            </div>
-            <div className="btn border border-2 border-primaryBackGroundOrangeColor">
-              <MdOutlineKeyboardArrowRight />
-            </div>
-          </div>
-        </div>
 
         <div id="cardsContainer">
           {allDataContent &&
             allDataContent.map((courseItem, courseId) => {
               return (
-                <div key={courseId} className="card   m-2">
+                <div key={courseId} className="card m-2">
                   <div className="imageContainer " style={{ opacity: "0.8" }}>
                     <img
                       src={courseItem.courseImage}

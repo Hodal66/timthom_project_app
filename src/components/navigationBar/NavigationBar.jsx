@@ -1,9 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import { MdCall } from "react-icons/md";
+import { MdCall, MdOutlineEmail } from "react-icons/md";
 import { AiOutlineMail } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
-import { FaYoutube, FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FiTwitter, FiFacebook } from "react-icons/fi";
+import { BsWhatsapp } from "react-icons/bs";
 import "./navigation.css";
 function NavigationBar() {
   return (
@@ -24,7 +25,7 @@ function NavigationBar() {
               <span>
                 <AiOutlineMail />
               </span>
-              <span>timtomaviation@gmail.com</span>
+              <span>info@timtomaviation.com</span>
             </li>
             <li className="col-4 px-md-4">
               <div className="row">
@@ -43,23 +44,23 @@ function NavigationBar() {
       <div className="col-md-4 col-lg-2">
         <ul id="social__media">
           <li>
+            <a href="mailTo:info@timtomaviation.com" aria-label="Email">
+              <MdOutlineEmail className="primaryTextWhiteColor" />
+            </a>
+          </li>
+          <li>
             <a href="#" aria-label="Facebook">
-              <FaFacebookF className="primaryTextWhiteColor" />
+              <FiFacebook className="primaryTextWhiteColor" />
             </a>
           </li>
           <li>
             <a href="#" aria-label="twitter">
-              <FaTwitter className="primaryTextWhiteColor" />
+              <FiTwitter className="primaryTextWhiteColor" />
             </a>
           </li>
           <li>
-            <a href="#" aria-label="Instagram">
-              <FaInstagram className="primaryTextWhiteColor" />
-            </a>
-          </li>
-          <li>
-            <a href="#" aria-label="YouTube">
-              <FaYoutube className="primaryTextWhiteColor" />
+            <a href="http://wa.me/+250788519634" aria-label="Instagram">
+              <BsWhatsapp className="primaryTextWhiteColor" />
             </a>
           </li>
         </ul>

@@ -1,10 +1,10 @@
 import {
   FaRegObjectGroup,
   FaTwitter,
-  FaWhatsapp,
+  FaWhatsappSquare,
   FaYoutube,
 } from "react-icons/fa";
-import { MdAnalytics, MdFacebook, MdGroups } from "react-icons/md";
+import { MdAnalytics, MdEmail, MdGroups } from "react-icons/md";
 
 export const links = [
   {
@@ -215,8 +215,8 @@ export const upcammingCourses = [
 export const SocialMediaData = [
   {
     id: 1,
-    linkConnection: "mailto:imtomaviation@gmail.com",
-    icon: <MdFacebook />,
+    linkConnection: "mailto:info@timtomaviation.com",
+    icon: <MdEmail />,
   },
   {
     id: 2,
@@ -226,7 +226,7 @@ export const SocialMediaData = [
   {
     id: 3,
     linkConnection: "http://wa.me/+250788519634",
-    icon: <FaWhatsapp />,
+    icon: <FaWhatsappSquare />,
   },
   {
     id: 4,

@@ -31,10 +31,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 1,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -71,7 +71,7 @@ export const allUpcammingCourses = [
     Context:
       "content on Air cargo handling and We teach all about Dangerous Goods with Logistics Airlines and airports work together closely, and it is important to understand the partnerships ",
     titleInShortName: "AIR CARGO MANAGEMENT   ",
-    category: "visa",
+    category: "airport",
     CourseContent: [
       {
         id: 2,
@@ -96,10 +96,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 2,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -134,7 +134,7 @@ export const allUpcammingCourses = [
     Context:
       "We'll learn about the different types of tourism from leisure to business travel,",
     titleInShortName: "TRAVEL AND TOURISM MANAGEMENT",
-    category: "airport",
+    category: "tourism",
     CourseContent: [
       {
         id: 3,
@@ -159,10 +159,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 3,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -200,7 +200,7 @@ export const allUpcammingCourses = [
     Context:
       "content marketing to your skill set is such a smart career move. In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t. Then learn how develop a smart content marketing strategy. Find out how to correctlyidntify an.",
     titleInShortName: "AVIATION MANAGEMENT",
-    category: "hotel",
+    category: "aviation",
     CourseContent: [
       {
         id: 1,
@@ -225,10 +225,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 4,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -237,7 +237,7 @@ export const allUpcammingCourses = [
       {
         id: 4,
         TitleInFullName: "ADVANCED CERTICATE IN AVIATION MANAGEMENT ",
-        money: 1000,
+        money: "700,000",
         likes: 4,
         studentAvailable: 50,
         courseTime: "1_month",
@@ -268,7 +268,7 @@ export const allUpcammingCourses = [
     Context:
       "Air cabin crew, also known as flight attendants, are responsible for the safety and comfort of passengers on board commercial flights. They are trained to handle emergency situations, proid first id and ensure that passengers comply with safety regulations.",
     titleInShortName: "AIR CABIN CREW",
-    category: "aviation",
+    category: "airport",
     CourseContent: [
       {
         id: 5,
@@ -293,10 +293,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 5,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -305,7 +305,7 @@ export const allUpcammingCourses = [
       {
         id: 5,
         TitleInFullName: "ADVANCED CERTIFICATE IN AIR CABIN CREW ",
-        money: 600,
+        money: "600,000",
         likes: 4,
         studentAvailable: 40,
         courseTime: "1_month",
@@ -332,7 +332,7 @@ export const allUpcammingCourses = [
     Context:
       "In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t.",
     titleInShortName: "CIVIL AVIATION MANAGEMENT ",
-    category: "ict",
+    category: "aviation",
     CourseContent: [
       {
         id: 6,
@@ -357,10 +357,10 @@ export const allUpcammingCourses = [
         socialMedia: [
           {
             id: 6,
+            Email: "www.Email.com",
             facebook: "www.facebook.com",
             twitter: "www.twitter.com",
             instagram: "www.instagram.com",
-            youtube: "www.youtube.com",
           },
         ],
       },
@@ -369,7 +369,7 @@ export const allUpcammingCourses = [
       {
         id: 6,
         TitleInFullName: "ADVANCED CERTICATE IN AVIATION MANAGEMENT ",
-        money: 300,
+        money: "300,000",
         likes: 4,
         studentAvailable: 50,
         courseTime: "2_month",

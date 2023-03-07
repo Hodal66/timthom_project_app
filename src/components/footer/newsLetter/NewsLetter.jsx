@@ -19,7 +19,7 @@ function NewsLetter() {
           />
           <ButtonComponent
             icon={<MdArrowForward />}
-            className="primaryBackGroundOrangeColor border-0 "
+            className="btnBlue border-0 "
             style={{ marginLeft: "0.5rem" }}
           />
         </form>

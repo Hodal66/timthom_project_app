@@ -49,8 +49,8 @@ function Services() {
                 </button>
               </li>
               <li>
-                <button onClick={() => handleCategoriesSelection("visa")}>
-                  Visa
+                <button onClick={() => handleCategoriesSelection("tourism")}>
+                  Tourism
                 </button>
               </li>
               <li>
@@ -59,15 +59,11 @@ function Services() {
                 </button>
               </li>
               <li>
-                <button onClick={() => handleCategoriesSelection("hotel")}>
-                  Hotels
+                <button onClick={() => handleCategoriesSelection("airport")}>
+                  Airport
                 </button>
               </li>
-              <li>
-                <button onClick={() => handleCategoriesSelection("ict")}>
-                  ICT
-                </button>
-              </li>
+
               <li></li>
             </ul>
           </div>

@@ -21,8 +21,10 @@ function FindYourCourse() {
               placeholder="Enter keyword........."
               className="col-md-6 m-2 col-lg-7 border-0 rounded rounded-2"
             />
-            <button className="col-md-6 m-2 searchButton col-lg-4 border-0 rounded rounded-2 justify-content-center primaryBackGroundBlueColor primaryTextWhiteColor">
-              <span className="SearchCourseText">Search_Course</span>
+            <button className="col-md-6 m-2 searchButton col-lg-4  rounded rounded-2 justify-content-center btnBlue ">
+              <span className="SearchCourseText primaryTextWhiteColor">
+                Search_Course
+              </span>
             </button>
           </div>
         </section>

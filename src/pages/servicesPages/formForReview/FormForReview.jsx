@@ -28,7 +28,7 @@ function FormForReview({ titleOfLesson }) {
             </div>
             <ButtonComponent
               text="SUBMIT"
-              className="primaryBackGroundOrangeColor primaryTextWhiteColor px-5 mt-2 py-3 submitButton"
+              className="btnOrange  px-5 mt-2 py-3 submitButton"
             />
           </div>
         </form>

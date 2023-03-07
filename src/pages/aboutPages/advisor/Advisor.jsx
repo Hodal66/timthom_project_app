@@ -1,6 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
-import { FaTwitter, FaFacebookF, FaYoutube, FaWhatsapp } from "react-icons/fa";
+import {
+  FaTwitter,
+  FaFacebookF,
+  FaVoicemail,
+  FaWhatsapp,
+} from "react-icons/fa";
 
 import "./advisor.css";
 function Advisor({
@@ -13,56 +18,36 @@ function Advisor({
   position,
 }) {
   return (
-    <div className="advisorContentContainer mx-2 ">
-      <div className="thirdBackGroundWhiteColor">
-        <div className="imageAdvisorContainer">
-          <img
-            src={advisorImage}
-            alt={advisorImage}
-            style={{ width: "100%", height: "40vh" }}
-          />
-        </div>
-        <div className="text-center">
-          <h3
-            className="pt-4 pb-2 primaryTextBlueColor"
-            style={{ fontSize: "1.5rem" }}
-          >
-            {advisorName}
-          </h3>
-          <h4 style={{ fontSize: "1.2rem" }}>{position}</h4>
-        </div>
+    <div className="card" style={{ width: "18rem" }}>
+      <img className="card-img-top" src={advisorImage} alt={advisorName} />
+      <div className="card-body">
+        <h5 className="card-title">{advisorName}</h5>
+        <p className="card-text">
+          <span className="teamPosition">Position:</span> {position}
+        </p>
+        <ul>
+          <li>
+            <a href={`${whatsapLink}`}>
+              <FaWhatsapp />
+            </a>
+          </li>
+          <li>
+            <a href={`${facebookLink}`}>
+              <FaFacebookF />
+            </a>
+          </li>
 
-        <div>
-          <ul
-            className="socialMedialTeam"
-            style={{
-              fontSize: "1.5rem",
-              background: "primaryTextBlueColor",
-            }}
-          >
-            <li>
-              <a href={`${whatsapLink}`}>
-                <FaWhatsapp />
-              </a>
-            </li>
-            <li>
-              <a href={`${facebookLink}`}>
-                <FaFacebookF />
-              </a>
-            </li>
-
-            <li>
-              <a href={`${youTibeLink}`}>
-                <FaYoutube />
-              </a>
-            </li>
-            <li>
-              <a href={`${twitterLink}`}>
-                <FaTwitter />
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href={`${youTibeLink}`}>
+              <FaVoicemail />
+            </a>
+          </li>
+          <li>
+            <a href={`${twitterLink}`}>
+              <FaTwitter />
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

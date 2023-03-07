@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
-import AboutUsImage from "../../assets/images/mainCourse.jpg";
+import AboutUsImage from "../../assets/images/location.webp";
 import { MdArrowForward, MdVerified } from "react-icons/md";
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
 import AboutUsCards from "./aboutUsCards/AboutUsCards";
@@ -105,7 +105,7 @@ function AboutUs() {
                 <Link to="/services">
                   <ButtonComponent
                     text="OUR COURSES"
-                    className="primaryBackGroundOrangeColor primaryTextWhiteColor my-4"
+                    className="btnBlue  my-4"
                     icon={<MdArrowForward />}
                   />
                 </Link>

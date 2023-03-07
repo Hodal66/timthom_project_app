@@ -53,6 +53,22 @@
     display: grid;
     grid-template-columns: 1fr;
     color: var(--primary__orange-color);
+
+}
+
+.addres {
+    background-color: black;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: var(--box__shadow);
+
+}
+
+.addres:hover {
+    background-color: rgb(93, 133, 152);
+    border: 1px dashed white;
+    border-radius: 2rem;
+    transition: 0.3s ease-in-out;
 }
 
 .addres p {
@@ -94,6 +110,10 @@
         color: var(--primary__white-color);
     }
 
+    .address__container {
+        padding: 6rem 0rem;
+        grid-template-columns: 1fr 1fr;
+    }
 
     .contuct__Us_content-container .form__container {
         padding: 4rem;
@@ -113,6 +133,7 @@
     .address__container {
         padding: 6rem 0rem;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0rem 2rem;
     }
 }
 

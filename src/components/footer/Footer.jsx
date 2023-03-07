@@ -5,6 +5,7 @@ import SocialMedia from "./socialMedia/SocialMedia";
 import { Link } from "react-router-dom";
 import { allUpcammingCourses } from "../../database/CoursesTest";
 import NewsLetter from "./newsLetter/NewsLetter";
+import { FaArrowRight } from "react-icons/fa";
 function Footer() {
   const [allDataContent] = useState(allUpcammingCourses);
   return (
@@ -31,14 +32,14 @@ function Footer() {
             </div>
           </div>
           <div className="col-12 col-sm-6 col-md-4 py-2 ">
-            <h5 className="py-2">Latest Courses</h5>
+            <h5 className="py-2 mx-md-4">Latest Courses</h5>
             {allDataContent &&
               allDataContent.map((item) => {
                 return (
                   <div className="latestContent row px-2 py-1 " key={item.id}>
                     <Link to={`/service_details/${item.id}`}>
                       <span className="footerCourse border border-0 border-bottom-2 border-primary">
-                        {item.titleInShortName}
+                        <FaArrowRight /> {item.titleInShortName}
                       </span>
                     </Link>
                   </div>
