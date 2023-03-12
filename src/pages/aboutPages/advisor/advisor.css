@@ -15,51 +15,47 @@
     font-size: 1.5rem;
 }
 
+.socialMedialTeam {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0rem;
+    padding: 1rem;
+}
+
 .socialMediaLink ul li a:hover {
     color: var(--primary__orange-color);
 }
 
-/* .advisorContentContainer {
+.advisor__Container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
-
-} */
-
-
-/* @media screen and (min-width:376px) {
-    .advisorContentContainer {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1rem;
-
-    }
-
+    justify-content: center;
+    align-items: center;
 }
 
-
-@media screen and (min-width:576px) {
-    .advisorContentContainer {
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+    .advisor__Container {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 1.5rem;
     }
 }
 
-@media screen and (min-width:786px) {
-    .advisorContentContainer {
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    .advisor__Container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        gap: 2rem;
-
     }
 }
 
-@media screen and (min-width:960px) {
-    .advisorContentContainer {
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .advisor__Container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 2rem;
-
     }
-} */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

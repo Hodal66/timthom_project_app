@@ -10,7 +10,7 @@ function EducationBackBone() {
         <p className="display-6 primaryTextWhiteColor">
           BEST EDUCATION COMMUNITY
         </p>
-        <h1 className="display-6 display-md-4 py-4 display-lg-2 px-2">
+        <h1 className="primaryTitle-white">
           Education Is The Backbone Of a Nation Expansion Of Idea
         </h1>
       </div>

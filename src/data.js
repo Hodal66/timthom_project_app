@@ -1,11 +1,10 @@
 import {
-  FaCampground,
-  FaInstagram,
   FaRegObjectGroup,
   FaTwitter,
+  FaWhatsappSquare,
   FaYoutube,
 } from "react-icons/fa";
-import { MdAnalytics, MdFacebook, MdGroups } from "react-icons/md";
+import { MdAnalytics, MdEmail, MdGroups } from "react-icons/md";
 
 export const links = [
   {
@@ -61,38 +60,31 @@ export const links = [
 export const whatWeOffer = [
   {
     id: 1,
-    icon: <MdGroups />,
-    title: "Provide Knowledge",
+    icon: <FaRegObjectGroup />,
+    title: " Aviation Training",
     decription:
-      "We provide the best knowledge and practical work experience to our students",
+      "We offer professional courses in short and long period and we award internationally   recognized certificates, advanced certificates, diplomas and advanced diplomas.",
   },
   {
     id: 2,
-    icon: <MdAnalytics />,
-    title: "consultancy service",
+    icon: <MdGroups />,
+    title: "Air Ticketing",
     decription:
-      "We provide the best consultancy service in aviation tourism and hospitality s",
+      "We offer a range of short and professional courses in air ticketing to help individuals develop their skills and advance their careers in the aviation industry.",
   },
   {
     id: 3,
-    icon: <FaCampground />,
-    title: "Empower Human",
+    icon: <MdAnalytics />,
+    title: "Admission And Visa Assistance",
     decription:
-      " We empower , develop and train human resources from aviation and related companies ",
-  },
-  {
-    id: 4,
-    icon: <FaRegObjectGroup />,
-    title: " Assist students",
-    decription:
-      "we Assist students from other schools to complete their internship programs",
+      "We have extensive knowledge and experience with the admission and visa processes of various countries and can provide personalized support to students",
   },
 ];
 
 export const upcammingCourses = [
   {
     id: 1,
-    courseImage: require("./assets/images/course1-740x500 (1).jpg"),
+    courseImage: require("./assets/images/course1.jpg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 500,
     likes: 4,
@@ -113,7 +105,7 @@ export const upcammingCourses = [
   },
   {
     id: 2,
-    courseImage: require("./assets/images/course2.jpg"),
+    courseImage: require("./assets/images/Sdudent3.jpeg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 600,
     likes: 4,
@@ -134,7 +126,7 @@ export const upcammingCourses = [
   },
   {
     id: 3,
-    courseImage: require("./assets/images/course4.jpg"),
+    courseImage: require("./assets/images/StdentCertificate.jpeg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 700,
     likes: 4,
@@ -157,7 +149,7 @@ export const upcammingCourses = [
   },
   {
     id: 4,
-    courseImage: require("./assets/images/course4.jpg"),
+    courseImage: require("./assets/images/course1.jpg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 800,
     likes: 4,
@@ -178,7 +170,7 @@ export const upcammingCourses = [
   },
   {
     id: 5,
-    courseImage: require("./assets/images/course4.jpg"),
+    courseImage: require("./assets/images/StdentCertificate.jpeg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 800,
     likes: 4,
@@ -199,7 +191,7 @@ export const upcammingCourses = [
   },
   {
     id: 6,
-    courseImage: require("./assets/images/course4.jpg"),
+    courseImage: require("./assets/images/Sdudent3.jpeg"),
     altImage: "Advanced Certificate in AirLine and airPort",
     money: 800,
     likes: 4,
@@ -223,8 +215,8 @@ export const upcammingCourses = [
 export const SocialMediaData = [
   {
     id: 1,
-    linkConnection: "www.faceebook.com",
-    icon: <MdFacebook />,
+    linkConnection: "mailto:info@timtomaviation.com",
+    icon: <MdEmail />,
   },
   {
     id: 2,
@@ -233,8 +225,8 @@ export const SocialMediaData = [
   },
   {
     id: 3,
-    linkConnection: "www.faceebook.com",
-    icon: <FaInstagram />,
+    linkConnection: "http://wa.me/+250788519634",
+    icon: <FaWhatsappSquare />,
   },
   {
     id: 4,

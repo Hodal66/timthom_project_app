@@ -16,6 +16,15 @@
     background: linear-gradient(360deg, rgba(1, 5, 46, 0.81) 19.6%, rgba(0, 0, 0, 0) 45.8%);
 }
 
+.card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
 #cardsContainer {
     display: grid;
     grid-template-columns: 1fr;
@@ -35,3 +44,17 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

@@ -1,12 +1,19 @@
 import React from "react";
 import "./buttonComponent.css";
-function ButtonComponent({ text, icon, textSccController, className, id }) {
+function ButtonComponent({
+  text,
+  type,
+  icon,
+  textSccController,
+  className,
+  id,
+}) {
   return (
     <div>
-      <div className={`btn buttonComponent ${className}`}>
+      <button type={type} className={`buttonComponent  ${className}`}>
         <span className={textSccController}> {text} </span>
         <span id={id}>{icon}</span>
-      </div>
+      </button>
     </div>
   );
 }

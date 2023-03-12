@@ -19,13 +19,33 @@
     display: none;
 }
 
+.imageServiceContainer--content {
+    padding: 1rem;
+    background-color: var(--second__white-color);
+    border: none;
+    border-radius: 1rem;
 
+}
+
+.imageServiceContainer {
+    width: 100%;
+    height: 50vh;
+}
+
+.imageServiceContainer--content img {
+    border-radius: 1rem;
+}
 
 
 @media screen and (min-width:376px) {
 
     .allContentContainer {
         padding: 4rem;
+    }
+
+    .imageServiceContainer {
+        width: 100%;
+        height: 40vh;
     }
 }
 
@@ -40,6 +60,11 @@
 
     }
 
+    .imageServiceContainer {
+        width: 100%;
+        height: 60vh;
+    }
+
 
 }
 
@@ -52,6 +77,11 @@
         font-size: 3rem;
         display: grid;
 
+    }
+
+    .imageServiceContainer {
+        width: 100%;
+        height: 80vh;
     }
 
     .allContentContainer {
@@ -145,7 +175,7 @@
 .courseTitle {
     font-size: 1.5rem;
     padding: 2rem 0rem 1rem 0rem;
-    color: var(--primary__blue-color);
+    color: var(--primary__orange-color);
 }
 
 .list-group-item {
@@ -154,7 +184,7 @@
 
 .dateCourseContent {
     font-weight: 700;
-    color: var(--primary__blue-color);
+    color: gray;
 }
 
 
@@ -172,12 +202,12 @@
 
 .lectureInfo {
     background-color: var(--primary__blue-color);
-    color: var(--primary__white-color);
+    color: var(--secondary__blue-color);
     padding: 2rem 1rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -244,9 +274,7 @@
 }
 
 .ratingContentContainer {
-    /* background-color: blueviolet; */
     padding: 1rem;
-
 
 }
 

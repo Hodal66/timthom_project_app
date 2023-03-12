@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/11780708.png";
+import Logo from "../../assets/images/logo.png";
 import DropDown from "./DropDown";
 import "./navbar.css";
 function NavBar() {
@@ -11,28 +11,12 @@ function NavBar() {
   const closeMobileMenu = () => {
     setClick(!click);
   };
-  const onMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setDropDown(false);
-    } else {
-      setDropDown(true);
-    }
-  };
-  const onMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setDropDown(false);
-    } else {
-      setDropDown(false);
-    }
-  };
+
   return (
     <div>
       <nav className="navbar">
         <Link to="/" className="navbar-logo">
-          <div
-            className="logoContainer col-6 "
-            onClick={() => setDropDown(false)}
-          >
+          <div className="logoContainer " onClick={() => setDropDown(false)}>
             <img src={Logo} alt="myLogo" id="project_logo" />
           </div>
         </Link>
@@ -47,8 +31,8 @@ function NavBar() {
           </li>
           <li
             className="nav-item"
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+            // onMouseEnter={onMouseEnter}
+            // onMouseLeave={onMouseLeave}
             onClick={() => setDropDown(!dropDown)}
           >
             <Link

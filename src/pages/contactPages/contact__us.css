@@ -1,5 +1,6 @@
 .contuct__us__MainContainer {
     margin-top: 36rem;
+    width: 100vw;
 }
 
 .contuct__us__Header {
@@ -9,17 +10,22 @@
     color: var(--primary__blue-color);
 }
 
-.contuct__Us_content-container .form__container {
-    padding: 2rem;
-}
-
 .form-control {
     margin-top: 0.5rem;
 }
 
-.form__container label {
-    margin-top: 2rem;
-    font-weight: 600;
+
+
+
+
+
+
+
+
+
+.formInputContainer input:focus {
+    background-color: rgb(255, 255, 255);
+
 }
 
 .fw-bold {
@@ -27,9 +33,10 @@
 }
 
 .imageBackgroundContainer {
-    background-image: url("../../assets/images/background/airplane.webp");
+    background-image: url("../../assets/images/airplane.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .locationContainer {
@@ -52,6 +59,23 @@
     display: grid;
     grid-template-columns: 1fr;
     color: var(--primary__orange-color);
+
+}
+
+.addres {
+    background-color: black;
+    padding: 2rem;
+    margin: 2rem;
+    box-shadow: var(--box__shadow);
+
+}
+
+.addres:hover {
+    background-color: rgb(93, 133, 152);
+    border: 1px dashed white;
+    border-radius: 2rem;
+    transition: 0.3s ease-in-out;
+    color: var(--primary__orange-color);
 }
 
 .addres p {
@@ -63,6 +87,11 @@
     padding: 3rem 0rem;
 
 }
+
+/* form Container */
+
+
+.form__content-container {}
 
 @media screen and (min-width:376px) {
     .contuct__us__Header {
@@ -93,10 +122,16 @@
         color: var(--primary__white-color);
     }
 
+    .address__container {
+        padding: 6rem 0rem;
+        grid-template-columns: 1fr 1fr;
+    }
 
     .contuct__Us_content-container .form__container {
         padding: 4rem;
     }
+
+
 }
 
 @media screen and (min-width:786px) {
@@ -112,5 +147,27 @@
     .address__container {
         padding: 6rem 0rem;
         grid-template-columns: 1fr 1fr 1fr;
+        margin: 0rem 2rem;
+    }
+
+    .formInputContainer input,
+    #InputMessageId {
+        width: 40vw;
+        padding: 0.5rem 1rem;
+        scroll-behavior: none;
+
     }
 }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

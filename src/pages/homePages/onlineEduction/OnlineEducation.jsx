@@ -2,15 +2,18 @@ import React from "react";
 import { FaCertificate } from "react-icons/fa";
 import { TbBrandTripadvisor } from "react-icons/tb";
 import "./onlineEducation.css";
-import VideoContent from "../../../assets/videos/yt5s.com-Parts of an Aircraft in 2 minutes _ Airbus A320 NEO _ Aviation Notes.mp4";
+import VideoContent from "../../../assets/videos/videoo1.mp4";
 import ButtonComponent from "../../../components/Buttons/ButtonComponent";
 import WaveLine from "../../../components/WaveLine/WaveLine";
+import VideoComponent from "../../aboutPages/ourLatestVideo/Video";
 function OnlineEducation() {
   return (
-    <div className="container-fluid OnineEducationContainer">
+    <div className="container-fluid OnineEducationContainer mt-5">
       <div className="leftContentSide mx-5">
         <WaveLine className="mt-2" />
-        <h1 className="py-5">Let’s See Online Education</h1>
+        <h1 className="primaryTitle ">
+          We have an experts and we provide certicates
+        </h1>
         <p>
           Online aviation courses provide a convenient and flexible way for
           individuals to learn about various aspects of aviation, including
@@ -52,16 +55,11 @@ function OnlineEducation() {
           </div>
         </div>
         <div className="py-4">
-          <ButtonComponent
-            text="REGISTRATION NOW"
-            className={`primaryBackGroundOrangeColor primaryTextWhiteColor`}
-          />
+          <ButtonComponent text="REGISTRATION NOW" className="btnBlue" />
         </div>
       </div>
       <div className="rightContentSide mx-5 ">
-        <video autoPlay muted type="video/mp4" style={{ width: "100%" }}>
-          <source src={VideoContent} />
-        </video>
+        <VideoComponent VideoContent={VideoContent} />
       </div>
     </div>
   );

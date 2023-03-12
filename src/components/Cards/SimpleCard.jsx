@@ -1,5 +1,4 @@
 import React from "react";
-import "./cards.css";
 function SimpleCard({
   icon,
   iconCssController,
@@ -16,13 +15,15 @@ function SimpleCard({
   paragraph5,
 }) {
   return (
-    <div className={`card ${className}`}>
+    <div className={`card secondaryTextBlueColor ${className}`}>
       <div className={`iconCardContainer ${iconContainer}`}>
         <span className={iconCssController}>{icon}</span>
       </div>
       <h2 className={titleCssController}>{title}</h2>
-      <p className={contentCssController}>{content}</p>
-      <div className="secondaryTextWhiteColor">
+      <p className={`secondaryTextBlueColor ${contentCssController}`}>
+        <span className="secondaryTextBlueColor"> {content}</span>
+      </p>
+      <div className="secondaryTextBlueColor">
         <p>{paragraph1}</p>
         <p>{paragraph2}</p>
         <p>{paragraph3}</p>

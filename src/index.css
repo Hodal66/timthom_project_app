@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@300;400&display=swap');
+
+
 :root {
-  --primary__blue-color: #171E43;
+  --primary__blue-color: rgb(235, 244, 244);
   --secondary__blue-color: #2490C2;
   --third__blue-color: #3A9EFD;
   --primary__white-color: #fff;
@@ -7,12 +10,12 @@
   --third__white-color: #D9D9D9;
   --primary__orange-color: #F7A400;
   --primary__blue-opacity: rgba(0, 98, 143, 0.17);
-  --primary__black-color: #000;
+  --primary__black-color: #1e1b1b;
   --box__shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
   /*Apply transition */
   --first__transition: all 1s;
-  --second__transition: in-out
+  --second__transition: in-out;
 }
 
 html {
@@ -22,10 +25,36 @@ html {
   list-style-type: none;
   text-decoration: none;
   background-color: var(--primary__blue-color);
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Merriweather', 'Nunito', sans-serif;
 }
 
+.primaryTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary__orange-color);
+  padding: 2rem 0rem;
+}
 
+.primaryTitle-white {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary__black-color);
+  padding: 2rem 0rem;
+}
+
+.primaryTitle2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary__blue-color);
+  padding: 2rem 0rem;
+}
+
+.primaryTitle2-white {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primary__white-color);
+  padding: 2rem 0rem;
+}
 
 .primaryTextBlueColor {
   color: var(--primary__blue-color);
@@ -104,3 +133,65 @@ html {
 .loaderSpinner {
   background-color: #171E43;
 }
+
+ol li {
+  padding-bottom: 1rem;
+}
+
+.main________-content {
+  padding: 1rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  .main________-content {
+    padding: 2rem;
+  }
+
+  .primaryTitle,
+  .primaryTitle-white {
+    font-size: 2.5rem;
+  }
+
+  .primaryTitle2,
+  .primaryTitle2-white {
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .main________-content {
+    padding: 2rem 3rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  .main________-content {
+    padding: 2rem 4rem 3rem 4rem;
+  }
+
+  .primaryTitle,
+  .primaryTitle-white {
+    font-size: 3rem;
+  }
+
+  .primaryTitle2,
+  .primaryTitle2-white {
+    font-size: 2rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .main________-content {
+    padding: 2rem 5rem 3rem 5rem;
+  }
+}
+
+
+
+@media screen and (min-width:992px) {}

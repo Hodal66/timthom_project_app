@@ -1,10 +1,10 @@
 import React from "react";
-import professionalAsideImage from "../../../assets/images/course9.jpg";
+import professionalAsideImage from "../../../assets/images/course1.jpg";
 import ProgressController from "./ProgressController";
 import "./profession.css";
 function ProfessionalExpert() {
   return (
-    <div className="professionalContentContainer position-absolute w-100 primaryBackGroundBlueColor container-fluid primaryTextWhiteColor">
+    <div className="professionalContentContainer position-absolute w-100 primaryBackGroundBlueColor container-fluid primaryTextBlackColor">
       <div className="profetionContent px-2 px-md-2">
         <div className="imageContainerContent">
           <img

@@ -4,6 +4,52 @@
 
 }
 
+.imageHomeContentContainer1 {
+    background-image: url("../../assets/images/TomPhoto.jpeg");
+}
+
+.imageHomeContentContainer2 {
+    background-image: url("../../assets/images/StdentCertificate.jpeg");
+}
+
+.imageHomeContentContainer3 {
+    background-image: url("../../assets/images/book.jpg");
+}
+
+.imageHomeContentContainer4 {
+    background-image: url("../../assets/images/Hotel2.jpg");
+}
+
+
+
+.imageHomeContentContainer6 {
+    background-image: url("../../assets/images/Sdudent3.jpeg");
+}
+
+.imageHomeContentContainer7 {
+    background-image: url("../../assets/images/Student1.jpeg");
+}
+
+
+.imageHomeContentContainer1,
+.imageHomeContentContainer2,
+.imageHomeContentContainer3,
+.imageHomeContentContainer4,
+.imageHomeContentContainer5,
+.imageHomeContentContainer6,
+.imageHomeContentContainer7 {
+    width: 100vw;
+    height: 100lvb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.HomeImageContainer {
+    height: 80lvb;
+}
+
 .carousel-item img {
     height: 50%;
 }
@@ -27,6 +73,7 @@
     font-size: 64px;
     font-weight: 900;
     text-shadow: 5px 5px 2px var(--primary__blue-color);
+    color: var(--secondary__blue-color);
 
 }
 
@@ -85,6 +132,7 @@
 
 @media screen and (max-width:912px) {
 
+
     .courseSlideTex {
         font-size: 32px;
     }
@@ -112,12 +160,20 @@
     }
 
 
+
+
     /* #home__slider {
         padding-top: 30rem;
     } */
 }
 
 @media screen and (max-width:576px) {
+
+
+    .HomeImageContainer {
+        height: 90lvi;
+    }
+
 
     #homeCaptionContainer {
         padding-bottom: 10rem;
@@ -158,6 +214,9 @@
         padding-bottom: 3rem;
     }
 
+    .HomeImageContainer {
+        height: 80lvi;
+    }
 
     .courseSlideTex {
         font-size: 24px;
@@ -189,6 +248,7 @@
 }
 
 @media screen and (max-width:386px) {
+
 
     #homeCaptionContainer {
         padding-bottom: 3rem;
@@ -223,3 +283,33 @@
         padding-top: 54rem;
     } */
 }
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    .imageHomeContentContainer1,
+    .imageHomeContentContainer2,
+    .imageHomeContentContainer3,
+    .imageHomeContentContainer4,
+    .imageHomeContentContainer5,
+    .imageHomeContentContainer6,
+    .imageHomeContentContainer7 {
+        width: 100vw;
+        height: 150lvb;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

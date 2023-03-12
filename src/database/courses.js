@@ -1,7 +1,7 @@
 export const allUpcammingCourses = [
   {
     id: 1,
-    courseImage: require("../assets/images/airplane3.jpg"),
+    courseImage: require("../assets/images/book.jpg"),
     altImage: "Advanced Certificate in AirLine ",
     money: 500,
     likes: 4,

@@ -1,6 +1,6 @@
 .MainHeaderBg {
     width: 100vw;
-
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 
 .LinkText {
@@ -35,7 +35,7 @@
 .header__content .headerTitle {
     font-size: 1.2rem;
     font-weight: 900;
-    color: var(--primary__blue-color);
+    color: var(--secondary__blue-color);
 }
 
 @media screen and (min-width:376px) {
@@ -63,3 +63,18 @@
         font-size: 3rem;
     }
 }
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

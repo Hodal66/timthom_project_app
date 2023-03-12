@@ -1,5 +1,5 @@
 .parent___of__students-container {
-    background-image: url("../../../assets/images/background/secondQuestion.png");
+    background-image: url("../../../assets/images/secondQuestion.png");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -80,3 +80,16 @@
         gap: 1rem;
     }
 }
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

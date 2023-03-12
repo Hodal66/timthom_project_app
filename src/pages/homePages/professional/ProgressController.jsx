@@ -4,7 +4,7 @@ function ProgressController() {
   return (
     <div>
       <div className="mainContent-container">
-        <h1>We Are Professional And Expert</h1>
+        <h1 className="primaryTitle-white">We Are Professional And Expert</h1>
         <p className="py-1">
           As a professional and expert, we have acquired a high level of
           knowledge, skills, and experience in a particular field or industry.

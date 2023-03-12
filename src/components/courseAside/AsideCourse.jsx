@@ -2,29 +2,22 @@ import React, { useEffect, useState } from "react";
 import SearchFunction from "../../pages/servicesPages/searchFun/SearchFunction";
 import ButtonComponent from "../Buttons/ButtonComponent";
 import RegistrationImageBackground from "../../assets/images/section-img3.jpg";
-import RecentPostImage from "../../assets/images/instructor3.jpg";
+import RecentPostImage from "../../assets/images/blanckImage.jpg";
+import { allUpcammingCourses } from "../../database/CoursesTest";
+
 import "./asideCourse.css";
 import { NavLink } from "react-router-dom";
-import axios from "axios";
+
 function AsideCourse() {
-  const [state, setstate] = useState([]);
-  const [allcourses, setAllCourses] = useState([]);
-  const handleAllCourses = async () => {
-    const { data } = await axios.get(
-      "http://localhost:3004/allUpcammingCourses"
-    );
-    setAllCourses(data);
-  };
-  useEffect(() => {
-    handleAllCourses();
-  }, [state]);
+  const [allcourses] = useState(allUpcammingCourses);
+
   return (
     <div>
       <aside className="rightSide">
         <SearchFunction />
         <div className="categoryContainer my-5">
           <div className="card categoryContainer" style={{ width: "18rem" }}>
-            <div className="card-header primaryBackGroundBlueColor primaryTextWhiteColor cardHeader">
+            <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor cardHeader">
               Featured
             </div>
             {allcourses &&
@@ -62,15 +55,12 @@ function AsideCourse() {
               Bur wemust ipsum dolor sit amet consectetur adipisicing elit sed
               eiusmod tempor incididunt ut labore
             </p>
-            <ButtonComponent
-              text="Registrations"
-              className="primaryBackGroundOrangeColor primaryTextWhiteColor"
-            />
+            <ButtonComponent text="Registrations" className=" btnBlue" />
           </div>
         </div>
         <div className="recentPostContainer my-5">
           <div className="card categoryContainer" style={{ width: "18rem" }}>
-            <div className="card-header primaryBackGroundBlueColor primaryTextWhiteColor cardHeader ">
+            <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor cardHeader ">
               Featured
             </div>
             <ul className="list-group list-group-flush">
@@ -85,7 +75,7 @@ function AsideCourse() {
                 </div>
                 <div className="RecentContentContainer">
                   <p>Designing Users Across Interview With Jemy</p>
-                  <p className="dateContainer">October 14, 2019</p>
+                  <p className="dateContainer">Feb 20 2023</p>
                 </div>
               </li>
               <li className="list-group-item asideImageContainer">
@@ -99,7 +89,7 @@ function AsideCourse() {
                 </div>
                 <div className="RecentContentContainer">
                   <p>Designing Users Across Interview With Jemy</p>
-                  <p className="dateContainer">October 14, 2019</p>
+                  <p className="dateContainer">Feb 20 2023</p>
                 </div>
               </li>{" "}
               <li className="list-group-item asideImageContainer">
@@ -113,7 +103,7 @@ function AsideCourse() {
                 </div>
                 <div className="RecentContentContainer">
                   <p>Designing Users Across Interview With Jemy</p>
-                  <p className="dateContainer">October 14, 2019</p>
+                  <p className="dateContainer">Feb 20 2023</p>
                 </div>
               </li>{" "}
               <li className="list-group-item asideImageContainer">
@@ -127,14 +117,14 @@ function AsideCourse() {
                 </div>
                 <div className="RecentContentContainer">
                   <p>Designing Users Across Interview With Jemy</p>
-                  <p className="dateContainer">October 14, 2019</p>
+                  <p className="dateContainer">Feb 20 2023</p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
         <div className="tagContainer card">
-          <div className="card-header primaryBackGroundBlueColor primaryTextWhiteColor">
+          <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor">
             Tags
           </div>
           <div className="tagsContentLesson">

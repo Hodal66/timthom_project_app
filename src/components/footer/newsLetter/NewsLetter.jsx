@@ -1,5 +1,6 @@
 import React from "react";
-import { Md17Mp, MdArrowForward } from "react-icons/md";
+import { MdArrowForward } from "react-icons/md";
+import { Link } from "react-router-dom";
 import ButtonComponent from "../../Buttons/ButtonComponent";
 import "./newsLetter.css";
 function NewsLetter() {
@@ -19,11 +20,20 @@ function NewsLetter() {
           />
           <ButtonComponent
             icon={<MdArrowForward />}
-            className="primaryBackGroundOrangeColor border-0 "
+            className="btnBlue border-0 "
             style={{ marginLeft: "0.5rem" }}
           />
         </form>
       </div>
+      <Link to="admin-login">
+        <ButtonComponent
+          text="Admin Login"
+          // icon,
+          // textSccController
+          className="btnOrange my-4"
+          // id,
+        />
+      </Link>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function SocialMedia() {
               <a
                 href={linkConnection}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="icon"
               >
                 {icon}
