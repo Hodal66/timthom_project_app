@@ -1,50 +1,52 @@
 /* Overlya background blue color  */
 .overlayHomeBackground {
     background-color: var(--primary__blue-color);
-
 }
 
 .imageHomeContentContainer1 {
-    background-image: url("../../assets/images/TomPhoto.jpeg");
+    background-image: url("../../assets/slideImages/1.jpg");
+    background-position: center top;
 }
 
 .imageHomeContentContainer2 {
-    background-image: url("../../assets/images/StdentCertificate.jpeg");
+    background-image: url("../../assets/slideImages/H.jpg");
+    background-position: center top;
 }
+
+
 
 .imageHomeContentContainer3 {
-    background-image: url("../../assets/images/book.jpg");
+    background-image: url("../../assets/slideImages/M.jpg");
+    background-position: center top;
 }
+
 
 .imageHomeContentContainer4 {
-    background-image: url("../../assets/images/Hotel2.jpg");
+    background-image: url("../../assets/slideImages/K.jpg");
+    background-position: center top;
 }
 
-
-
-.imageHomeContentContainer6 {
-    background-image: url("../../assets/images/Sdudent3.jpeg");
+.imageHomeContentContainer5 {
+    background-image: url("../../assets/slideImages/X.jpg");
+    background-position: center top;
 }
-
-.imageHomeContentContainer7 {
-    background-image: url("../../assets/images/Student1.jpeg");
-}
-
 
 .imageHomeContentContainer1,
 .imageHomeContentContainer2,
-.imageHomeContentContainer3,
-.imageHomeContentContainer4,
-.imageHomeContentContainer5,
-.imageHomeContentContainer6,
-.imageHomeContentContainer7 {
+.imageHomeContentContainer3 {
     width: 100vw;
-    height: 100lvb;
-    background-size: cover;
+    height: 80lvb;
+    /* background-size: cover; */
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: center top;
 }
 
+.overlayOpacity {
+    background: linear-gradient(90deg, rgb(50, 70, 152) 20%, rgba(2, 0, 36, 1) 90%);
+    opacity: 0.3;
+    height: 100%;
+    width: 100%;
+}
 
 .HomeImageContainer {
     height: 80lvb;
@@ -304,10 +306,9 @@
     .imageHomeContentContainer7 {
         width: 100vw;
         height: 150lvb;
-        background-size: cover;
+        /* background-size: cover; */
         background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: top;
+        background-position: center top;
     }
 }
 

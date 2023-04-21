@@ -40,7 +40,7 @@ function NavBar() {
               onClick={closeMobileMenu}
               className="nav-links"
             >
-              Services
+              Courses
             </Link>
             {dropDown && <DropDown />}
           </li>
@@ -60,6 +60,11 @@ function NavBar() {
               className="nav-links"
             >
               Contact Us
+            </Link>
+          </li>
+          <li className="nav-item">
+            <Link to="/gallery" onClick={closeMobileMenu} className="nav-links">
+              Gallery
             </Link>
           </li>
         </ul>

@@ -51,6 +51,7 @@ function NavigationBar() {
               href="mailTo:info@timtomaviation.com"
               aria-label="Email"
               title="Mail us to info@timtomaviation.com"
+              rel="noopener noreferrer"
             >
               <MdOutlineEmail className="primaryTextWhiteColor icons" />
             </a>
@@ -62,7 +63,7 @@ function NavigationBar() {
               title="Use what'sup!! to contact us!!"
               target="_blank"
               nonce="true"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <BsWhatsapp className="primaryTextWhiteColor icons" />
             </a>
@@ -73,7 +74,7 @@ function NavigationBar() {
               aria-label="Facebook"
               target="_blank"
               nonce="true"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <FiFacebook className="primaryTextWhiteColor icons" />
             </a>
@@ -84,7 +85,7 @@ function NavigationBar() {
               aria-label="twitter"
               target="_blank"
               nonce="true"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <FiTwitter className="primaryTextWhiteColor icons" />
             </a>

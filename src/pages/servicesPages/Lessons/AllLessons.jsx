@@ -25,8 +25,8 @@ function AllLessons({ allData }) {
                     return (
                       <div className="col" key={index}>
                         <ButtonComponent
-                          text={`$${lessonDetail.money}`}
-                          className="secondaryBackGroundBlueColor secondaryTextWhiteColor btn-sm px-2"
+                          text={`${lessonDetail.money} Frw`}
+                          className="border-0  btn-sm px-2"
                         />
                       </div>
                     );
@@ -54,7 +54,7 @@ function AllLessons({ allData }) {
                       );
                     })}
 
-                    <p className="">{items.Context}</p>
+                    {/* <p className="">{items.Context}</p> */}
                   </div>
                   <Link to={`/service_details/${items.id}`}>
                     <ButtonComponent

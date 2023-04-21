@@ -4,7 +4,7 @@ function ProgressController() {
   return (
     <div>
       <div className="mainContent-container">
-        <h1 className="primaryTitle-white">We Are Professional And Expert</h1>
+        <h1 className="primaryTitle-white">We Are Professional Expert</h1>
         <p className="py-1">
           As a professional and expert, we have acquired a high level of
           knowledge, skills, and experience in a particular field or industry.
@@ -12,7 +12,7 @@ function ProgressController() {
           through education, training, and hands-on experience.
         </p>
         <p className=" mt-3 mb-0 row">
-          <span className="col">Air Cabinet</span>{" "}
+          <span className="col">Air Cabin Crew </span>{" "}
           <span
             className="col primaryTextOrangeColor display-5"
             style={{ fontSize: "20px" }}
@@ -31,7 +31,7 @@ function ProgressController() {
           ></div>
         </div>
         <p className=" mt-3 mb-0 row">
-          <span className="col">Travel and tourism</span>{" "}
+          <span className="col">Faundation in Travel and tourism</span>{" "}
           <span
             className="col primaryTextOrangeColor display-5"
             style={{ fontSize: "20px" }}
@@ -50,7 +50,7 @@ function ProgressController() {
           ></div>
         </div>
         <p className=" mt-3 mb-0 row">
-          <span className="col">Airline & AirPort</span>{" "}
+          <span className="col">Airline and AirPort Management </span>{" "}
           <span
             className="col primaryTextOrangeColor display-5"
             style={{ fontSize: "20px" }}

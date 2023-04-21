@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
-import "./contact__us.css";
+import "./form.css";
 import { useState } from "react";
 function UserMessage() {
   const [userCheck, setUserCheck] = useState(false);
@@ -47,14 +47,13 @@ function UserMessage() {
         </div>
         <div className="input__form-container">
           <label htmlFor="inputEmailAdress" className="inputLabel">
-            <span> Enter Your Email</span>{" "}
-            <span className="text-danger">(*)</span>
+            <span>Your Email</span> <span className="text-danger">(*)</span>
           </label>
           <input
             type="email"
             name="user_email"
             id="Name"
-            placeholder="Your Email"
+            placeholder="mhthodol@gmai.com"
             className=""
           />
         </div>
@@ -68,7 +67,7 @@ function UserMessage() {
             id="InputMessageI"
             cols="30"
             rows="10"
-            placeholder="Enter Your Message"
+            placeholder="Request any thing you want we are here to answer you !!"
           ></textarea>
         </div>
         <div className="">
@@ -77,11 +76,7 @@ function UserMessage() {
               <input type="checkbox" onClick={handleCheckUser} />
             </span>
             I agree that my submitted data is being collected and stored. For
-            further details on handling user data, see{" "}
-            <span>
-              <a href="/privacy/privacy.htm">our Privacy Policy</a>
-            </span>
-            .
+            further details on handling user data.
           </p>
         </div>
         {userCheck ? (
@@ -90,7 +85,7 @@ function UserMessage() {
               text="SEND A MESSAGE"
               type="submit"
               textSccController="fw-bold"
-              className=" btnOrange px-4 py-2 "
+              className=" btnOrange px-4 py-2 formControlBtn"
             />
           </div>
         ) : (
@@ -99,7 +94,7 @@ function UserMessage() {
               text="SEND A MESSAGE"
               type="submit"
               textSccController="fw-bold"
-              className=" btnOrange px-4 py-2 disabled "
+              className=" btnOrange px-4 py-2 disabledbtn formControlBtn"
               style={{ opacity: "02" }}
             />
           </div>

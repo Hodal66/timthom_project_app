@@ -4,7 +4,7 @@ import Footer from "../../components/footer/Footer";
 import { allUpcammingCourses } from "../../database/CoursesTest";
 import "./services__page.css";
 import AllLessons from "./Lessons/AllLessons";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 function Services() {
   const [allData] = useState(allUpcammingCourses);
@@ -20,24 +20,24 @@ function Services() {
   };
 
   return (
-    <motion.div
+    <div
       className="primaryBackGroundWhiteColor main__services_-container"
       style={{ width: "100vw", height: "100vh" }}
-      initial={{ width: "0vw" }}
-      animate={{ width: "100vw" }}
-      exit={{
-        x: window.innerWidth,
-        transition: {
-          duration: 0.2,
-        },
-      }}
+      // initial={{ width: "0vw" }}
+      // animate={{ width: "100vw" }}
+      // exit={{
+      //   x: window.innerWidth,
+      //   transition: {
+      //     duration: 0.2,
+      //   },
+      // }}
     >
       <HeaderPageComponent
-        title="Our Services"
+        title="Our Courses"
         prevLink="/"
         nextLink=""
         prevLinkText="Home"
-        nextLinkText="Services"
+        nextLinkText="Courses"
       />
       <section className="main________-content">
         <div className=" searchContent py-5">
@@ -73,7 +73,7 @@ function Services() {
       <footer>
         <Footer />
       </footer>
-    </motion.div>
+    </div>
   );
 }
 

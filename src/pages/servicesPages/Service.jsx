@@ -7,10 +7,9 @@ import SocialMediaIcons from "../../components/socialMedia/SocialMediaIcons";
 import "./service.css";
 import Rating from "./Rating/Rating";
 import { allUpcammingCourses } from "../../database/CoursesTest";
-import FormForReview from "./formForReview/FormForReview";
+// import FormForReview from "./formForReview/FormForReview";
 import AsideCourse from "../../components/courseAside/AsideCourse";
 import Footer from "../../components/footer/Footer";
-import { motion } from "framer-motion";
 import { useParams } from "react-router-dom";
 function Service() {
   const [itemService] = useState(allUpcammingCourses);
@@ -19,22 +18,14 @@ function Service() {
   console.log("I got the id ::: ", params.serviceId);
 
   return (
-    <motion.div
+    <div
       style={{ width: "100vw", height: "100vh" }}
       className="service__main-container"
-      initial={{ width: "0vw" }}
-      animate={{ width: "100vw" }}
-      exit={{
-        x: window.innerWidth,
-        transition: {
-          duration: 0.2,
-        },
-      }}
     >
       <HeaderPageComponent
-        title="Service"
+        title="Course"
         prevLink="/services"
-        prevLinkText="Services"
+        prevLinkText="Courses"
         nextLink=""
         nextLinkText="Service_detail"
       />
@@ -106,7 +97,7 @@ function Service() {
                           <div className="btnContainer">
                             <ButtonComponent
                               text="TAKE THIS COURSE"
-                              className=" btnBlue takeThisCourseButton"
+                              className=" btnBlue takeThisCourseButton px-5"
                             />
                           </div>
                         </div>
@@ -261,11 +252,11 @@ function Service() {
                         })}
                     </section>
                     <hr />
-                    <Rating />
+                    {/* <Rating /> */}
                     <hr />
-                    <section>
+                    {/* <section>
                       <FormForReview titleOfLesson={item.titleInShortName} />
-                    </section>
+                    </section> */}
                   </section>
                 </aside>
               );
@@ -278,7 +269,7 @@ function Service() {
       <footer>
         <Footer />
       </footer>
-    </motion.div>
+    </div>
   );
 }
 

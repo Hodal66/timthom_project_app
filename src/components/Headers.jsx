@@ -2,14 +2,14 @@ import React from "react";
 import NavBar from "./navbar/NavBar";
 
 import NavigationBar from "./navigationBar/NavigationBar";
-import { motion, useScroll } from "framer-motion";
+// import { motion, useScroll } from "framer-motion";
 function Headers() {
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
   return (
     <div className="fixed-top">
       <NavigationBar />
       <NavBar />
-      <motion.div
+      {/* <motion.div
         style={{
           scale: scrollYProgress,
           right: 0,
@@ -18,7 +18,7 @@ function Headers() {
           backgroundColor: "orange",
           transformOrigin: "0%",
         }}
-      ></motion.div>
+      ></motion.div> */}
     </div>
   );
 }

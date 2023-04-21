@@ -8,25 +8,14 @@ import FindYourCourse from "./findYourCourse/FindYourCourse";
 import Footer from "../../components/footer/Footer";
 import OnlineEducation from "./onlineEduction/OnlineEducation";
 import "./home__page.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Welcome from "./wellComeMessage/Welcome";
+import Trainning from "./trainnings/Trainning";
+// import Test from "./upcomingCourses/Test";
 
 function HomePage() {
   return (
-    <motion.div
-      className="primaryBackGroundBlueColor "
-      id="mainHomePageContainer"
-      // style={{ width: "100vw", height: "100vh" }}
-
-      initial={{ width: "0vw" }}
-      animate={{ width: "100vw" }}
-      exit={{
-        x: window.innerWidth,
-        transition: {
-          duration: 0.2,
-        },
-      }}
-    >
+    <div className="primaryBackGroundBlueColor " id="mainHomePageContainer">
       <section>
         <MainHomeSlidePage />
       </section>
@@ -36,7 +25,11 @@ function HomePage() {
           <Welcome />
         </section>
 
-        <WhatWeOffer className="findCourses " />
+        {/* <WhatWeOffer className="findCourses " /> */}
+      </section>
+      <section className="text-center ">
+        {/* <h1>traimming section</h1>_________________________:::::: */}
+        <Trainning />
       </section>
       <section className="mb-5">
         <UpcomingCourses />
@@ -51,7 +44,7 @@ function HomePage() {
       <footer>
         <Footer className="primaryBackGroundBlueColor" />
       </footer>
-    </motion.div>
+    </div>
   );
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { MdArrowForward } from "react-icons/md";
-import { Link } from "react-router-dom";
 import ButtonComponent from "../../Buttons/ButtonComponent";
 import "./newsLetter.css";
 function NewsLetter() {
@@ -25,15 +24,16 @@ function NewsLetter() {
           />
         </form>
       </div>
-      <Link to="admin-login">
-        <ButtonComponent
-          text="Admin Login"
-          // icon,
-          // textSccController
-          className="btnOrange my-4"
-          // id,
-        />
-      </Link>
+
+      <a
+        href="https://mwewe.afriregister.com:2096/"
+        nonce="true"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="btnOrange my-4"
+      >
+        Web-mail
+      </a>
     </div>
   );
 }

@@ -12,7 +12,7 @@ function OnlineEducation() {
       <div className="leftContentSide mx-5">
         <WaveLine className="mt-2" />
         <h1 className="primaryTitle ">
-          We have an experts and we provide certicates
+          We have experts and we provide certificates
         </h1>
         <p>
           Online aviation courses provide a convenient and flexible way for
@@ -55,7 +55,7 @@ function OnlineEducation() {
           </div>
         </div>
         <div className="py-4">
-          <ButtonComponent text="REGISTRATION NOW" className="btnBlue" />
+          <ButtonComponent text="REGISTRATION NOW" className="btnBlue px-5" />
         </div>
       </div>
       <div className="rightContentSide mx-5 ">

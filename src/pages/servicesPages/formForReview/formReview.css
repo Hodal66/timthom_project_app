@@ -93,10 +93,16 @@ textarea {
 @media screen and (min-width:786px) {
 
     .formContentContainer .reviewRow input,
-    .submitButton,
     textarea {
         width: 700px;
     }
+
+    .submitButton {
+        width: 665px;
+
+
+    }
+
 
 }
 

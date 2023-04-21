@@ -46,6 +46,7 @@ function AsideCourse() {
               src={RegistrationImageBackground}
               alt="RegistrationImageBackground"
               style={{ width: "18rem" }}
+              
             />
           </div>
           <div className="imageContentContainer">
@@ -58,7 +59,7 @@ function AsideCourse() {
             <ButtonComponent text="Registrations" className=" btnBlue" />
           </div>
         </div>
-        <div className="recentPostContainer my-5">
+        {/* <div className="recentPostContainer my-5">
           <div className="card categoryContainer" style={{ width: "18rem" }}>
             <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor cardHeader ">
               Featured
@@ -122,9 +123,9 @@ function AsideCourse() {
               </li>
             </ul>
           </div>
-        </div>
-        <div className="tagContainer card">
-          <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor">
+        </div> */}
+        <div className="tagContainer card mt-5">
+          <div className="card-header secondaryBackGroundBlueColor primaryTextWhiteColor ">
             Tags
           </div>
           <div className="tagsContentLesson">

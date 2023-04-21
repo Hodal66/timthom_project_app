@@ -3,6 +3,7 @@
 
 :root {
   --primary__blue-color: rgb(235, 244, 244);
+  --gradient: linear-gradient(90deg, rgb(238, 237, 255) 0%, rgba(72, 85, 148, 0.824) 0%, rgba(0, 212, 255, 1) 90%);
   --secondary__blue-color: #2490C2;
   --third__blue-color: #3A9EFD;
   --primary__white-color: #fff;
@@ -192,6 +193,8 @@ ol li {
   }
 }
 
-
+img {
+  border-radius: 5px;
+}
 
 @media screen and (min-width:992px) {}

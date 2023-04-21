@@ -2,10 +2,10 @@ export const allUpcammingCourses = [
   {
     id: 1,
     courseImage: "/timimages/images/Student.jpeg",
-    altImage: "AIRLINE AND AIRPORT  ",
+    altImage: "AIRLINE AND AIRPORT MANAGEMENT  ",
     Context:
       "The airline industry is complex and involves many different aspects, including fleet management, scheduling, pricing, revenue management, and customer service. It is important to understand the key components of the airline industry and how they work together.",
-    titleInShortName: "AIRLINE AND AIRPORT  ",
+    titleInShortName: "AIRLINE AND AIRPORT MANAGEMENT  ",
     category: "airport",
     CourseContent: [
       {
@@ -15,7 +15,7 @@ export const allUpcammingCourses = [
         SecondParagrapth:
           "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
         thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
+          "Safety and security: Safety and security are top priorities in the airline and airport MANAGEMENT industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
       },
     ],
     teacher: [
@@ -43,7 +43,7 @@ export const allUpcammingCourses = [
       {
         id: 1,
         TitleInFullName:
-          "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT",
+          "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT MANAGEMENT",
         money: "500,000",
         likes: 4,
         studentAvailable: 50,
@@ -57,7 +57,7 @@ export const allUpcammingCourses = [
             id: 1,
             subCourse1: "LESSON 1: Airport operations",
             subCourse2: "LESSON 2: Airport Ground Handling",
-            subCourse3: "LESSON 3: Airline and airport Marketing",
+            subCourse3: "LESSON 3: Airline and airport MANAGEMENT Marketing",
             subCourse4: "LESSON 4: Ground operations management ",
           },
         ],
@@ -129,11 +129,11 @@ export const allUpcammingCourses = [
   },
   {
     id: 3,
-    courseImage: "/timimages/images/course8.jpg",
-    altImage: "TRAVEL AND TOURISM MANAGEMENT  ",
+    courseImage: "/timimages/slideImages/A.jpg",
+    altImage: "FAUNDATION IN TRAVEL AND TOURISM  ",
     Context:
       "We'll learn about the different types of tourism from leisure to business travel,",
-    titleInShortName: "TRAVEL AND TOURISM MANAGEMENT",
+    titleInShortName: "FAUNDATION IN TRAVEL AND TOURISM ",
     category: "tourism",
     CourseContent: [
       {
@@ -143,7 +143,7 @@ export const allUpcammingCourses = [
         SecondParagrapth:
           "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
         thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
+          "Safety and security: Safety and security are top priorities in the airline and airport MANAGEMENT industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
       },
     ],
     teacher: [
@@ -171,7 +171,7 @@ export const allUpcammingCourses = [
       {
         id: 3,
         TitleInFullName:
-          "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT",
+          "ADVANCED CERTIFICATE  IN AIRLINE AND AIRPORT MANAGEMENT MANAGEMENT",
         money: "500,000",
         likes: 4,
         studentAvailable: 47,
@@ -209,7 +209,7 @@ export const allUpcammingCourses = [
         SecondParagrapth:
           "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
         thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
+          "Safety and security: Safety and security are top priorities in the airline and airport MANAGEMENT industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
       },
     ],
     teacher: [
@@ -263,7 +263,7 @@ export const allUpcammingCourses = [
   },
   {
     id: 5,
-    courseImage: "/timimages/images/Sdudent3.jpeg",
+    courseImage: "/timimages/slideImages/K.jpg",
     altImage: "AIR CABIN CREW ",
     Context:
       "Air cabin crew, also known as flight attendants, are responsible for the safety and comfort of passengers on board commercial flights. They are trained to handle emergency situations, proid first id and ensure that passengers comply with safety regulations.",
@@ -277,13 +277,13 @@ export const allUpcammingCourses = [
         SecondParagrapth:
           "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
         thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
+          "Safety and security: Safety and security are top priorities in the airline and airport MANAGEMENT industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
       },
     ],
     teacher: [
       {
         id: 5,
-        TeacheImage: "/timimages/images/mainCourse.jpg",
+        TeacheImage: "/timimages/slideImages/A.jpg",
         AltTeacherImage: "Teacher Keza",
         TeacherName: "Jisele Mukamana",
         TecherContent:
@@ -327,7 +327,7 @@ export const allUpcammingCourses = [
   },
   {
     id: 6,
-    courseImage: "/timimages/images/TomCertificate.jpeg",
+    courseImage: "/timimages/slideImages/Z.jpg",
     altImage: "Civil aviation management",
     Context:
       "In this course, expert Colleen Jones introduces you to the fundamentals. Discover what content marketing is—and what it isn’t.",
@@ -341,7 +341,7 @@ export const allUpcammingCourses = [
         SecondParagrapth:
           "The airport industry: Airports are critical components of the airline industry, and it is important to understand the different aspects of airport management, including airport planning, operations, security, and revenue management.",
         thirdParagraph:
-          "Safety and security: Safety and security are top priorities in the airline and airport industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
+          "Safety and security: Safety and security are top priorities in the airline and airport MANAGEMENT industry. It is important to understand the various regulations and procedures related to safety and security and how to implement them effectively.",
       },
     ],
     teacher: [

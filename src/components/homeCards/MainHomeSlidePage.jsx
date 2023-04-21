@@ -1,6 +1,5 @@
 import React from "react";
 import "./homePage.css";
-
 function MainHomeSlidePage() {
   return (
     <div className=" w-100 h-75" id="home__slider">
@@ -12,49 +11,15 @@ function MainHomeSlidePage() {
           data-interval="5000"
         >
           <div className="carousel-inner HomeImageContainer">
-            <div className="carousel-item imageHomeContentContainer1">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={MainPage}
-                alt="First slide"
-              /> */}
-            </div>
+            <div className="carousel-item imageHomeContentContainer1"> </div>
+
             <div className="carousel-item active imageHomeContentContainer2">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={HomePageBg2}
-                alt="Second slide"
-              /> */}
-            </div>
-            <div className="carousel-item imageHomeContentContainer3">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={HomePageBg4}
-                alt="Third slide"
-              /> */}
-            </div>
-            <div className="carousel-item imageHomeContentContainer4">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={HomePageBg}
-                alt="Third slide"
-              /> */}
+              {" "}
             </div>
 
-            <div className="carousel-item imageHomeContentContainer6">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={HomePageBg}
-                alt="Third slide"
-              /> */}
-            </div>
-            <div className="carousel-item imageHomeContentContainer7">
-              {/* <img
-                className="d-block img-fluid slideImage"
-                src={HomePageBg}
-                alt="Third slide"
-              /> */}
-            </div>
+            <div className="carousel-item imageHomeContentContainer3"> </div>
+            <div className="carousel-item imageHomeContentContainer4"> </div>
+            <div className="carousel-item imageHomeContentContainer5"> </div>
           </div>
           <a
             className="carousel-control-prev  "
@@ -78,12 +43,6 @@ function MainHomeSlidePage() {
               aria-hidden="true"
             ></span>
           </a>
-        </div>
-        <div
-          className="carousel-caption d-none d-md-block "
-          id="homeCaptionContainer"
-        >
-          <h1 className="timTomText py-1">TIMTOM AVIATION </h1>
         </div>
       </div>
     </div>

@@ -10,7 +10,6 @@
     font-size: 2rem;
     color: transparent;
     animation: animate 2s linear infinite;
-
 }
 
 @keyframes animate {

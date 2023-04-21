@@ -3,7 +3,6 @@ import { MdEmail, MdLocationOn, MdOutlineLocationCity } from "react-icons/md";
 import Footer from "../../components/footer/Footer";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
 import WaveLine from "../../components/WaveLine/WaveLine";
-import AdminLogin from "../../login/adminLogin/AdminLogin";
 import "./contact__us.css";
 import UserMessage from "./UserMessage";
 function ContactUs() {

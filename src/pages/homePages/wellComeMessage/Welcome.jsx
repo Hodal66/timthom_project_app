@@ -4,7 +4,7 @@ function Welcome() {
   return (
     <div className="call--for--application">
       <h1 className="primaryTitle2-white primaryTextOrangeColor">
-        Please Apply.
+        Apply Here.
       </h1>
       <div className=" selection">
         <p className="welcomeNoteText">

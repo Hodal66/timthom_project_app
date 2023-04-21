@@ -4,6 +4,10 @@ ul>li {
 
 }
 
+#topNavBar {
+    background: var(--gradient);
+}
+
 #topNavBar ul>li {
     display: flex;
     gap: .5rem;

@@ -1,6 +1,6 @@
 import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
-import AboutUsImage from "../../assets/images/location.webp";
+import AboutUsImage from "../../assets/images/Location.jpg";
 import { MdArrowForward, MdVerified } from "react-icons/md";
 import ButtonComponent from "../../components/Buttons/ButtonComponent";
 import AboutUsCards from "./aboutUsCards/AboutUsCards";
@@ -11,26 +11,26 @@ import "./about__us.css";
 import WaveLine from "../../components/WaveLine/WaveLine";
 import Footer from "../../components/footer/Footer";
 import Advisors from "./advisor/Advisors";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Teams from "./team/Teams";
 import { Link } from "react-router-dom";
 function AboutUs() {
   return (
-    <motion.div
+    <div
       style={{
         width: "100vw",
         height: "100vh",
       }}
       id=""
       className="  overflow-hidden About__Us_main-container "
-      initial={{ width: "0vw" }}
-      animate={{ width: "100vw" }}
-      exit={{
-        x: window.innerWidth,
-        transition: {
-          duration: 0.2,
-        },
-      }}
+      // initial={{ width: "0vw" }}
+      // animate={{ width: "100vw" }}
+      // exit={{
+      //   x: window.innerWidth,
+      //   transition: {
+      //     duration: 0.2,
+      //   },
+      // }}
     >
       <div className="primaryBackGroundWhiteColor">
         <HeaderPageComponent
@@ -147,7 +147,7 @@ function AboutUs() {
       <footer>
         <Footer />
       </footer>
-    </motion.div>
+    </div>
   );
 }
 

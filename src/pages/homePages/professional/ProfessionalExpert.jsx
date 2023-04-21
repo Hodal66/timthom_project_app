@@ -1,5 +1,5 @@
 import React from "react";
-import professionalAsideImage from "../../../assets/images/course1.jpg";
+import professionalAsideImage from "../../../assets/slideImages/M.jpg";
 import ProgressController from "./ProgressController";
 import "./profession.css";
 function ProfessionalExpert() {

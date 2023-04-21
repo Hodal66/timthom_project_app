@@ -9,22 +9,20 @@ function FindYourCourse() {
     >
       <div
         id="findCourseContainer"
-        className=" col-12 primaryBackGroundOrangeColor justify-content-center backGroundImageFindCourese"
+        className=" col-12 bg-white justify-content-center backGroundImageFindCourese"
       >
-        <section id="ovaerLayHomeSearch ">
+        <section id=" ">
           <h1 className=" container mainSearchHeader primaryTitle-white ">
-            Find Your Course. Apply Hurry Up!
+            Find Your Course.
           </h1>
           <div className="searchContainer py-4  row gap-2">
             <input
               type="text"
               placeholder="Enter keyword........."
-              className="col-md-6 m-2 col-lg-7 border-0 rounded rounded-2"
+              className="col-md-6 m-2 col-lg-7 border-0 rounded rounded-2 SearchInput"
             />
             <button className="col-md-6 m-2 searchButton col-lg-4  rounded rounded-2 justify-content-center btnBlue ">
-              <span className="SearchCourseText primaryTextWhiteColor">
-                Search_Course
-              </span>
+              Search_Course
             </button>
           </div>
         </section>

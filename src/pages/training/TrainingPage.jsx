@@ -2,7 +2,7 @@
 import React from "react";
 import HeaderPageComponent from "../../components/headerPages/HeaderPageComponent";
 import Footer from "../../components/footer/Footer";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import TableContent from "./TableContent";
 import TableAirline from "./TableAirline";
 import "./training.css";
@@ -11,17 +11,17 @@ import InternationalCourses from "./InternationalCourses";
 
 function Training() {
   return (
-    <motion.div
+    <div
       className=" main__services_-container primaryBackGroundWhiteColor About__Us_main-container "
       style={{ width: "100vw", height: "100vh" }}
-      initial={{ width: "0vw" }}
-      animate={{ width: "100vw" }}
-      exit={{
-        x: window.innerWidth,
-        transition: {
-          duration: 0.2,
-        },
-      }}
+      // initial={{ width: "0vw" }}
+      // animate={{ width: "100vw" }}
+      // exit={{
+      //   x: window.innerWidth,
+      //   transition: {
+      //     duration: 0.2,
+      //   },
+      // }}
     >
       <HeaderPageComponent
         title="Our Trainings"
@@ -80,7 +80,7 @@ function Training() {
       <footer>
         <Footer />
       </footer>
-    </motion.div>
+    </div>
   );
 }
 
